@@ -1,0 +1,721 @@
+original_name,normalized_name,rule,occurrences,group_size
+(   oz.) tomato paste,( oz.) tomato paste,whitespace,9,1
+(    oz.) tomato sauce,( oz.) tomato sauce,whitespace,8,1
+(14.5 oz.) diced tomatoes,(14.5 oz.) diced tomato,singularize,3,1
+7 Up,7 up,lowercase,1,1
+Adobo All Purpose Seasoning,adobo all purpose seasoning,lowercase,1,1
+Alfredo sauce,alfredo sauce,lowercase,44,1
+almonds,almond,singularize,87,1
+Amaretti Cookies,amaretti cookies,lowercase,10,1
+American cheese,american cheese,lowercase,29,1
+Anaheim chile,anaheim chile,lowercase,38,1
+anchovies,anchovy,singularize,19,1
+anchovy fillets,anchovy fillet,singularize,128,1
+Angostura bitters,angostura bitters,lowercase,2,1
+anjou pears,anjou pear,singularize,4,1
+annatto seeds,annatto seed,singularize,3,1
+apples,apple,singularize,30,1
+apricots,apricot,singularize,7,1
+artichokes,artichoke,singularize,44,1
+asafetida,asafoetida,synonym,37,2
+Azteca Flour Tortillas,azteca flour tortilla,lowercase+singularize,1,1
+baby artichokes,baby artichoke,singularize,1,1
+baby carrots,baby carrot,singularize,22,1
+baby eggplants,baby eggplant,singularize,2,1
+baby portobello mushrooms,baby portobello mushroom,singularize,11,1
+baby potatoes,baby potato,singularize,10,1
+baking potatoes,baking potato,singularize,67,1
+Balsamico Bianco,balsamico bianco,lowercase,3,1
+bananas,banana,singularize,35,1
+Barilla Linguine,barilla linguine,lowercase,1,1
+Barilla Oven-Ready Lasagne,barilla oven-ready lasagne,lowercase,2,1
+Barilla Plus Pasta,barilla plus pasta,lowercase,1,1
+Bartlett Pear,bartlett pear,lowercase,2,2
+bartlett pears,bartlett pear,singularize,4,2
+bass fillets,bass fillet,singularize,5,1
+bâtarde,batarde,unicode,1,1
+bay scallops,bay scallop,singularize,14,1
+beaten eggs,beaten egg,singularize,10,1
+beefsteak tomatoes,beefsteak tomato,singularize,13,1
+beets,beet,singularize,23,1
+Belgian endive,belgian endive,lowercase,13,1
+Bengali 5 Spice,bengali 5 spice,lowercase,3,1
+Bertolli® Alfredo Sauce,bertolli alfredo sauce,unicode+lowercase+whitespace,8,1
+Bertolli® Arrabbiata Sauce,bertolli arrabbiata sauce,unicode+lowercase+whitespace,1,1
+Bertolli® Classico Olive Oil,bertolli classico olive oil,unicode+lowercase+whitespace,16,1
+Bertolli Garlic Alfredo Sauce,bertolli garlic alfredo sauce,lowercase,2,1
+Bertolli Tomato & Basil Sauce,bertolli tomato & basil sauce,lowercase,1,1
+Best Food's Mayonnaise with Lime Juice,best food's mayonnaise with lime juice,lowercase,2,1
+Best Foods® Real Mayonnaise,best foods real mayonnaise,unicode+lowercase+whitespace,1,1
+bing cherries,bing cherry,singularize,1,1
+Biryani Masala,biryani masala,lowercase,11,1
+Bisquick Baking Mix,bisquick baking mix,lowercase,6,1
+Bisquick Original All-Purpose Baking Mix,bisquick original all-purpose baking mix,lowercase,1,1
+black cod fillets,black cod fillet,singularize,2,1
+black cumin seeds,black cumin seed,singularize,5,1
+black grapes,black grape,singularize,1,1
+black mission figs,black mission fig,singularize,4,1
+black mustard seeds,black mustard seed,singularize,107,1
+black olives,black olive,singularize,159,1
+black onion seeds,black onion seed,singularize,2,1
+black peppercorns,black peppercorn,singularize,199,1
+black sesame seeds,black sesame seed,singularize,2,1
+blackberries,blackberry,singularize,20,1
+blanched almonds,blanched almond,singularize,36,1
+blanched hazelnuts,blanched hazelnut,singularize,1,1
+blueberries,blueberry,singularize,10,1
+Bob Evans Italian Sausage,bob evans italian sausage,lowercase,1,1
+boiled eggs,boiled egg,singularize,4,1
+boiling onions,boiling onion,singularize,5,1
+boiling potatoes,boiling potato,singularize,41,1
+bone in chicken thighs,bone in chicken thigh,singularize,14,1
+bone-in chicken breasts,bone-in chicken breast,singularize,6,1
+boneless chicken thighs,boneless chicken thigh,singularize,12,1
+boneless salmon fillets,boneless salmon fillet,singularize,1,1
+boneless skinless chicken breasts,boneless skinless chicken breast,singularize,522,1
+boneless skinless turkey breasts,boneless skinless turkey breast,singularize,1,1
+bosc pears,bosc pear,singularize,8,1
+Boston lettuce,boston lettuce,lowercase,6,1
+Braeburn Apple,braeburn apple,lowercase,1,1
+Bragg Liquid Aminos,bragg liquid aminos,lowercase,1,1
+breakfast sausages,breakfast sausage,singularize,9,1
+BREAKSTONE'S Sour Cream,breakstone's sour cream,lowercase,1,2
+Breakstone’s Sour Cream,breakstone's sour cream,unicode+lowercase,2,2
+brine cured green olives,brine cured green olive,singularize,4,1
+brine-cured black olives,brine-cured black olive,singularize,10,1
+brine-cured olives,brine-cured olive,singularize,8,1
+brown lentils,brown lentil,singularize,18,1
+brown mustard seeds,brown mustard seed,singularize,53,1
+Budweiser,budweiser,lowercase,1,1
+Burgundy wine,burgundy wine,lowercase,3,1
+button mushrooms,button mushroom,singularize,56,1
+calamata olives,calamata olive,singularize,4,1
+California bay leaves,california bay leaves,lowercase,16,1
+calimyrna figs,calimyrna fig,singularize,7,1
+Campbell's Condensed Cheddar Cheese Soup,campbell's condensed cheddar cheese soup,lowercase,6,1
+Campbell's Condensed Cream of Chicken Soup,campbell's condensed cream of chicken soup,lowercase,10,1
+Campbell's Condensed Cream of Mushroom Soup,campbell's condensed cream of mushroom soup,lowercase,2,1
+Campbell's Condensed Tomato Soup,campbell's condensed tomato soup,lowercase,7,1
+candied cherries,candied cherry,singularize,2,1
+canned chopped tomatoes,canned chopped tomato,singularize,5,1
+canned tomatoes,canned tomato,singularize,49,1
+capers,caper,singularize,333,1
+caraway seeds,caraway seed,singularize,15,1
+cardamom seeds,cardamom seed,singularize,24,1
+carrots,carrot,singularize,728,1
+catfish fillets,catfish fillet,singularize,6,1
+chat masala,chaat masala,synonym,12,2
+cherries,cherry,singularize,19,1
+cherry tomatoes,cherry tomato,singularize,259,1
+cherrystone clams,cherrystone clam,singularize,2,1
+chestnuts,chestnut,singularize,9,1
+chestnut mushrooms,chestnut mushroom,singularize,4,1
+chestnut purée,chestnut puree,unicode,1,1
+chèvre,chevre,unicode,5,1
+Chianti,chianti,lowercase,10,1
+chicken breasts,chicken breast,singularize,408,1
+chicken breast fillets,chicken breast fillet,singularize,2,1
+chicken chorizo sausages,chicken chorizo sausage,singularize,1,1
+chicken cutlets,chicken cutlet,singularize,24,1
+chicken drumsticks,chicken drumstick,singularize,31,1
+chicken fillets,chicken fillet,singularize,3,1
+chicken thighs,chicken thigh,singularize,119,1
+chicken thigh fillets,chicken thigh fillet,singularize,5,1
+chickpeas,chickpea,singularize,196,2
+garbanzo beans,chickpea,synonym,71,2
+chilean sea bass fillets,chilean sea bass fillet,singularize,1,1
+chiltepín,chiltepin,unicode,1,1
+Cholula Hot Sauce,cholula hot sauce,lowercase,2,1
+chopped almonds,chopped almond,singularize,23,1
+chopped hazelnuts,chopped hazelnut,singularize,2,1
+chopped pecans,chopped pecan,singularize,41,1
+chopped potatoes,chopped potato,singularize,1,1
+chopped tomatoes,chopped tomato,singularize,213,1
+chopped walnuts,chopped walnut,singularize,52,1
+chunky tomatoes,chunky tomato,singularize,1,1
+Ciabatta rolls,ciabatta rolls,lowercase,1,1
+clams,clam,singularize,51,1
+Classico Pasta Sauce,classico pasta sauce,lowercase,1,1
+cocktail cherries,cocktail cherry,singularize,6,1
+cod fillets,cod fillet,singularize,18,1
+Cointreau Liqueur,cointreau liqueur,lowercase,4,1
+cooked chicken breasts,cooked chicken breast,singularize,65,1
+cooked italian meatballs,cooked italian meatball,singularize,2,1
+cooked meatballs,cooked meatball,singularize,7,1
+coriander seeds,coriander seed,singularize,250,1
+Corn Flakes Cereal,corn flakes cereal,lowercase,2,1
+corn tortillas,corn tortilla,singularize,948,1
+Country Crock® Spread,country crock spread,unicode+lowercase+whitespace,12,1
+cranberries,cranberry,singularize,12,1
+crème de cassis,creme de cassis,unicode,3,1
+crème fraîche,creme fraiche,unicode,35,1
+cremini mushrooms,cremini mushroom,singularize,78,1
+crimini mushrooms,crimini mushroom,singularize,35,1
+Crispy Rice Cereal,crispy rice cereal,lowercase,1,2
+crushed tomatoes,crushed tomato,singularize,349,1
+Crystal Farms Reduced Fat Shredded Marble Jack Cheese,crystal farms reduced fat shredded marble jack cheese,lowercase,1,1
+cubed potatoes,cubed potato,singularize,3,1
+cuminseed,cumin seed,synonym,1,2
+CURRY GUY Smoked Garam Masala,curry guy smoked garam masala,lowercase,1,1
+CURRY GUY Smoked Spicy Salt,curry guy smoked spicy salt,lowercase,2,1
+Daisy Sour Cream,daisy sour cream,lowercase,5,1
+Daiya,daiya,lowercase,1,1
+dates,date,singularize,8,1
+DeLallo Extra Virgin Olive Oil,delallo extra virgin olive oil,lowercase,1,1
+DeLallo Penne Ziti,delallo penne ziti,lowercase,1,1
+Diamond Crystal® Kosher Salt,diamond crystal kosher salt,unicode+lowercase+whitespace,1,1
+diced apples,diced apple,singularize,1,1
+diced onions,diced onion,singularize,132,1
+diced potatoes,diced potato,singularize,3,1
+diced red onions,diced red onion,singularize,38,1
+diced tomatoes,diced tomato,singularize,1097,1
+Domino Confectioners Sugar,domino confectioners sugar,lowercase,1,1
+Domino Light Brown Sugar,domino light brown sugar,lowercase,1,1
+Doritos Tortilla Chips,doritos tortilla chips,lowercase,1,1
+dried chestnuts,dried chestnut,singularize,1,1
+dried chickpeas,dried chickpea,singularize,11,1
+dried cranberries,dried cranberry,singularize,12,1
+dried currants,dried currant,singularize,28,1
+dried dates,dried date,singularize,1,1
+dried lentils,dried lentil,singularize,28,1
+dried mission figs,dried mission fig,singularize,2,1
+dried mushrooms,dried mushroom,singularize,3,1
+dried porcini mushrooms,dried porcini mushroom,singularize,83,1
+dried shiitake mushrooms,dried shiitake mushroom,singularize,1,1
+dried tart cherries,dried tart cherry,singularize,6,1
+dried Thai chili,dried thai chili,lowercase,1,1
+dried tomatoes,dried tomato,singularize,1,1
+dry roasted peanuts,dry roasted peanut,singularize,5,1
+duck breasts,duck breast,singularize,3,1
+Dungeness crabs,dungeness crabs,lowercase,6,1
+Dutch-processed cocoa powder,dutch-processed cocoa powder,lowercase,5,1
+eggs,egg,singularize,1034,1
+Eggland's Best® eggs,eggland's best egg,unicode+lowercase+whitespace+singularize,1,1
+Elmlea single,elmlea single,lowercase,1,1
+Elmlea Single Light,elmlea single light,lowercase,1,1
+Emmenthal,emmenthal,lowercase,3,1
+English muffins,english muffins,lowercase,4,1
+English mustard,english mustard,lowercase,2,1
+English toffee bits,english toffee bits,lowercase,1,1
+Estancia Pinot Noir,estancia pinot noir,lowercase,1,1
+extra large eggs,extra large egg,singularize,9,1
+fajita size flour tortillas,fajita size flour tortilla,singularize,12,1
+fennel seeds,fennel seed,singularize,246,1
+fenugreek seeds,fenugreek seed,singularize,65,1
+figs,fig,singularize,13,1
+fillets,fillet,singularize,27,1
+fingerling potatoes,fingerling potato,singularize,4,1
+fire roasted diced tomatoes,fire roasted diced tomato,singularize,13,1
+fish fillets,fish fillet,singularize,24,1
+flax seeds,flax seed,singularize,2,1
+Flora Buttery,flora buttery,lowercase,1,1
+Flora Cuisine,flora cuisine,lowercase,4,1
+Flora Original,flora original,lowercase,1,1
+flounder fillets,flounder fillet,singularize,6,1
+flour tortillas,flour tortilla,singularize,831,1
+Frangelico,frangelico,lowercase,9,1
+Franks Hot Sauce,franks hot sauce,lowercase,1,1
+free range chicken breasts,free range chicken breast,singularize,1,1
+free-range eggs,free-range egg,singularize,1,1
+French bread loaves,french bread loaves,lowercase,1,1
+french fried onions,french fried onion,singularize,11,1
+French lentils,french lentil,lowercase+singularize,4,1
+fresh blueberries,fresh blueberry,singularize,8,1
+fresh cranberries,fresh cranberry,singularize,2,1
+fresh mushrooms,fresh mushroom,singularize,128,1
+fresh raspberries,fresh raspberry,singularize,19,1
+fresh shiitake mushrooms,fresh shiitake mushroom,singularize,19,1
+fresh tomatoes,fresh tomato,singularize,99,1
+fried eggs,fried egg,singularize,1,1
+frozen blueberries,frozen blueberry,singularize,2,1
+frozen carrots,frozen carrot,singularize,1,1
+frozen meatballs,frozen meatball,singularize,1,1
+frozen peas and carrots,frozen peas and carrot,singularize,1,1
+frozen potatoes,frozen potato,singularize,1,1
+frozen raspberries,frozen raspberry,singularize,1,1
+frozen strawberries,frozen strawberry,singularize,4,1
+Fuji Apple,fuji apple,lowercase,1,1
+gaeta olives,gaeta olive,singularize,5,1
+Gebhardt Chili Powder,gebhardt chili powder,lowercase,1,1
+ginger purée,ginger puree,unicode,1,1
+gluten free corn tortillas,gluten free corn tortilla,singularize,3,1
+Gold Medal Flour,gold medal flour,lowercase,4,1
+gold potatoes,gold potato,singularize,2,1
+golden beets,golden beet,singularize,4,1
+golden delicious apples,golden delicious apple,singularize,2,1
+golden raisins,golden raisin,singularize,101,1
+Good Seasons Italian Dressing Mix,good seasons italian dressing mix,lowercase,3,1
+Goya Extra Virgin Olive Oil,goya extra virgin olive oil,lowercase,1,1
+Goya Ground Cumin,goya ground cumin,lowercase,1,1
+Goya Hot Sauce,goya hot sauce,lowercase,1,1
+Grand Marnier,grand marnier,lowercase,3,1
+granny smith apples,granny smith apple,singularize,22,1
+grapes,grape,singularize,6,1
+grape tomatoes,grape tomato,singularize,156,1
+grated Gruyère cheese,grated gruyere cheese,unicode+lowercase,6,1
+green figs,green fig,singularize,1,1
+Green Giant™ sliced mushrooms,green giant sliced mushroom,unicode+lowercase+whitespace+singularize,1,1
+Green Giant Whole Kernel Sweet Corn,green giant whole kernel sweet corn,lowercase,1,1
+green olives,green olive,singularize,71,1
+green onions,green onion,singularize,823,2
+scallions,green onion,singularize+synonym,262,2
+green peppercorns,green peppercorn,singularize,2,1
+green plantains,green plantain,singularize,2,1
+green pumpkin seeds,green pumpkin seed,singularize,7,1
+green tomatoes,green tomato,singularize,12,1
+grilled chicken breasts,grilled chicken breast,singularize,4,1
+ground almonds,ground almond,singularize,19,1
+ground blanched almonds,ground blanched almond,singularize,2,1
+ground hazelnuts,ground hazelnut,singularize,1,1
+ground Italian sausage,ground italian sausage,lowercase,4,1
+ground pecans,ground pecan,singularize,1,1
+ground walnuts,ground walnut,singularize,4,1
+Haas avocados,haas avocado,lowercase+singularize,4,1
+haddock fillets,haddock fillet,singularize,1,1
+halibut fillets,halibut fillet,singularize,22,1
+hamachi fillets,hamachi fillet,singularize,1,1
+hard shelled clams,hard shelled clam,singularize,3,1
+Hatch Green Chiles,hatch green chiles,lowercase,6,1
+hazelnuts,hazelnut,singularize,55,1
+Heinz Chili Sauce,heinz chili sauce,lowercase,2,1
+Heinz Worcestershire Sauce,heinz worcestershire sauce,lowercase,1,1
+heirloom tomatoes,heirloom tomato,singularize,26,1
+Hellmann''s Light Mayonnaise,hellmann''s light mayonnaise,lowercase,2,1
+Hellmann's Dijonnaise Creamy Dijon Mustard,hellmann's dijonnaise creamy dijon mustard,lowercase,1,1
+Hellmann's® Real Mayonnaise,hellmann's real mayonnaise,unicode+lowercase+whitespace,1,1
+hellmannâ€™ or best food canola cholesterol free mayonnais,hellmanna€ or best food canola cholesterol free mayonnais,unicode+whitespace,1,1
+hemp seeds,hemp seed,singularize,1,1
+Herdez Salsa,herdez salsa,lowercase,1,1
+Herdez Salsa Casera,herdez salsa casera,lowercase,5,1
+Herdez Salsa Verde,herdez salsa verde,lowercase,6,1
+Hidden Valley® Farmhouse Originals Italian with Herbs Dressing,hidden valley farmhouse originals italian with herbs dressing,unicode+lowercase+whitespace,1,1
+Hidden Valley® Original Ranch® Dips Mix,hidden valley original ranch dips mix,unicode+lowercase+whitespace,2,1
+Hidden Valley® Original Ranch® Dressing,hidden valley original ranch dressing,unicode+lowercase+whitespace,4,1
+Hidden Valley® Original Ranch® Light Dressing,hidden valley original ranch light dressing,unicode+lowercase+whitespace,1,1
+Hidden Valley® Original Ranch Salad® Dressing & Seasoning Mix,hidden valley original ranch salad dressing & seasoning mix,unicode+lowercase+whitespace,1,1
+Himalayan salt,himalayan salt,lowercase,6,1
+homemade meatballs,homemade meatball,singularize,1,1
+hot Italian sausages,hot italian sausage,lowercase+singularize,42,1
+Hurst Family Harvest Chipotle Lime Black Bean Soup mix,hurst family harvest chipotle lime black bean soup mix,lowercase,1,1
+I Can't Believe It's Not Butter!® All Purpose Sticks,i can't believe it's not butter! all purpose sticks,unicode+lowercase+whitespace,1,1
+I Can't Believe It's Not Butter!® Spread,i can't believe it's not butter! spread,unicode+lowercase+whitespace,9,1
+Ibarra Chocolate,ibarra chocolate,lowercase,1,1
+idaho potatoes,idaho potato,singularize,6,1
+Indian spice,indian spice,lowercase,2,1
+Italian basil,italian basil,lowercase,1,1
+Italian bread,italian bread,lowercase,90,1
+Italian cheese,italian cheese,lowercase,11,1
+Italian cheese blend,italian cheese blend,lowercase,7,1
+Italian herbs,italian herbs,lowercase,7,1
+italian meatballs,italian meatball,singularize,1,1
+Italian parsley leaves,italian parsley leaves,lowercase,84,1
+italian plum tomatoes,italian plum tomato,singularize,28,1
+Italian seasoned breadcrumbs,italian seasoned breadcrumbs,lowercase,24,1
+Italian seasoned diced tomatoes,italian seasoned diced tomato,lowercase+singularize,1,1
+italian style stewed tomatoes,italian style stewed tomato,singularize,15,1
+italian tomatoes,italian tomato,singularize,17,1
+Italian turkey sausage,italian turkey sausage,lowercase,47,1
+Italian turkey sausage links,italian turkey sausage links,lowercase,2,1
+italian-style meatballs,italian-style meatball,singularize,2,1
+japanese eggplants,japanese eggplant,singularize,15,1
+Jarlsberg,jarlsberg,lowercase,2,1
+jerusalem artichokes,jerusalem artichoke,singularize,1,1
+Jiffy Corn Muffin Mix,jiffy corn muffin mix,lowercase,1,1
+Jimmy Dean All Natural Regular Pork Sausage,jimmy dean all natural regular pork sausage,lowercase,1,1
+Johnsonville Hot & Spicy Breakfast Links,johnsonville hot & spicy breakfast links,lowercase,1,1
+Johnsonville® Mild Italian Ground Sausage,johnsonville mild italian ground sausage,unicode+lowercase+whitespace,2,1
+Johnsonville Mild Italian Sausage Links,johnsonville mild italian sausage links,lowercase,4,1
+Jose Cuervo Gold Tequila,jose cuervo gold tequila,lowercase,1,1
+kahlúa,kahlua,unicode,15,2
+Kahlua Liqueur,kahlua liqueur,lowercase,1,1
+king prawns,king prawn,singularize,3,1
+kirby cucumbers,kirby cucumber,singularize,3,1
+Knorr® Beef Bouillon,knorr beef bouillon,unicode+lowercase+whitespace,1,1
+Knorr Beef Stock Cubes,knorr beef stock cubes,lowercase,1,1
+Knorr Chicken Flavor Bouillon,knorr chicken flavor bouillon,lowercase,4,2
+Knorr Chicken Stock Cubes,knorr chicken stock cubes,lowercase,1,1
+Knorr Chicken Stock Pots,knorr chicken stock pots,lowercase,2,1
+Knorr® Fiesta Sides™ - Mexican Rice,knorr fiesta sides - mexican rice,unicode+lowercase+whitespace,2,1
+knorr homestyl stock   chicken,knorr homestyl stock chicken,whitespace,3,1
+knorr italian side   creami garlic shell,knorr italian side creami garlic shell,whitespace,1,1
+Knorr Onion Minicubes,knorr onion minicubes,lowercase,3,1
+knorr pasta side   cheesi cheddar,knorr pasta side cheesi cheddar,whitespace,1,1
+Knorr® Pasta Sides™ - Alfredo,knorr pasta sides - alfredo,unicode+lowercase+whitespace,2,1
+Knorr® Pasta Sides™ - Butter & Herb,knorr pasta sides - butter & herb,unicode+lowercase+whitespace,1,1
+Knorr® Pasta Sides™ - Chicken flavor,knorr pasta sides - chicken flavor,unicode+lowercase+whitespace,1,1
+knorr rice side   cheddar broccoli,knorr rice side cheddar broccoli,whitespace,2,1
+Knorr® Vegetable recipe mix,knorr vegetable recipe mix,unicode+lowercase+whitespace,1,1
+KNUDSEN 2% Milkfat Low Fat Cottage Cheese,knudsen 2% milkfat low fat cottage cheese,lowercase,1,1
+Knudsen Light Sour Cream,knudsen light sour cream,lowercase,1,1
+Knudsen Sour Cream,knudsen sour cream,lowercase,1,1
+Kraft Big Slice Pepper Jack Cheese Slices,kraft big slice pepper jack cheese slices,lowercase,1,1
+Kraft Grated Parmesan Cheese,kraft grated parmesan cheese,lowercase,10,1
+Kraft Mayonnaise,kraft mayonnaise,lowercase,1,1
+KRAFT Mexican Style 2% Milk Finely Shredded Four Cheese,kraft mexican style 2% milk finely shredded four cheese,lowercase,1,1
+KRAFT Mexican Style Finely Shredded Four Cheese,kraft mexican style finely shredded four cheese,lowercase,5,1
+KRAFT Mexican Style Shredded Four Cheese with a TOUCH OF PHILADELPHIA,kraft mexican style shredded four cheese with a touch of philadelphia,lowercase,1,1
+Kraft Miracle Whip Dressing,kraft miracle whip dressing,lowercase,2,1
+KRAFT Original Barbecue Sauce,kraft original barbecue sauce,lowercase,1,1
+KRAFT Reduced Fat Shredded Mozzarella Cheese,kraft reduced fat shredded mozzarella cheese,lowercase,1,1
+Kraft Sharp Cheddar Cheese,kraft sharp cheddar cheese,lowercase,1,1
+KRAFT Shredded Cheddar Cheese,kraft shredded cheddar cheese,lowercase,3,1
+KRAFT Shredded Colby & Monterey Jack Cheese,kraft shredded colby & monterey jack cheese,lowercase,1,1
+KRAFT Shredded Low-Moisture Part-Skim Mozzarella Cheese,kraft shredded low-moisture part-skim mozzarella cheese,lowercase,1,1
+KRAFT Shredded Mozzarella Cheese,kraft shredded mozzarella cheese,lowercase,1,1
+Kraft Shredded Pepper Jack Cheese,kraft shredded pepper jack cheese,lowercase,1,1
+KRAFT Shredded Pepper Jack Cheese with a TOUCH OF PHILADELPHIA,kraft shredded pepper jack cheese with a touch of philadelphia,lowercase,1,1
+Kraft Sun Dried Tomato Vinaigrette,kraft sun dried tomato vinaigrette,lowercase,1,1
+KRAFT Zesty Italian Dressing,kraft zesty italian dressing,lowercase,4,1
+KRAFT Zesty Lime Vinaigrette Dressing,kraft zesty lime vinaigrette dressing,lowercase,1,1
+Kroger Black Beans,kroger black beans,lowercase,1,1
+La Victoria Red Chile Sauce,la victoria red chile sauce,lowercase,1,1
+Land O Lakes® Butter,land o lakes butter,unicode+lowercase+whitespace,2,1
+large eggs,large egg,singularize,840,1
+large flour tortillas,large flour tortilla,singularize,19,1
+Lea & Perrins Worcestershire Sauce,lea & perrins worcestershire sauce,lowercase,1,1
+leeks,leek,singularize,114,1
+lentils,lentil,singularize,54,1
+Lipton Lemon Iced Tea Mix,lipton lemon iced tea mix,lowercase,1,1
+Lipton® Recipe Secrets® Onion Soup Mix,lipton recipe secrets onion soup mix,unicode+lowercase+whitespace,1,1
+littleneck clams,littleneck clam,singularize,27,1
+lotus seeds,lotus seed,singularize,1,1
+Louisiana Hot Sauce,louisiana hot sauce,lowercase,1,1
+low fat mild Italian turkey sausage,low fat mild italian turkey sausage,lowercase,1,1
+low sodium crushed tomatoes,low sodium crushed tomato,singularize,2,1
+low sodium diced tomatoes,low sodium diced tomato,singularize,1,1
+low-fat crème fraîche,low-fat creme fraiche,unicode,1,1
+low-fat flour tortillas,low-fat flour tortilla,singularize,3,1
+mackerel fillets,mackerel fillet,singularize,2,1
+Madeira,madeira,lowercase,5,1
+Madras curry powder,madras curry powder,lowercase,23,1
+Maggi,maggi,lowercase,1,1
+mahi mahi fillets,mahi mahi fillet,singularize,7,1
+mandarin oranges,mandarin orange,singularize,2,1
+Manischewitz Matzo Meal,manischewitz matzo meal,lowercase,1,1
+Manischewitz Potato Starch,manischewitz potato starch,lowercase,1,1
+Manzanilla olives,manzanilla olive,lowercase+singularize,1,1
+Marcona almonds,marcona almond,lowercase+singularize,1,1
+Margherita Pepperoni,margherita pepperoni,lowercase,1,1
+Martha White Cornbread Mix,martha white cornbread mix,lowercase,1,1
+mashed potatoes,mashed potato,singularize,8,1
+Massaman curry paste,massaman curry paste,lowercase,2,1
+Mazola® Chicken Flavor Bouillon Powder,mazola chicken flavor bouillon powder,unicode+lowercase+whitespace,1,1
+Mazola Corn Oil,mazola corn oil,lowercase,5,1
+McCormick Ground Cumin,mccormick ground cumin,lowercase,1,1
+McCormick Taco Seasoning,mccormick taco seasoning,lowercase,1,1
+meatballs,meatball,singularize,18,1
+medium eggs,medium egg,singularize,2,1
+medium tomatoes,medium tomato,singularize,6,1
+medium whole wheat tortillas,medium whole wheat tortilla,singularize,1,1
+Mexican beer,mexican beer,lowercase,30,1
+Mexican cheese,mexican cheese,lowercase,67,1
+Mexican cheese blend,mexican cheese blend,lowercase,169,1
+Mexican lager beer,mexican lager beer,lowercase,1,1
+Mexican oregano,mexican oregano,lowercase,99,1
+Mexican seasoning mix,mexican seasoning mix,lowercase,15,1
+Mexican vanilla extract,mexican vanilla extract,lowercase,2,1
+Meyer lemon juice,meyer lemon juice,lowercase,6,1
+Meyer lemon peel,meyer lemon peel,lowercase,1,1
+mild Italian sausage,mild italian sausage,lowercase,17,1
+Minute White Rice,minute white rice,lowercase,1,1
+Mission Corn Tortillas,mission corn tortilla,lowercase+singularize,1,1
+mission figs,mission fig,singularize,2,1
+Mission Yellow Corn Tortillas,mission yellow corn tortilla,lowercase+singularize,1,1
+mixed mushrooms,mixed mushroom,singularize,1,1
+monkfish fillets,monkfish fillet,singularize,1,1
+Mrs. Dash,mrs. dash,lowercase,1,1
+mushrooms,mushroom,singularize,230,1
+mussels,mussel,singularize,42,1
+mustard seeds,mustard seed,singularize,255,1
+Nakano Seasoned Rice Vinegar,nakano seasoned rice vinegar,lowercase,1,1
+natural pistachios,natural pistachio,singularize,4,1
+navel oranges,navel orange,singularize,17,1
+Neapolitan ice cream,neapolitan ice cream,lowercase,1,1
+Neufchâtel,neufchatel,unicode+lowercase,5,1
+new potatoes,new potato,singularize,13,1
+New York Style Panetini® toasts,new york style panetini toasts,unicode+lowercase+whitespace,1,1
+Niçoise olives,nicoise olive,unicode+lowercase+singularize,2,1
+Nido Milk Powder,nido milk powder,lowercase,1,1
+nigella seeds,nigella seed,singularize,19,1
+no salt added canned tomatoes,no salt added canned tomato,singularize,1,1
+no-salt-added diced tomatoes,no-salt-added diced tomato,singularize,9,1
+Nutella,nutella,lowercase,5,1
+oil cured olives,oil cured olive,singularize,3,1
+oil packed anchovy fillets,oil packed anchovy fillet,singularize,3,1
+oil packed dried tomatoes,oil packed dried tomato,singularize,2,1
+oil-cured black olives,oil-cured black olive,singularize,8,1
+Old El Paso™ chopped green chiles,old el paso chopped green chiles,unicode+lowercase+whitespace,12,1
+Old El Paso Enchilada Sauce,old el paso enchilada sauce,lowercase,9,1
+Old El Paso Flour Tortillas,old el paso flour tortilla,lowercase+singularize,5,1
+Old El Paso Green Chiles,old el paso green chiles,lowercase,1,1
+Old El Paso™ mild red enchilada sauce,old el paso mild red enchilada sauce,unicode+lowercase+whitespace,1,1
+Old El Paso™ refried beans,old el paso refried beans,unicode+lowercase+whitespace,4,1
+Old El Paso Taco Seasoning Mix,old el paso taco seasoning mix,lowercase,2,2
+Old El Paso™ taco seasoning mix,old el paso taco seasoning mix,unicode+lowercase+whitespace,11,2
+Old El Paso™ Thick 'n Chunky salsa,old el paso thick 'n chunky salsa,unicode+lowercase+whitespace,7,1
+olives,olive,singularize,70,1
+onions,onion,singularize,3928,1
+Ortega Tostada Shells,ortega tostada shells,lowercase,1,1
+Oscar Mayer Bacon,oscar mayer bacon,lowercase,4,1
+Oscar Mayer Deli Fresh Smoked Ham,oscar mayer deli fresh smoked ham,lowercase,2,1
+oyster mushrooms,oyster mushroom,singularize,9,1
+Pace Chunky Salsa,pace chunky salsa,lowercase,8,1
+Pace Picante Sauce,pace picante sauce,lowercase,7,2
+parsnips,parsnip,singularize,14,1
+peaches,peach,singularize,37,1
+peanuts,peanut,singularize,43,1
+pears,pear,singularize,27,1
+pear tomatoes,pear tomato,singularize,6,1
+pearl onions,pearl onion,singularize,19,1
+pecans,pecan,singularize,19,1
+peeled canned low sodium tomatoes,peeled canned low sodium tomato,singularize,1,1
+peeled tomatoes,peeled tomato,singularize,46,1
+peppercorns,peppercorn,singularize,44,1
+Philadelphia Cooking Creme,philadelphia cooking creme,lowercase,2,1
+Philadelphia Cream Cheese,philadelphia cream cheese,lowercase,18,1
+Philadelphia Light Cream Cheese,philadelphia light cream cheese,lowercase,3,1
+picholine olives,picholine olive,singularize,4,1
+pickled carrots,pickled carrot,singularize,1,1
+pickled jalapenos,pickled jalapeno,singularize,22,1
+Pillsbury™ classic pizza crust,pillsbury classic pizza crust,unicode+lowercase+whitespace,1,1
+Pillsbury™ Crescent Recipe Creations® refrigerated seamless dough sheet,pillsbury crescent recipe creations refrigerated seamless dough sheet,unicode+lowercase+whitespace,1,1
+Pillsbury™ Refrigerated Crescent Dinner Rolls,pillsbury refrigerated crescent dinner rolls,unicode+lowercase+whitespace,10,1
+Pillsbury Thin Pizza Crust,pillsbury thin pizza crust,lowercase,1,1
+pimento stuffed green olives,pimento stuffed green olive,singularize,16,1
+pimento stuffed olives,pimento stuffed olive,singularize,9,1
+pink peppercorns,pink peppercorn,singularize,3,1
+pistachios,pistachio,singularize,35,1
+pitted black olives,pitted black olive,singularize,30,1
+pitted green olives,pitted green olive,singularize,19,1
+pitted kalamata olives,pitted kalamata olive,singularize,94,1
+pitted Medjool dates,pitted medjool date,lowercase+singularize,1,1
+pitted olives,pitted olive,singularize,23,1
+plantains,plantain,singularize,19,1
+plums,plum,singularize,24,1
+plum tomatoes,plum tomato,singularize,592,1
+Poire Williams,poire williams,lowercase,1,1
+pomegranate seeds,pomegranate seed,singularize,19,1
+poppy seeds,poppy seed,singularize,41,1
+pork cutlets,pork cutlet,singularize,5,1
+pork sausages,pork sausage,singularize,27,1
+potatoes,potato,singularize,379,1
+Potatoes O'Brien,potatoes o'brien,lowercase,1,1
+prawns,prawn,singularize,19,1
+precooked meatballs,precooked meatball,singularize,2,1
+Progresso Artichoke Hearts,progresso artichoke hearts,lowercase,1,1
+Progresso Balsamic Vinegar,progresso balsamic vinegar,lowercase,1,1
+Progresso Black Beans,progresso black beans,lowercase,1,1
+Progresso Diced Tomatoes,progresso diced tomato,lowercase+singularize,1,1
+prunes,prune,singularize,12,1
+pumpkin purée,pumpkin puree,unicode,8,1
+pumpkin seeds,pumpkin seed,singularize,40,1
+Pure Wesson Canola Oil,pure wesson canola oil,lowercase,1,1
+Pure Wesson Vegetable Oil,pure wesson vegetable oil,lowercase,1,1
+purple grapes,purple grape,singularize,1,1
+quahog clams,quahog clam,singularize,1,1
+Quinoa Flour,quinoa flour,lowercase,2,1
+Quorn Chik''n Tenders,quorn chik''n tenders,lowercase,1,1
+radishes,radish,singularize,128,1
+Ragu Classic Alfredo Sauce,ragu classic alfredo sauce,lowercase,1,1
+Ragu Golden Veggie Fettuccine Pasta,ragu golden veggie fettuccine pasta,lowercase,1,1
+Ragu® Robusto!® Pasta Sauce,ragu robusto! pasta sauce,unicode+lowercase+whitespace,1,1
+Ragu Sauce,ragu sauce,lowercase,1,1
+Ragu Traditional Sauce,ragu traditional sauce,lowercase,1,1
+raisins,raisin,singularize,174,1
+Ranch Style Beans,ranch style beans,lowercase,9,1
+raspberries,raspberry,singularize,27,1
+raw cashews,raw cashew,singularize,25,1
+raw peeled prawns,raw peeled prawn,singularize,1,1
+raw pistachios,raw pistachio,singularize,3,1
+red apples,red apple,singularize,1,1
+red bartlett pears,red bartlett pear,singularize,1,1
+red beets,red beet,singularize,1,1
+red delicious apples,red delicious apple,singularize,2,1
+Red Gold® diced tomatoes,red gold diced tomato,unicode+lowercase+whitespace+singularize,2,1
+red lentils,red lentil,singularize,90,1
+red radishes,red radish,singularize,5,1
+red raspberries,red raspberry,singularize,1,1
+reduced fat Mexican cheese,reduced fat mexican cheese,lowercase,3,1
+reduced sodium italian style stewed tomatoes,reduced sodium italian style stewed tomato,singularize,1,1
+ripe olives,ripe olive,singularize,72,1
+Ritz Crackers,ritz crackers,lowercase,1,1
+Ro-Tel Diced Tomatoes & Green Chilies,ro-tel diced tomatoes & green chilies,lowercase,3,1
+roasted almonds,roasted almond,singularize,3,1
+roasted cashews,roasted cashew,singularize,17,1
+roasted chestnuts,roasted chestnut,singularize,1,1
+roasted hazelnuts,roasted hazelnut,singularize,10,1
+roasted peanuts,roasted peanut,singularize,11,1
+roasted pistachios,roasted pistachio,singularize,3,1
+roasted pumpkin seeds,roasted pumpkin seed,singularize,5,1
+roasted salted cashews,roasted salted cashew,singularize,2,1
+roasted sesame seeds,roasted sesame seed,singularize,2,1
+roasted tomatoes,roasted tomato,singularize,41,1
+Robert Mondavi Fume Blanc,robert mondavi fume blanc,lowercase,1,1
+roma tomatoes,roma tomato,singularize,175,1
+rome apples,rome apple,singularize,1,1
+rosé wine,rose wine,unicode,3,1
+Rotel Diced Tomatoes & Green Chilies,rotel diced tomatoes & green chilies,lowercase,1,1
+rotel tomatoes,rotel tomato,singularize,21,1
+royal olives,royal olive,singularize,1,1
+russet potatoes,russet potato,singularize,100,1
+salmon fillets,salmon fillet,singularize,32,1
+salted cashews,salted cashew,singularize,3,1
+salted dry roasted peanuts,salted dry roasted peanut,singularize,1,1
+salted peanuts,salted peanut,singularize,1,1
+salted pistachios,salted pistachio,singularize,1,1
+salted roast peanuts,salted roast peanut,singularize,1,1
+salted roasted almonds,salted roasted almond,singularize,1,1
+salted roasted pecans,salted roasted pecan,singularize,1,1
+San Marzano Crushed Tomatoes,san marzano crushed tomato,lowercase+singularize,1,1
+San Marzano Diced Tomatoes,san marzano diced tomato,lowercase+singularize,1,1
+San Marzano tomatoes,san marzano tomato,lowercase+singularize,2,1
+Sangiovese,sangiovese,lowercase,1,1
+Sargento® Traditional Cut Shredded 4 Cheese Mexican,sargento traditional cut shredded 4 cheese mexican,unicode+lowercase+whitespace,2,1
+Sargento® Traditional Cut Shredded Mozzarella Cheese,sargento traditional cut shredded mozzarella cheese,unicode+lowercase+whitespace,1,1
+sausages,sausage,singularize,63,1
+scallops,scallop,singularize,14,1
+Scotch whisky,scotch whisky,lowercase,1,1
+scrod fillets,scrod fillet,singularize,1,1
+sea bass fillets,sea bass fillet,singularize,10,1
+sea scallops,sea scallop,singularize,47,1
+seeds,seed,singularize,81,1
+seedless red grapes,seedless red grape,singularize,15,1
+sesame seeds,sesame seed,singularize,79,1
+shallots,shallot,singularize,417,1
+sheep’s milk cheese,sheep's milk cheese,unicode,2,1
+shelled hemp seeds,shelled hemp seed,singularize,1,1
+shelled pistachios,shelled pistachio,singularize,5,1
+shredded American cheese,shredded american cheese,lowercase,1,1
+shredded carrots,shredded carrot,singularize,20,1
+shredded Italian cheese,shredded italian cheese,lowercase,7,1
+shredded Monterey Jack cheese,shredded monterey jack cheese,lowercase,299,2
+Sicilian olives,sicilian olive,lowercase+singularize,7,1
+single malt Scotch,single malt scotch,lowercase,1,1
+skinless chicken breasts,skinless chicken breast,singularize,27,1
+skinless chicken fillets,skinless chicken fillet,singularize,1,1
+skinless chicken thighs,skinless chicken thigh,singularize,3,1
+skinless flounder fillets,skinless flounder fillet,singularize,1,1
+skinless salmon fillets,skinless salmon fillet,singularize,1,1
+sliced almonds,sliced almond,singularize,70,1
+sliced black olives,sliced black olive,singularize,142,1
+sliced carrots,sliced carrot,singularize,33,1
+sliced green olives,sliced green olive,singularize,3,1
+sliced green onions,sliced green onion,singularize,169,1
+sliced leeks,sliced leek,singularize,1,1
+sliced mushrooms,sliced mushroom,singularize,149,1
+sliced olives,sliced olive,singularize,11,1
+sliced shallots,sliced shallot,singularize,1,1
+sliced tomatoes,sliced tomato,singularize,9,1
+slivered almonds,slivered almond,singularize,76,1
+small new potatoes,small new potato,singularize,3,1
+small tomatoes,small tomato,singularize,2,1
+smoked almonds,smoked almond,singularize,1,1
+smoked chicken sausages,smoked chicken sausage,singularize,1,1
+smoked sweet Spanish paprika,smoked sweet spanish paprika,lowercase,1,1
+snapper fillets,snapper fillet,singularize,3,1
+soft corn tortillas,soft corn tortilla,singularize,7,1
+soft taco size flour tortillas,soft taco size flour tortilla,singularize,5,1
+soft-shell clams,soft-shell clam,singularize,1,1
+Spice Islands Bay Leaves,spice islands bay leaves,lowercase,1,1
+Spice Islands Garlic Salt,spice islands garlic salt,lowercase,1,1
+Spice Islands Ground Cumin Seed,spice islands ground cumin seed,lowercase,1,1
+Spice Islands® Minced Garlic,spice islands minced garlic,unicode+lowercase+whitespace,1,1
+Spice Islands Oregano,spice islands oregano,lowercase,2,1
+Spike Seasoning,spike seasoning,lowercase,9,1
+Splenda Brown Sugar Blend,splenda brown sugar blend,lowercase,2,1
+split black lentils,split black lentil,singularize,14,1
+split yellow lentils,split yellow lentil,singularize,3,1
+spring onions,spring onion,singularize,28,1
+Spring! Water,spring! water,lowercase,1,1
+squash seeds,squash seed,singularize,1,1
+Sriracha,sriracha,lowercase,21,1
+starchy potatoes,starchy potato,singularize,3,1
+stewed tomatoes,stewed tomato,singularize,109,1
+Stonefire Italian Artisan Pizza Crust,stonefire italian artisan pizza crust,lowercase,2,1
+Stonefire Italian Thin Pizza Crust,stonefire italian thin pizza crust,lowercase,2,1
+strawberries,strawberry,singularize,75,1
+sun-dried tomatoes,sun-dried tomato,singularize,125,1
+sunflower seeds,sunflower seed,singularize,4,1
+Swanson Chicken Broth,swanson chicken broth,lowercase,10,2
+Swanson Vegetable Broth,swanson vegetable broth,lowercase,1,1
+sweet cherries,sweet cherry,singularize,12,1
+sweet potatoes,sweet potato,singularize,122,1
+sweet potatoes & yams,sweet potatoes & yam,singularize,2,1
+sweet potatoes or yams,sweet potatoes or yam,singularize,2,1
+swordfish fillets,swordfish fillet,singularize,1,1
+szechwan peppercorns,szechwan peppercorn,singularize,1,1
+TABASCO® Chipotle Pepper Sauce,tabasco chipotle pepper sauce,unicode+lowercase+whitespace,1,1
+Tabasco Green Pepper Sauce,tabasco green pepper sauce,lowercase,17,1
+Tabasco Pepper Sauce,tabasco pepper sauce,lowercase,21,1
+TACO BELL® HOME ORIGINALS® Taco Seasoning Mix,taco bell home originals taco seasoning mix,unicode+lowercase+whitespace,1,1
+Taco Bell Taco Seasoning Mix,taco bell taco seasoning mix,lowercase,4,1
+TACO BELL® Thick & Chunky Mild Salsa,taco bell thick & chunky mild salsa,unicode+lowercase+whitespace,2,1
+tamari almonds,tamari almond,singularize,1,1
+Tapatio Hot Sauce,tapatio hot sauce,lowercase,1,1
+tart apples,tart apple,singularize,3,1
+teardrop tomatoes,teardrop tomato,singularize,2,1
+Texas toast bread,texas toast bread,lowercase,1,1
+Thai fish sauce,thai fish sauce,lowercase,1,1
+Thai red curry paste,thai red curry paste,lowercase,2,1
+tilapia fillets,tilapia fillet,singularize,43,1
+Tipo 00 flour,tipo 00 flour,lowercase,1,1
+toasted almonds,toasted almond,singularize,14,1
+toasted cashews,toasted cashew,singularize,3,1
+toasted peanuts,toasted peanut,singularize,2,1
+toasted pecans,toasted pecan,singularize,2,1
+toasted sesame seeds,toasted sesame seed,singularize,9,1
+toasted slivered almonds,toasted slivered almond,singularize,5,1
+toasted sunflower seeds,toasted sunflower seed,singularize,1,1
+toasted walnuts,toasted walnut,singularize,8,1
+tomatillos,tomatillo,singularize,310,1
+tomatoes,tomato,singularize,1993,1
+tomato purée,tomato puree,unicode,138,1
+tortillas,tortilla,singularize,210,1
+tostadas,tostada,singularize,15,1
+Tuaca Liqueur,tuaca liqueur,lowercase,1,1
+turkey breast cutlets,turkey breast cutlet,singularize,9,1
+turkey meatballs,turkey meatball,singularize,1,1
+Turkish bay leaves,turkish bay leaves,lowercase,5,1
+Uncle Ben's Original Converted Brand rice,uncle ben's original converted brand rice,lowercase,1,1
+unhulled sesame seeds,unhulled sesame seed,singularize,1,1
+unsalted almonds,unsalted almond,singularize,2,1
+unsalted cashews,unsalted cashew,singularize,13,1
+unsalted dry roast peanuts,unsalted dry roast peanut,singularize,4,1
+unsalted pistachios,unsalted pistachio,singularize,4,1
+unsalted roasted peanuts,unsalted roasted peanut,singularize,1,1
+unsalted roasted pistachios,unsalted roasted pistachio,singularize,3,1
+Vadouvan curry,vadouvan curry,lowercase,1,1
+vanilla bean seeds,vanilla bean seed,singularize,1,1
+varnish clams,varnish clam,singularize,9,1
+veal cutlets,veal cutlet,singularize,18,1
+vegan Worcestershire sauce,vegan worcestershire sauce,lowercase,1,1
+Velveeta,velveeta,lowercase,19,1
+Velveeta Cheese Spread,velveeta cheese spread,lowercase,1,1
+Velveeta Queso Blanco,velveeta queso blanco,lowercase,1,1
+vine ripened tomatoes,vine ripened tomato,singularize,24,1
+vine tomatoes,vine tomato,singularize,6,1
+walnuts,walnut,singularize,44,1
+water chestnuts,water chestnut,singularize,4,1
+watermelon radishes,watermelon radish,singularize,1,1
+waxy potatoes,waxy potato,singularize,11,1
+white button mushrooms,white button mushroom,singularize,7,1
+white corn tortillas,white corn tortilla,singularize,23,1
+white mushrooms,white mushroom,singularize,26,1
+white peaches,white peach,singularize,2,1
+white peppercorns,white peppercorn,singularize,4,1
+white poppy seeds,white poppy seed,singularize,4,1
+white sesame seeds,white sesame seed,singularize,3,1
+whitefish fillets,whitefish fillet,singularize,13,1
+whole almonds,whole almond,singularize,8,1
+whole peeled tomatoes,whole peeled tomato,singularize,95,1
+whole wheat tortillas,whole wheat tortilla,singularize,86,1
+wild mushrooms,wild mushroom,singularize,31,1
+Wish-Bone Italian Dressing,wish-bone italian dressing,lowercase,8,1
+Wish-Bone® Robusto Italian Dressing,wish-bone robusto italian dressing,unicode+lowercase+whitespace,1,1
+Wolf Brand Chili,wolf brand chili,lowercase,2,1
+yams,yam,singularize,11,1
+yellow heirloom tomatoes,yellow heirloom tomato,singularize,1,1
+yellow lentils,yellow lentil,singularize,9,1
+yellow mustard seeds,yellow mustard seed,singularize,22,1
+yellowtail snapper fillets,yellowtail snapper fillet,singularize,1,1
+yukon gold potatoes,yukon gold potato,singularize,79,1

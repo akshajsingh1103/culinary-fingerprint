@@ -1,0 +1,22 @@
+{
+  "betweenness": "weighted, normalised, distance = 1/max(NPMI,0); zero-strength edges excluded",
+  "bridge_candidate_counts": {
+    "indian-italian": 124,
+    "indian-mexican": 134,
+    "italian-mexican": 195
+  },
+  "hub_classification_counts": {
+    "cuisine-specific": 22,
+    "two-cuisine": 4
+  },
+  "n_communities": {
+    "indian": 7,
+    "italian": 6,
+    "mexican": 7
+  },
+  "singleton_communities": {
+    "indian": 0,
+    "italian": 0,
+    "mexican": 0
+  }
+}

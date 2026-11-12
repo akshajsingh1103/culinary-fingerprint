@@ -1,0 +1,596 @@
+{
+  "confusion_matrices": {
+    "cuisines_order": [
+      "indian",
+      "italian",
+      "mexican"
+    ],
+    "fingerprint_normalized_ablation": [
+      [
+        368,
+        124,
+        108
+      ],
+      [
+        489,
+        662,
+        417
+      ],
+      [
+        405,
+        403,
+        480
+      ]
+    ],
+    "fingerprint_scorer": [
+      [
+        480,
+        57,
+        63
+      ],
+      [
+        22,
+        1438,
+        108
+      ],
+      [
+        21,
+        155,
+        1112
+      ]
+    ],
+    "naive_bayes": [
+      [
+        577,
+        15,
+        8
+      ],
+      [
+        8,
+        1537,
+        23
+      ],
+      [
+        14,
+        71,
+        1203
+      ]
+    ]
+  },
+  "dataset_path": "data\\raw\\train.json",
+  "dataset_sha256": "f18e7e568d1c606774bfb134ece51ef0a143cd5069e6f9241bb6036b45b7d2b0",
+  "dataset_total_records": 39774,
+  "effective_config": {
+    "backbone": {
+      "min_co_count": 5,
+      "z_threshold": 3.0,
+      "zero_variance_policy": "exclude"
+    },
+    "community": {
+      "algorithm": "louvain",
+      "resolution": 1.0,
+      "seed": 42,
+      "weight": "npmi_nonnegative"
+    },
+    "cuisines": [
+      "indian",
+      "italian",
+      "mexican"
+    ],
+    "data": {
+      "cache_dir": "data/processed/cache",
+      "processed_dir": "data/processed",
+      "raw_path": "data/raw/train.json"
+    },
+    "naive_bayes": {
+      "alpha": 1.0,
+      "fit_prior": true
+    },
+    "network": {
+      "log_base": 2,
+      "min_ingredient_count": 20
+    },
+    "null_model": {
+      "algorithm": "curveball",
+      "benchmark_samples": 20,
+      "burn_in_multiplier": 10,
+      "max_acf_lag": 20,
+      "n_randomizations": 1000,
+      "thinning_multiplier": 2
+    },
+    "outputs": {
+      "d1": "outputs/d1_dataset",
+      "d2": "outputs/d2_backbone",
+      "d3": "outputs/d3_report",
+      "d4": "outputs/d4_scorer",
+      "poster": "outputs/poster_outline.md",
+      "root": "outputs",
+      "validation": "outputs/validation_summary.json"
+    },
+    "report": {
+      "community_top_k": 5,
+      "max_communities_in_table": 5,
+      "max_pages": 4,
+      "min_pages": 3,
+      "top_n_bridges": 5,
+      "top_n_hubs": 10
+    },
+    "seed": 42,
+    "split": {
+      "stratify": true,
+      "test_fraction": 0.2,
+      "train_fraction": 0.8
+    },
+    "visualization": {
+      "cdn_resources": "in_line",
+      "edge_width_min": 0.5,
+      "edge_width_scale": 6.0,
+      "height": "800px",
+      "node_size_base": 6.0,
+      "node_size_scale": 1.0,
+      "width": "100%"
+    }
+  },
+  "garam_masala_acceptance_diagnostic": {
+    "dataset_string_variant_ground": {
+      "actual_prediction": "indian",
+      "diagnostic": {
+        "fallback": null,
+        "normalized_input": [
+          "garam masala",
+          "ground cumin",
+          "ground turmeric"
+        ],
+        "per_cuisine": {
+          "indian": {
+            "inputs_in_backbone_vocab": [
+              "garam masala",
+              "ground cumin",
+              "ground turmeric"
+            ],
+            "matched_pairs": [
+              {
+                "NPMI": 0.1169054772252351,
+                "pair": [
+                  "garam masala",
+                  "ground cumin"
+                ]
+              },
+              {
+                "NPMI": 0.141231677527746,
+                "pair": [
+                  "garam masala",
+                  "ground turmeric"
+                ]
+              },
+              {
+                "NPMI": 0.1865154923854645,
+                "pair": [
+                  "ground cumin",
+                  "ground turmeric"
+                ]
+              }
+            ],
+            "n_matched": 3,
+            "npmi_sum": 0.4446526471384456,
+            "score": 0.4446526471384456,
+            "training_class_count": 2403
+          },
+          "italian": {
+            "inputs_in_backbone_vocab": [
+              "ground cumin"
+            ],
+            "matched_pairs": [],
+            "n_matched": 0,
+            "npmi_sum": 0.0,
+            "score": 0.0,
+            "training_class_count": 6270
+          },
+          "mexican": {
+            "inputs_in_backbone_vocab": [
+              "ground cumin"
+            ],
+            "matched_pairs": [],
+            "n_matched": 0,
+            "npmi_sum": 0.0,
+            "score": 0.0,
+            "training_class_count": 5150
+          }
+        },
+        "prediction": "indian",
+        "priority_order": [
+          "italian",
+          "mexican",
+          "indian"
+        ],
+        "scores": {
+          "indian": 0.4446526471384456,
+          "italian": 0.0,
+          "mexican": 0.0
+        },
+        "variant": "primary"
+      },
+      "input": [
+        "garam masala",
+        "ground cumin",
+        "ground turmeric"
+      ]
+    },
+    "dataset_string_variant_seed": {
+      "actual_prediction": "indian",
+      "diagnostic": {
+        "fallback": null,
+        "normalized_input": [
+          "cumin seed",
+          "garam masala",
+          "ground turmeric"
+        ],
+        "per_cuisine": {
+          "indian": {
+            "inputs_in_backbone_vocab": [
+              "cumin seed",
+              "garam masala",
+              "ground turmeric"
+            ],
+            "matched_pairs": [
+              {
+                "NPMI": 0.1928825921682218,
+                "pair": [
+                  "cumin seed",
+                  "ground turmeric"
+                ]
+              },
+              {
+                "NPMI": 0.141231677527746,
+                "pair": [
+                  "garam masala",
+                  "ground turmeric"
+                ]
+              }
+            ],
+            "n_matched": 2,
+            "npmi_sum": 0.3341142696959678,
+            "score": 0.3341142696959678,
+            "training_class_count": 2403
+          },
+          "italian": {
+            "inputs_in_backbone_vocab": [],
+            "matched_pairs": [],
+            "n_matched": 0,
+            "npmi_sum": 0.0,
+            "score": 0.0,
+            "training_class_count": 6270
+          },
+          "mexican": {
+            "inputs_in_backbone_vocab": [
+              "cumin seed"
+            ],
+            "matched_pairs": [],
+            "n_matched": 0,
+            "npmi_sum": 0.0,
+            "score": 0.0,
+            "training_class_count": 5150
+          }
+        },
+        "prediction": "indian",
+        "priority_order": [
+          "italian",
+          "mexican",
+          "indian"
+        ],
+        "scores": {
+          "indian": 0.3341142696959678,
+          "italian": 0.0,
+          "mexican": 0.0
+        },
+        "variant": "primary"
+      },
+      "input": [
+        "garam masala",
+        "cumin seed",
+        "ground turmeric"
+      ]
+    },
+    "literal_test": {
+      "actual_prediction": "indian",
+      "diagnostic": {
+        "fallback": null,
+        "normalized_input": [
+          "cumin",
+          "garam masala",
+          "turmeric"
+        ],
+        "per_cuisine": {
+          "indian": {
+            "inputs_in_backbone_vocab": [
+              "cumin",
+              "garam masala"
+            ],
+            "matched_pairs": [
+              {
+                "NPMI": 0.1918347594320284,
+                "pair": [
+                  "cumin",
+                  "garam masala"
+                ]
+              }
+            ],
+            "n_matched": 1,
+            "npmi_sum": 0.1918347594320284,
+            "score": 0.1918347594320284,
+            "training_class_count": 2403
+          },
+          "italian": {
+            "inputs_in_backbone_vocab": [],
+            "matched_pairs": [],
+            "n_matched": 0,
+            "npmi_sum": 0.0,
+            "score": 0.0,
+            "training_class_count": 6270
+          },
+          "mexican": {
+            "inputs_in_backbone_vocab": [
+              "cumin"
+            ],
+            "matched_pairs": [],
+            "n_matched": 0,
+            "npmi_sum": 0.0,
+            "score": 0.0,
+            "training_class_count": 5150
+          }
+        },
+        "prediction": "indian",
+        "priority_order": [
+          "italian",
+          "mexican",
+          "indian"
+        ],
+        "scores": {
+          "indian": 0.1918347594320284,
+          "italian": 0.0,
+          "mexican": 0.0
+        },
+        "variant": "primary"
+      },
+      "expected_by_prompt": "indian",
+      "input": [
+        "garam masala",
+        "cumin",
+        "turmeric"
+      ],
+      "matches_expected": true
+    },
+    "probe_terms_vocabulary_check": {
+      "cumin": {
+        "indian": {
+          "in_training_backbone_vocab": true,
+          "in_training_eligible_nodes": true,
+          "training_recipe_count": 146
+        },
+        "italian": {
+          "in_training_backbone_vocab": false,
+          "in_training_eligible_nodes": false,
+          "training_recipe_count": 3
+        },
+        "mexican": {
+          "in_training_backbone_vocab": true,
+          "in_training_eligible_nodes": true,
+          "training_recipe_count": 484
+        }
+      },
+      "cumin seed": {
+        "indian": {
+          "in_training_backbone_vocab": true,
+          "in_training_eligible_nodes": true,
+          "training_recipe_count": 565
+        },
+        "italian": {
+          "in_training_backbone_vocab": false,
+          "in_training_eligible_nodes": false,
+          "training_recipe_count": 4
+        },
+        "mexican": {
+          "in_training_backbone_vocab": true,
+          "in_training_eligible_nodes": true,
+          "training_recipe_count": 71
+        }
+      },
+      "garam masala": {
+        "indian": {
+          "in_training_backbone_vocab": true,
+          "in_training_eligible_nodes": true,
+          "training_recipe_count": 706
+        },
+        "italian": {
+          "in_training_backbone_vocab": false,
+          "in_training_eligible_nodes": false,
+          "training_recipe_count": 1
+        },
+        "mexican": {
+          "in_training_backbone_vocab": false,
+          "in_training_eligible_nodes": false,
+          "training_recipe_count": 0
+        }
+      },
+      "ground cumin": {
+        "indian": {
+          "in_training_backbone_vocab": true,
+          "in_training_eligible_nodes": true,
+          "training_recipe_count": 549
+        },
+        "italian": {
+          "in_training_backbone_vocab": true,
+          "in_training_eligible_nodes": true,
+          "training_recipe_count": 28
+        },
+        "mexican": {
+          "in_training_backbone_vocab": true,
+          "in_training_eligible_nodes": true,
+          "training_recipe_count": 1075
+        }
+      },
+      "ground turmeric": {
+        "indian": {
+          "in_training_backbone_vocab": true,
+          "in_training_eligible_nodes": true,
+          "training_recipe_count": 590
+        },
+        "italian": {
+          "in_training_backbone_vocab": false,
+          "in_training_eligible_nodes": false,
+          "training_recipe_count": 1
+        },
+        "mexican": {
+          "in_training_backbone_vocab": false,
+          "in_training_eligible_nodes": false,
+          "training_recipe_count": 8
+        }
+      },
+      "turmeric": {
+        "indian": {
+          "in_training_backbone_vocab": false,
+          "in_training_eligible_nodes": false,
+          "training_recipe_count": 0
+        },
+        "italian": {
+          "in_training_backbone_vocab": false,
+          "in_training_eligible_nodes": false,
+          "training_recipe_count": 0
+        },
+        "mexican": {
+          "in_training_backbone_vocab": false,
+          "in_training_eligible_nodes": false,
+          "training_recipe_count": 0
+        }
+      }
+    }
+  },
+  "metrics": [
+    {
+      "accuracy": 0.8767361111111112,
+      "f1_indian": 0.8548530721282279,
+      "f1_italian": 0.8937228091982597,
+      "f1_mexican": 0.8650330610657332,
+      "macro_f1": 0.871202980797407,
+      "model": "Fingerprint Scorer",
+      "precision_indian": 0.9177820267686424,
+      "precision_italian": 0.8715151515151515,
+      "precision_mexican": 0.8667186282151208,
+      "recall_indian": 0.8,
+      "recall_italian": 0.9170918367346939,
+      "recall_mexican": 0.8633540372670807,
+      "test_samples": 3456,
+      "tied_score_fallback_count": 0,
+      "zero_score_fallback_count": 139
+    },
+    {
+      "accuracy": 0.4369212962962963,
+      "f1_indian": 0.3952738990332975,
+      "f1_italian": 0.4802321363801233,
+      "f1_mexican": 0.4186655037069342,
+      "macro_f1": 0.43139051304011833,
+      "model": "Fingerprint (normalized ablation)",
+      "precision_indian": 0.29160063391442154,
+      "precision_italian": 0.5567703952901598,
+      "precision_mexican": 0.47761194029850745,
+      "recall_indian": 0.6133333333333333,
+      "recall_italian": 0.4221938775510204,
+      "recall_mexican": 0.37267080745341613,
+      "test_samples": 3456,
+      "tied_score_fallback_count": 0,
+      "zero_score_fallback_count": 139
+    },
+    {
+      "accuracy": 0.9597800925925926,
+      "f1_indian": 0.9624687239366139,
+      "f1_italian": 0.9633343779379505,
+      "f1_mexican": 0.9540047581284695,
+      "macro_f1": 0.9599359533343447,
+      "model": "Naive Bayes",
+      "precision_indian": 0.9632721202003339,
+      "precision_italian": 0.9470117067159581,
+      "precision_mexican": 0.9748784440842788,
+      "recall_indian": 0.9616666666666667,
+      "recall_italian": 0.9802295918367347,
+      "recall_mexican": 0.9340062111801242,
+      "test_samples": 3456,
+      "tied_score_fallback_count": 0,
+      "zero_score_fallback_count": 0
+    }
+  ],
+  "n_randomizations": 1000,
+  "naive_bayes": {
+    "alpha": 1.0,
+    "fit_prior": true,
+    "vocabulary_size": 4105
+  },
+  "normalizer_sha256": "760d350b8906154df72208039266707d9ae2590f2208fae9923aed581220d11d",
+  "phase_runtimes_seconds": {
+    "1_load_and_validate_dataset": 0.301,
+    "2_normalize_ingredients": 0.287,
+    "3_stratified_split": 0.03,
+    "4_build_training_networks_and_backbones": 0.323,
+    "5_fit_naive_bayes_baseline": 0.09,
+    "6_evaluate_models_on_test_split": 0.761,
+    "7_plot_confusion_matrices": 0.675,
+    "8_garam_masala_diagnostic": 0.008,
+    "total_evaluation_seconds": 2.515
+  },
+  "predictions_sha256": {
+    "fingerprint_normalized_ablation": "802f1b8471f275b1d08ed4fb81aa6fa7d1fd9957273f86dfefb3c42cb6ffaba3",
+    "fingerprint_scorer": "43c2d4b5de670f8588e1a8d02107c402c0062801d620e78d02293efd453f6245",
+    "naive_bayes": "cc144f94375ce307c7190ef6937ea42f456dc9c870ec89c115cf24d244ce0d32"
+  },
+  "run_mode": "FULL",
+  "seed": 42,
+  "selected_records": 17279,
+  "split": {
+    "n_test": 3456,
+    "n_train": 13823,
+    "test_class_counts": {
+      "indian": 600,
+      "italian": 1568,
+      "mexican": 1288
+    },
+    "test_ids_sha256": "d6c74a1531544083a0a991333b9cb24acb441f77bd0b9e20f6d70c37551c42b7",
+    "train_class_counts": {
+      "indian": 2403,
+      "italian": 6270,
+      "mexican": 5150
+    },
+    "train_ids_sha256": "b78dcdb9e171eae9937df6ec378814d356cfc1ef042f052015f19e8dc295cd81",
+    "train_test_overlap": 0
+  },
+  "training_backbone_summary": [
+    {
+      "cuisine": "indian",
+      "edges_after": 1466,
+      "edges_before": 18296,
+      "eligible_nodes": 237,
+      "modularity": 0.48978735260750106,
+      "n_communities": 7,
+      "nodes": 237,
+      "pct_retained": 8.012680367293397
+    },
+    {
+      "cuisine": "italian",
+      "edges_after": 2973,
+      "edges_before": 39815,
+      "eligible_nodes": 432,
+      "modularity": 0.4721881456240984,
+      "n_communities": 7,
+      "nodes": 413,
+      "pct_retained": 7.467035037046339
+    },
+    {
+      "cuisine": "mexican",
+      "edges_after": 2223,
+      "edges_before": 35062,
+      "eligible_nodes": 371,
+      "modularity": 0.5052920940405088,
+      "n_communities": 7,
+      "nodes": 350,
+      "pct_retained": 6.340197364668302
+    }
+  ]
+}

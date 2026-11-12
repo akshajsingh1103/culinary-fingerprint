@@ -1,0 +1,44 @@
+{
+  "indian": {
+    "binary": true,
+    "cells_moved": 32513,
+    "col_degrees_preserved": true,
+    "different_seed_differs": true,
+    "n_trades": 15015,
+    "passed": true,
+    "reproducible_same_seed": true,
+    "row_degrees_preserved": true,
+    "shape": [
+      3003,
+      1659
+    ]
+  },
+  "italian": {
+    "binary": true,
+    "cells_moved": 69499,
+    "col_degrees_preserved": true,
+    "different_seed_differs": true,
+    "n_trades": 39190,
+    "passed": true,
+    "reproducible_same_seed": true,
+    "row_degrees_preserved": true,
+    "shape": [
+      7838,
+      2924
+    ]
+  },
+  "mexican": {
+    "binary": true,
+    "cells_moved": 62351,
+    "col_degrees_preserved": true,
+    "different_seed_differs": true,
+    "n_trades": 32190,
+    "passed": true,
+    "reproducible_same_seed": true,
+    "row_degrees_preserved": true,
+    "shape": [
+      6438,
+      2676
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "benchmark_samples": 20,
+  "estimate_label": "ESTIMATE (extrapolated, not a measured full-run time)",
+  "estimated_total_seconds_all_cuisines": 17.48,
+  "numba_compile_seconds": 0.002,
+  "per_cuisine": {
+    "indian": {
+      "attempted_trades": 150150,
+      "burn_in_trades": 30030,
+      "changed_trades": 149818,
+      "eligible_ingredients": 268,
+      "eligible_pairs": 35778,
+      "estimated_full_run_seconds": 3.82,
+      "extrapolation": "t_burn + n_samples * (t_with_20_samples - t_burn)/20",
+      "incidences": 38156,
+      "matrix_shape": [
+        3003,
+        1659
+      ],
+      "measured_burn_in_seconds": 0.027,
+      "measured_per_sample_seconds": 0.00379,
+      "measured_seconds_with_samples": 0.103,
+      "nontrivial_trades": 149988,
+      "observed_pairs": 22284,
+      "thinning_trades": 6006
+    },
+    "italian": {
+      "attempted_trades": 391900,
+      "burn_in_trades": 78380,
+      "changed_trades": 391295,
+      "eligible_ingredients": 487,
+      "eligible_pairs": 118341,
+      "estimated_full_run_seconds": 7.13,
+      "extrapolation": "t_burn + n_samples * (t_with_20_samples - t_burn)/20",
+      "incidences": 77657,
+      "matrix_shape": [
+        7838,
+        2924
+      ],
+      "measured_burn_in_seconds": 0.061,
+      "measured_per_sample_seconds": 0.00707,
+      "measured_seconds_with_samples": 0.202,
+      "nontrivial_trades": 391851,
+      "observed_pairs": 48488,
+      "thinning_trades": 15676
+    },
+    "mexican": {
+      "attempted_trades": 321900,
+      "burn_in_trades": 64380,
+      "changed_trades": 321537,
+      "eligible_ingredients": 423,
+      "eligible_pairs": 89253,
+      "estimated_full_run_seconds": 6.53,
+      "extrapolation": "t_burn + n_samples * (t_with_20_samples - t_burn)/20",
+      "incidences": 70022,
+      "matrix_shape": [
+        6438,
+        2676
+      ],
+      "measured_burn_in_seconds": 0.053,
+      "measured_per_sample_seconds": 0.00648,
+      "measured_seconds_with_samples": 0.182,
+      "nontrivial_trades": 321857,
+      "observed_pairs": 42703,
+      "thinning_trades": 12876
+    }
+  },
+  "target_samples": 1000
+}

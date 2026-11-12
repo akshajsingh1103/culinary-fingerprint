@@ -1,0 +1,135 @@
+{
+  "checks": {
+    "D1_dataset": {
+      "deliverable": "D1: Ingredient Co-Occurrence Network Dataset",
+      "evidence": "nodes=1178 rows (min_count>=20); edges={'indian': 22284, 'italian': 48488, 'mexican': 42703}; merge_log=720 rows.",
+      "required_files": [
+        "outputs/d1_dataset/nodes.csv",
+        "outputs/d1_dataset/edges_indian.csv",
+        "outputs/d1_dataset/edges_italian.csv",
+        "outputs/d1_dataset/edges_mexican.csv",
+        "outputs/d1_dataset/merge_log.csv"
+      ],
+      "status": "PASS"
+    },
+    "D2_backbone": {
+      "deliverable": "D2: Statistically Validated Backbones & PyVis Graphs",
+      "evidence": "mode=FULL (n_null=1000); edges_after={'indian': 1829, 'italian': 3758, 'mexican': 2847}; all z>3 & co>=5=True; edges_after<edges_before=True.",
+      "required_files": [
+        "outputs/d2_backbone/backbone_indian.csv",
+        "outputs/d2_backbone/backbone_italian.csv",
+        "outputs/d2_backbone/backbone_mexican.csv",
+        "outputs/d2_backbone/backbone_summary.csv",
+        "outputs/d2_backbone/graph_indian.html",
+        "outputs/d2_backbone/graph_italian.html",
+        "outputs/d2_backbone/graph_mexican.html"
+      ],
+      "status": "PASS"
+    },
+    "D3_report": {
+      "deliverable": "D3: Hub, Community, Bridge Analysis & Report",
+      "evidence": "report.pdf pages=4 (req 3-4); distinct top-10 hubs=26; bridges rows=15.",
+      "required_files": [
+        "outputs/d3_report/report.pdf",
+        "outputs/d3_report/report.md",
+        "outputs/d3_report/hubs_indian.csv",
+        "outputs/d3_report/hubs_italian.csv",
+        "outputs/d3_report/hubs_mexican.csv",
+        "outputs/d3_report/universal_vs_specific_hubs.csv",
+        "outputs/d3_report/communities_indian.csv",
+        "outputs/d3_report/communities_italian.csv",
+        "outputs/d3_report/communities_mexican.csv",
+        "outputs/d3_report/bridges.csv"
+      ],
+      "status": "PASS"
+    },
+    "D4_scorer": {
+      "deliverable": "D4: Fingerprint Scorer, Naive Bayes Baseline & Evaluation",
+      "evidence": "mode=FULL; Fingerprint acc=0.8767 (macro_f1=0.8712); Ablation acc=0.4369; Naive Bayes acc=0.9598; predict(['garam masala','cumin','turmeric'])='indian' ({'indian': 0.1918347594320284, 'italian': 0.0, 'mexican': 0.0}).",
+      "required_files": [
+        "outputs/d4_scorer/results.csv",
+        "outputs/d4_scorer/confusion_matrix.png",
+        "outputs/d4_scorer/confusion_matrix_nb.png",
+        "outputs/d4_scorer/confusion_matrix_normalized.png",
+        "outputs/d4_scorer/confusion_matrix_normalized_nb.png",
+        "outputs/d4_scorer/evaluation_metadata.json"
+      ],
+      "status": "PASS"
+    },
+    "Poster_outline": {
+      "deliverable": "Poster Outline",
+      "evidence": "exists=True, size=8825 bytes.",
+      "required_files": [
+        "outputs/poster_outline.md"
+      ],
+      "status": "PASS"
+    },
+    "Pytest_suite": {
+      "deliverable": "Automated Pytest Suite (tests/)",
+      "evidence": "pytest exit code=0",
+      "required_files": [
+        "tests/test_d1.py",
+        "tests/test_d2.py",
+        "tests/test_d3.py",
+        "tests/test_fingerprint.py",
+        "tests/test_evaluation.py",
+        "tests/test_no_leakage.py"
+      ],
+      "status": "PASS"
+    }
+  },
+  "full_pipeline_runtimes_seconds": {
+    "phase1_validate_and_preprocess": 1.359,
+    "phase2_deliverable1_networks": 0.47,
+    "phase3_null_model_checks_and_benchmark": 1.053,
+    "phase4_deliverable2_backbones_and_graphs": 20.454,
+    "phase5_deliverable3_analysis_and_report": 3.958,
+    "phase6_deliverable4_evaluation": 16.811,
+    "phase7_poster_outline": 0.038,
+    "phase8_acceptance_validation": 8.264,
+    "total_wall_seconds": 52.411
+  },
+  "invocation_mode": "validate_only",
+  "overall_status": "PASS",
+  "persisted_artifact_runtimes_seconds": {
+    "d2_descriptive_null_chains_seconds": {
+      "indian": 3.756,
+      "italian": 7.319,
+      "mexican": 6.471,
+      "total_chain_seconds": 17.546
+    },
+    "d4_evaluation_phases_seconds": {
+      "1_load_and_validate_dataset": 0.301,
+      "2_normalize_ingredients": 0.287,
+      "3_stratified_split": 0.03,
+      "4_build_training_networks_and_backbones": 0.323,
+      "5_fit_naive_bayes_baseline": 0.09,
+      "6_evaluate_models_on_test_split": 0.761,
+      "7_plot_confusion_matrices": 0.675,
+      "8_garam_masala_diagnostic": 0.008,
+      "total_evaluation_seconds": 2.515
+    },
+    "d4_predictive_null_chains_seconds": {
+      "indian": 2.87,
+      "italian": 5.836,
+      "mexican": 5.401,
+      "total_chain_seconds": 14.107
+    }
+  },
+  "phase_runtimes_seconds": {
+    "phase1_validate_and_preprocess": 1.359,
+    "phase2_deliverable1_networks": 0.47,
+    "phase3_null_model_checks_and_benchmark": 1.053,
+    "phase4_deliverable2_backbones_and_graphs": 20.454,
+    "phase5_deliverable3_analysis_and_report": 3.958,
+    "phase6_deliverable4_evaluation": 16.811,
+    "phase7_poster_outline": 0.038,
+    "phase8_acceptance_validation": 8.264,
+    "total_wall_seconds": 52.411
+  },
+  "run_mode": "FULL",
+  "validate_only_runtimes_seconds": {
+    "phase8_acceptance_validation": 7.333,
+    "total_wall_seconds": 7.333
+  }
+}

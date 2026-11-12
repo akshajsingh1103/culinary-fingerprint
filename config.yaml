@@ -1,0 +1,70 @@
+# Central configuration for The Culinary Fingerprint.
+# All scripts read this file; CLI flags may override selected values and the
+# effective configuration is recorded in the outputs (metadata JSON files).
+
+seed: 42
+
+data:
+  raw_path: data/raw/train.json
+  processed_dir: data/processed
+  cache_dir: data/processed/cache
+
+cuisines: [indian, italian, mexican]   # fixed class order used everywhere
+
+split:
+  train_fraction: 0.80
+  test_fraction: 0.20
+  stratify: true
+
+network:
+  min_ingredient_count: 20      # ingredient kept if recipe_count >= 20 in that cuisine
+  log_base: 2
+
+null_model:
+  algorithm: curveball          # Strona et al. (2014) Curveball, one Markov chain per cuisine
+  n_randomizations: 1000        # samples drawn from the chain (non-1000 => DEBUG run)
+  burn_in_multiplier: 10        # burn-in trades = multiplier * n_recipes (requirement: >= 5)
+  thinning_multiplier: 2        # trades between successive samples = multiplier * n_recipes
+  benchmark_samples: 20         # samples used in the mandatory pre-run benchmark
+  max_acf_lag: 20               # lags reported for the mixing diagnostic
+
+backbone:
+  z_threshold: 3.0              # strict: z_score > 3.0
+  min_co_count: 5               # co_count >= 5
+  zero_variance_policy: exclude # pairs with null std == 0 are never retained
+
+community:
+  algorithm: louvain
+  resolution: 1.0
+  seed: 42
+  weight: npmi_nonnegative      # max(NPMI, 0)
+
+visualization:
+  height: "800px"
+  width: "100%"
+  node_size_base: 6.0           # size = base + scale * prevalence(%)
+  node_size_scale: 1.0
+  edge_width_min: 0.5           # width = min + scale * max(NPMI, 0)
+  edge_width_scale: 6.0
+  cdn_resources: in_line        # embed vis-network JS so HTML works offline
+
+report:
+  min_pages: 3
+  max_pages: 4
+  top_n_hubs: 10
+  top_n_bridges: 5
+  community_top_k: 5
+  max_communities_in_table: 5   # per cuisine in the PDF table; full list in CSV
+
+naive_bayes:
+  alpha: 1.0
+  fit_prior: true
+
+outputs:
+  root: outputs
+  d1: outputs/d1_dataset
+  d2: outputs/d2_backbone
+  d3: outputs/d3_report
+  d4: outputs/d4_scorer
+  poster: outputs/poster_outline.md
+  validation: outputs/validation_summary.json

@@ -1,0 +1,71 @@
+{
+  "backbone": {
+    "min_co_count": 5,
+    "z_threshold": 3.0,
+    "zero_variance_policy": "exclude"
+  },
+  "community": {
+    "algorithm": "louvain",
+    "resolution": 1.0,
+    "seed": 42,
+    "weight": "npmi_nonnegative"
+  },
+  "cuisines": [
+    "indian",
+    "italian",
+    "mexican"
+  ],
+  "data": {
+    "cache_dir": "data/processed/cache",
+    "processed_dir": "data/processed",
+    "raw_path": "data/raw/train.json"
+  },
+  "naive_bayes": {
+    "alpha": 1.0,
+    "fit_prior": true
+  },
+  "network": {
+    "log_base": 2,
+    "min_ingredient_count": 20
+  },
+  "null_model": {
+    "algorithm": "curveball",
+    "benchmark_samples": 20,
+    "burn_in_multiplier": 10,
+    "max_acf_lag": 20,
+    "n_randomizations": 1000,
+    "thinning_multiplier": 2
+  },
+  "outputs": {
+    "d1": "outputs/d1_dataset",
+    "d2": "outputs/d2_backbone",
+    "d3": "outputs/d3_report",
+    "d4": "outputs/d4_scorer",
+    "poster": "outputs/poster_outline.md",
+    "root": "outputs",
+    "validation": "outputs/validation_summary.json"
+  },
+  "report": {
+    "community_top_k": 5,
+    "max_communities_in_table": 5,
+    "max_pages": 4,
+    "min_pages": 3,
+    "top_n_bridges": 5,
+    "top_n_hubs": 10
+  },
+  "seed": 42,
+  "split": {
+    "stratify": true,
+    "test_fraction": 0.2,
+    "train_fraction": 0.8
+  },
+  "visualization": {
+    "cdn_resources": "in_line",
+    "edge_width_min": 0.5,
+    "edge_width_scale": 6.0,
+    "height": "800px",
+    "node_size_base": 6.0,
+    "node_size_scale": 1.0,
+    "width": "100%"
+  }
+}

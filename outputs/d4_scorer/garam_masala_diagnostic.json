@@ -1,0 +1,334 @@
+{
+  "dataset_string_variant_ground": {
+    "actual_prediction": "indian",
+    "diagnostic": {
+      "fallback": null,
+      "normalized_input": [
+        "garam masala",
+        "ground cumin",
+        "ground turmeric"
+      ],
+      "per_cuisine": {
+        "indian": {
+          "inputs_in_backbone_vocab": [
+            "garam masala",
+            "ground cumin",
+            "ground turmeric"
+          ],
+          "matched_pairs": [
+            {
+              "NPMI": 0.1169054772252351,
+              "pair": [
+                "garam masala",
+                "ground cumin"
+              ]
+            },
+            {
+              "NPMI": 0.141231677527746,
+              "pair": [
+                "garam masala",
+                "ground turmeric"
+              ]
+            },
+            {
+              "NPMI": 0.1865154923854645,
+              "pair": [
+                "ground cumin",
+                "ground turmeric"
+              ]
+            }
+          ],
+          "n_matched": 3,
+          "npmi_sum": 0.4446526471384456,
+          "score": 0.4446526471384456,
+          "training_class_count": 2403
+        },
+        "italian": {
+          "inputs_in_backbone_vocab": [
+            "ground cumin"
+          ],
+          "matched_pairs": [],
+          "n_matched": 0,
+          "npmi_sum": 0.0,
+          "score": 0.0,
+          "training_class_count": 6270
+        },
+        "mexican": {
+          "inputs_in_backbone_vocab": [
+            "ground cumin"
+          ],
+          "matched_pairs": [],
+          "n_matched": 0,
+          "npmi_sum": 0.0,
+          "score": 0.0,
+          "training_class_count": 5150
+        }
+      },
+      "prediction": "indian",
+      "priority_order": [
+        "italian",
+        "mexican",
+        "indian"
+      ],
+      "scores": {
+        "indian": 0.4446526471384456,
+        "italian": 0.0,
+        "mexican": 0.0
+      },
+      "variant": "primary"
+    },
+    "input": [
+      "garam masala",
+      "ground cumin",
+      "ground turmeric"
+    ]
+  },
+  "dataset_string_variant_seed": {
+    "actual_prediction": "indian",
+    "diagnostic": {
+      "fallback": null,
+      "normalized_input": [
+        "cumin seed",
+        "garam masala",
+        "ground turmeric"
+      ],
+      "per_cuisine": {
+        "indian": {
+          "inputs_in_backbone_vocab": [
+            "cumin seed",
+            "garam masala",
+            "ground turmeric"
+          ],
+          "matched_pairs": [
+            {
+              "NPMI": 0.1928825921682218,
+              "pair": [
+                "cumin seed",
+                "ground turmeric"
+              ]
+            },
+            {
+              "NPMI": 0.141231677527746,
+              "pair": [
+                "garam masala",
+                "ground turmeric"
+              ]
+            }
+          ],
+          "n_matched": 2,
+          "npmi_sum": 0.3341142696959678,
+          "score": 0.3341142696959678,
+          "training_class_count": 2403
+        },
+        "italian": {
+          "inputs_in_backbone_vocab": [],
+          "matched_pairs": [],
+          "n_matched": 0,
+          "npmi_sum": 0.0,
+          "score": 0.0,
+          "training_class_count": 6270
+        },
+        "mexican": {
+          "inputs_in_backbone_vocab": [
+            "cumin seed"
+          ],
+          "matched_pairs": [],
+          "n_matched": 0,
+          "npmi_sum": 0.0,
+          "score": 0.0,
+          "training_class_count": 5150
+        }
+      },
+      "prediction": "indian",
+      "priority_order": [
+        "italian",
+        "mexican",
+        "indian"
+      ],
+      "scores": {
+        "indian": 0.3341142696959678,
+        "italian": 0.0,
+        "mexican": 0.0
+      },
+      "variant": "primary"
+    },
+    "input": [
+      "garam masala",
+      "cumin seed",
+      "ground turmeric"
+    ]
+  },
+  "literal_test": {
+    "actual_prediction": "indian",
+    "diagnostic": {
+      "fallback": null,
+      "normalized_input": [
+        "cumin",
+        "garam masala",
+        "turmeric"
+      ],
+      "per_cuisine": {
+        "indian": {
+          "inputs_in_backbone_vocab": [
+            "cumin",
+            "garam masala"
+          ],
+          "matched_pairs": [
+            {
+              "NPMI": 0.1918347594320284,
+              "pair": [
+                "cumin",
+                "garam masala"
+              ]
+            }
+          ],
+          "n_matched": 1,
+          "npmi_sum": 0.1918347594320284,
+          "score": 0.1918347594320284,
+          "training_class_count": 2403
+        },
+        "italian": {
+          "inputs_in_backbone_vocab": [],
+          "matched_pairs": [],
+          "n_matched": 0,
+          "npmi_sum": 0.0,
+          "score": 0.0,
+          "training_class_count": 6270
+        },
+        "mexican": {
+          "inputs_in_backbone_vocab": [
+            "cumin"
+          ],
+          "matched_pairs": [],
+          "n_matched": 0,
+          "npmi_sum": 0.0,
+          "score": 0.0,
+          "training_class_count": 5150
+        }
+      },
+      "prediction": "indian",
+      "priority_order": [
+        "italian",
+        "mexican",
+        "indian"
+      ],
+      "scores": {
+        "indian": 0.1918347594320284,
+        "italian": 0.0,
+        "mexican": 0.0
+      },
+      "variant": "primary"
+    },
+    "expected_by_prompt": "indian",
+    "input": [
+      "garam masala",
+      "cumin",
+      "turmeric"
+    ],
+    "matches_expected": true
+  },
+  "probe_terms_vocabulary_check": {
+    "cumin": {
+      "indian": {
+        "in_training_backbone_vocab": true,
+        "in_training_eligible_nodes": true,
+        "training_recipe_count": 146
+      },
+      "italian": {
+        "in_training_backbone_vocab": false,
+        "in_training_eligible_nodes": false,
+        "training_recipe_count": 3
+      },
+      "mexican": {
+        "in_training_backbone_vocab": true,
+        "in_training_eligible_nodes": true,
+        "training_recipe_count": 484
+      }
+    },
+    "cumin seed": {
+      "indian": {
+        "in_training_backbone_vocab": true,
+        "in_training_eligible_nodes": true,
+        "training_recipe_count": 565
+      },
+      "italian": {
+        "in_training_backbone_vocab": false,
+        "in_training_eligible_nodes": false,
+        "training_recipe_count": 4
+      },
+      "mexican": {
+        "in_training_backbone_vocab": true,
+        "in_training_eligible_nodes": true,
+        "training_recipe_count": 71
+      }
+    },
+    "garam masala": {
+      "indian": {
+        "in_training_backbone_vocab": true,
+        "in_training_eligible_nodes": true,
+        "training_recipe_count": 706
+      },
+      "italian": {
+        "in_training_backbone_vocab": false,
+        "in_training_eligible_nodes": false,
+        "training_recipe_count": 1
+      },
+      "mexican": {
+        "in_training_backbone_vocab": false,
+        "in_training_eligible_nodes": false,
+        "training_recipe_count": 0
+      }
+    },
+    "ground cumin": {
+      "indian": {
+        "in_training_backbone_vocab": true,
+        "in_training_eligible_nodes": true,
+        "training_recipe_count": 549
+      },
+      "italian": {
+        "in_training_backbone_vocab": true,
+        "in_training_eligible_nodes": true,
+        "training_recipe_count": 28
+      },
+      "mexican": {
+        "in_training_backbone_vocab": true,
+        "in_training_eligible_nodes": true,
+        "training_recipe_count": 1075
+      }
+    },
+    "ground turmeric": {
+      "indian": {
+        "in_training_backbone_vocab": true,
+        "in_training_eligible_nodes": true,
+        "training_recipe_count": 590
+      },
+      "italian": {
+        "in_training_backbone_vocab": false,
+        "in_training_eligible_nodes": false,
+        "training_recipe_count": 1
+      },
+      "mexican": {
+        "in_training_backbone_vocab": false,
+        "in_training_eligible_nodes": false,
+        "training_recipe_count": 8
+      }
+    },
+    "turmeric": {
+      "indian": {
+        "in_training_backbone_vocab": false,
+        "in_training_eligible_nodes": false,
+        "training_recipe_count": 0
+      },
+      "italian": {
+        "in_training_backbone_vocab": false,
+        "in_training_eligible_nodes": false,
+        "training_recipe_count": 0
+      },
+      "mexican": {
+        "in_training_backbone_vocab": false,
+        "in_training_eligible_nodes": false,
+        "training_recipe_count": 0
+      }
+    }
+  }
+}

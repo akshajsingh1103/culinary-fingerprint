@@ -1,0 +1,27 @@
+{
+  "min_ingredient_count": 20,
+  "per_cuisine": {
+    "indian": {
+      "distinct_ingredients": 1659,
+      "edges": 22284,
+      "edges_negative_npmi": 8109,
+      "eligible_nodes": 268,
+      "recipes": 3003
+    },
+    "italian": {
+      "distinct_ingredients": 2924,
+      "edges": 48488,
+      "edges_negative_npmi": 14514,
+      "eligible_nodes": 487,
+      "recipes": 7838
+    },
+    "mexican": {
+      "distinct_ingredients": 2676,
+      "edges": 42703,
+      "edges_negative_npmi": 13162,
+      "eligible_nodes": 423,
+      "recipes": 6438
+    }
+  },
+  "scope": "descriptive (all selected recipes)"
+}

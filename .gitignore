@@ -1,0 +1,13 @@
+# Virtual environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.numba_cache/
+data/raw/__MACOSX/
+data/processed/cache/
+
+data/raw/
+data/raw/
+data/processed/recipes_normalized.json
+data/processed/cache/

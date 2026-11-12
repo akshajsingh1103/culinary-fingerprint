@@ -1,0 +1,271 @@
+{
+  "cuisine_counts": {
+    "indian": 3003,
+    "italian": 7838,
+    "mexican": 6438
+  },
+  "dataset": {
+    "all_cuisine_counts": {
+      "brazilian": 467,
+      "british": 804,
+      "cajun_creole": 1546,
+      "chinese": 2673,
+      "filipino": 755,
+      "french": 2646,
+      "greek": 1175,
+      "indian": 3003,
+      "irish": 667,
+      "italian": 7838,
+      "jamaican": 526,
+      "japanese": 1423,
+      "korean": 830,
+      "mexican": 6438,
+      "moroccan": 821,
+      "russian": 489,
+      "southern_us": 4320,
+      "spanish": 989,
+      "thai": 1539,
+      "vietnamese": 825
+    },
+    "duplicate_ids": 0,
+    "exists": true,
+    "json_parse_ok": true,
+    "malformed_examples": [],
+    "malformed_records": 0,
+    "other_cuisine_records": 22495,
+    "path": "data\\raw\\train.json",
+    "sha256": "f18e7e568d1c606774bfb134ece51ef0a143cd5069e6f9241bb6036b45b7d2b0",
+    "size_bytes": 12415067,
+    "target_counts": {
+      "indian": 3003,
+      "italian": 7838,
+      "mexican": 6438
+    },
+    "total_records": 39774
+  },
+  "distinct_names": {
+    "after_format_cleanup(lowercase/whitespace/unicode)": 4408,
+    "after_lowercase": 4409,
+    "after_singularize": 4407,
+    "after_synonym": 4402,
+    "after_unicode": 4415,
+    "after_whitespace": 4408,
+    "final": 4402,
+    "raw": 4416
+  },
+  "duplicate_occurrences_removed": 17,
+  "full_dataset_audit": {
+    "distinct_after_basic_lowercase_whitespace": 6703,
+    "distinct_raw_strings": 6714,
+    "formatting_equivalent_groups": {
+      "braeburn apple": [
+        "Braeburn Apple",
+        "braeburn apple"
+      ],
+      "burgundy wine": [
+        "Burgundy wine",
+        "burgundy wine"
+      ],
+      "cointreau liqueur": [
+        "Cointreau Liqueur",
+        "cointreau liqueur"
+      ],
+      "crispy rice cereal": [
+        "Crispy Rice Cereal",
+        "crispy rice cereal"
+      ],
+      "knorr chicken flavor bouillon": [
+        "Knorr Chicken Flavor Bouillon",
+        "knorr chicken flavor bouillon"
+      ],
+      "louisiana hot sauce": [
+        "Louisiana Hot Sauce",
+        "louisiana hot sauce"
+      ],
+      "pace picante sauce": [
+        "Pace Picante Sauce",
+        "pace picante sauce"
+      ],
+      "pepperidge farm puff pastry sheets": [
+        "Pepperidge Farm Puff Pastry Sheets",
+        "pepperidge farm puff pastry sheets"
+      ],
+      "shredded monterey jack cheese": [
+        "shredded Monterey Jack cheese",
+        "shredded monterey jack cheese"
+      ],
+      "smithfield ham": [
+        "Smithfield Ham",
+        "smithfield ham"
+      ],
+      "swanson chicken broth": [
+        "Swanson Chicken Broth",
+        "swanson chicken broth"
+      ]
+    },
+    "formatting_equivalent_groups_count": 11,
+    "leading_or_trailing_whitespace_names": 0,
+    "recipes_with_duplicates_after_basic_cleanup": 5,
+    "repeated_internal_whitespace_names": 7,
+    "total_ingredient_occurrences": 428275,
+    "total_recipes": 39774,
+    "uppercase_or_mixed_case_names": 499
+  },
+  "ingredient_occurrences_raw": 185852,
+  "merge_log_rows": 720,
+  "merged_groups_count": 14,
+  "merged_groups_examples": {
+    "asafoetida": [
+      "asafetida",
+      "asafoetida"
+    ],
+    "bartlett pear": [
+      "Bartlett Pear",
+      "bartlett pears"
+    ],
+    "breakstone's sour cream": [
+      "BREAKSTONE'S Sour Cream",
+      "Breakstone’s Sour Cream"
+    ],
+    "chaat masala": [
+      "chaat masala",
+      "chat masala"
+    ],
+    "chickpea": [
+      "chickpeas",
+      "garbanzo beans"
+    ],
+    "crispy rice cereal": [
+      "Crispy Rice Cereal",
+      "crispy rice cereal"
+    ],
+    "cumin seed": [
+      "cumin seed",
+      "cuminseed"
+    ],
+    "green onion": [
+      "green onions",
+      "scallions"
+    ],
+    "kahlua": [
+      "kahlua",
+      "kahlúa"
+    ],
+    "knorr chicken flavor bouillon": [
+      "Knorr Chicken Flavor Bouillon",
+      "knorr chicken flavor bouillon"
+    ],
+    "old el paso taco seasoning mix": [
+      "Old El Paso Taco Seasoning Mix",
+      "Old El Paso™ taco seasoning mix"
+    ],
+    "pace picante sauce": [
+      "Pace Picante Sauce",
+      "pace picante sauce"
+    ],
+    "shredded monterey jack cheese": [
+      "shredded Monterey Jack cheese",
+      "shredded monterey jack cheese"
+    ],
+    "swanson chicken broth": [
+      "Swanson Chicken Broth",
+      "swanson chicken broth"
+    ]
+  },
+  "names_changed_per_rule": {
+    "lowercase": 295,
+    "singularize": 421,
+    "synonym": 5,
+    "unicode": 62,
+    "whitespace": 51
+  },
+  "plural_whitelist_size": 71,
+  "raw_names_in_merged_groups": 28,
+  "recipes_affected_per_rule": {
+    "lowercase": 1726,
+    "singularize": 13275,
+    "synonym": 382,
+    "unicode": 336,
+    "whitespace": 131
+  },
+  "recipes_selected": 17279,
+  "recipes_with_duplicates_after_normalization": 4,
+  "rule_examples": {
+    "lowercase": [
+      "7 Up -> 7 up",
+      "Adobo All Purpose Seasoning -> adobo all purpose seasoning",
+      "Alfredo sauce -> alfredo sauce",
+      "Amaretti Cookies -> amaretti cookies",
+      "American cheese -> american cheese",
+      "Anaheim chile -> anaheim chile"
+    ],
+    "singularize": [
+      "(14.5 oz.) diced tomatoes -> (14.5 oz.) diced tomato",
+      "Azteca Flour Tortillas -> azteca flour tortilla",
+      "Eggland's Best® eggs -> eggland's best egg",
+      "French lentils -> french lentil",
+      "Green Giant™ sliced mushrooms -> green giant sliced mushroom",
+      "Haas avocados -> haas avocado"
+    ],
+    "synonym": [
+      "asafetida -> asafoetida",
+      "chat masala -> chaat masala",
+      "cuminseed -> cumin seed",
+      "garbanzo beans -> chickpea",
+      "scallions -> green onion"
+    ],
+    "unicode": [
+      "Bertolli® Alfredo Sauce -> bertolli alfredo sauce",
+      "Bertolli® Arrabbiata Sauce -> bertolli arrabbiata sauce",
+      "Bertolli® Classico Olive Oil -> bertolli classico olive oil",
+      "Best Foods® Real Mayonnaise -> best foods real mayonnaise",
+      "Breakstone’s Sour Cream -> breakstone's sour cream",
+      "Country Crock® Spread -> country crock spread"
+    ],
+    "whitespace": [
+      "(    oz.) tomato sauce -> ( oz.) tomato sauce",
+      "(   oz.) tomato paste -> ( oz.) tomato paste",
+      "Bertolli® Alfredo Sauce -> bertolli alfredo sauce",
+      "Bertolli® Arrabbiata Sauce -> bertolli arrabbiata sauce",
+      "Bertolli® Classico Olive Oil -> bertolli classico olive oil",
+      "Best Foods® Real Mayonnaise -> best foods real mayonnaise"
+    ]
+  },
+  "synonym_dictionary": {
+    "asafetida": {
+      "rationale": "alternative spelling of the same spice (Ferula resin)",
+      "raw_names_mapped": [
+        "asafetida"
+      ],
+      "target": "asafoetida"
+    },
+    "chat masala": {
+      "rationale": "transliteration variant of the same spice blend",
+      "raw_names_mapped": [
+        "chat masala"
+      ],
+      "target": "chaat masala"
+    },
+    "cuminseed": {
+      "rationale": "spacing variant of 'cumin seed'",
+      "raw_names_mapped": [
+        "cuminseed"
+      ],
+      "target": "cumin seed"
+    },
+    "garbanzo beans": {
+      "rationale": "garbanzo and chickpea are two names for the same legume, Cicer arietinum",
+      "raw_names_mapped": [
+        "garbanzo beans"
+      ],
+      "target": "chickpea"
+    },
+    "scallion": {
+      "rationale": "US/UK names for the same young Allium (A. fistulosum / immature A. cepa) sold as one product",
+      "raw_names_mapped": [
+        "scallions"
+      ],
+      "target": "green onion"
+    }
+  }
+}
