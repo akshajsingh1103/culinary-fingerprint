@@ -2,12 +2,15 @@
 .venv/
 __pycache__/
 *.py[cod]
+*.nbc
+*.nbi
 .pytest_cache/
 .numba_cache/
-data/raw/__MACOSX/
-data/processed/cache/
 
+# Raw data and regenerable intermediate/null-model caches
 data/raw/
-data/raw/
+data/raw/__MACOSX/
 data/processed/recipes_normalized.json
 data/processed/cache/
+outputs/d4_experiments/cache/
+outputs/d4_experiments/phase3/cache/
