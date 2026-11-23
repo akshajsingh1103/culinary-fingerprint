@@ -234,7 +234,6 @@ All predictive artifacts are built strictly from the **13,823 training recipes**
 
 ```text
 culinary-fingerprint/
-├── archive/                  # Archived exploratory scripts, old README, cleanup plan, UI screenshots
 ├── data/
 │   ├── processed/            # Frozen 80/20 split (split.json) & normalized corpus cache
 │   └── raw/                  # Raw Kaggle train.json (gitignored)
