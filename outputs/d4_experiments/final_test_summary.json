@@ -1,0 +1,1079 @@
+{
+  "bootstrap_ci": {
+    "models": {
+      "M0: Original Fingerprint Scorer": {
+        "accuracy_ci95": [
+          0.8654441550925925,
+          0.8880208333333334
+        ],
+        "accuracy_mean": 0.8768790509259259,
+        "macro_f1_ci95": [
+          0.8582650559140476,
+          0.883419039876594
+        ],
+        "macro_f1_mean": 0.8712552690847608
+      },
+      "M1: Naive Bayes": {
+        "accuracy_ci95": [
+          0.953125,
+          0.9658637152777778
+        ],
+        "accuracy_mean": 0.9596754918981482,
+        "macro_f1_ci95": [
+          0.9529917505558091,
+          0.966101154584031
+        ],
+        "macro_f1_mean": 0.9597642226781518
+      },
+      "M4: Full Stack (NB + network features)": {
+        "accuracy_ci95": [
+          0.9525462962962963,
+          0.9652777777777778
+        ],
+        "accuracy_mean": 0.9588512731481481,
+        "macro_f1_ci95": [
+          0.9524891161481188,
+          0.9657269258049953
+        ],
+        "macro_f1_mean": 0.9590650827982301
+      },
+      "M5: Network-Only Fingerprint Scorer v2": {
+        "accuracy_ci95": [
+          0.9328703703703703,
+          0.9487847222222222
+        ],
+        "accuracy_mean": 0.9410523726851853,
+        "macro_f1_ci95": [
+          0.9309588061073836,
+          0.9477471905882763
+        ],
+        "macro_f1_mean": 0.9396154539330864
+      }
+    },
+    "n_boot": 2000,
+    "pairwise_differences": {
+      "M0: Original Fingerprint Scorer minus M1: Naive Bayes": {
+        "delta_accuracy_ci95": [
+          -0.09432870370370372,
+          -0.07204861111111116
+        ],
+        "delta_accuracy_mean": -0.08279644097222223,
+        "delta_macro_f1_ci95": [
+          -0.10131938474966148,
+          -0.07665190652890855
+        ],
+        "delta_macro_f1_mean": -0.088508953593391
+      },
+      "M0: Original Fingerprint Scorer minus M4: Full Stack (NB + network features)": {
+        "delta_accuracy_ci95": [
+          -0.09346064814814814,
+          -0.07118055555555558
+        ],
+        "delta_accuracy_mean": -0.08197222222222222,
+        "delta_macro_f1_ci95": [
+          -0.10066757846697515,
+          -0.07583560459978403
+        ],
+        "delta_macro_f1_mean": -0.08780981371346942
+      },
+      "M0: Original Fingerprint Scorer minus M5: Network-Only Fingerprint Scorer v2": {
+        "delta_accuracy_ci95": [
+          -0.07523148148148151,
+          -0.05353009259259267
+        ],
+        "delta_accuracy_mean": -0.06417332175925927,
+        "delta_macro_f1_ci95": [
+          -0.08043942387504,
+          -0.056640717979899724
+        ],
+        "delta_macro_f1_mean": -0.06836018484832565
+      },
+      "M1: Naive Bayes minus M4: Full Stack (NB + network features)": {
+        "delta_accuracy_ci95": [
+          -0.00347222222222221,
+          0.00520833333333337
+        ],
+        "delta_accuracy_mean": 0.0008242187500000005,
+        "delta_macro_f1_ci95": [
+          -0.003976976549217123,
+          0.005606810776359402
+        ],
+        "delta_macro_f1_mean": 0.000699139879921563
+      },
+      "M1: Naive Bayes minus M5: Network-Only Fingerprint Scorer v2": {
+        "delta_accuracy_ci95": [
+          0.01157407407407407,
+          0.02604166666666663
+        ],
+        "delta_accuracy_mean": 0.01862311921296296,
+        "delta_macro_f1_ci95": [
+          0.012325297210670674,
+          0.028147628445858875
+        ],
+        "delta_macro_f1_mean": 0.02014876874506536
+      },
+      "M4: Full Stack (NB + network features) minus M5: Network-Only Fingerprint Scorer v2": {
+        "delta_accuracy_ci95": [
+          0.01099537037037035,
+          0.02459490740740744
+        ],
+        "delta_accuracy_mean": 0.017798900462962963,
+        "delta_macro_f1_ci95": [
+          0.01186539475884121,
+          0.026846935255515618
+        ],
+        "delta_macro_f1_mean": 0.0194496288651438
+      }
+    },
+    "seed": 42
+  },
+  "confusion_matrices": {
+    "M0: Original Fingerprint Scorer": [
+      [
+        480,
+        57,
+        63
+      ],
+      [
+        22,
+        1438,
+        108
+      ],
+      [
+        21,
+        155,
+        1112
+      ]
+    ],
+    "M1: Naive Bayes": [
+      [
+        577,
+        15,
+        8
+      ],
+      [
+        8,
+        1537,
+        23
+      ],
+      [
+        14,
+        71,
+        1203
+      ]
+    ],
+    "M4: Full Stack (NB + network features)": [
+      [
+        576,
+        11,
+        13
+      ],
+      [
+        10,
+        1527,
+        31
+      ],
+      [
+        11,
+        66,
+        1211
+      ]
+    ],
+    "M5: Network-Only Fingerprint Scorer v2": [
+      [
+        548,
+        24,
+        28
+      ],
+      [
+        13,
+        1514,
+        41
+      ],
+      [
+        9,
+        88,
+        1191
+      ]
+    ],
+    "cuisines_order": [
+      "indian",
+      "italian",
+      "mexican"
+    ]
+  },
+  "dataset_sha256": "f18e7e568d1c606774bfb134ece51ef0a143cd5069e6f9241bb6036b45b7d2b0",
+  "evaluation_protocol": "ONE-TIME FINAL HELD-OUT TEST EVALUATION (3,456 test recipes; trained on 13,823 training recipes)",
+  "full_training_backbone_source": "C:\\Users\\Akshaj\\Documents\\culinary-fingerprint\\outputs\\d4_scorer\\training_artifacts",
+  "full_training_curveball_n_randomizations": 1000,
+  "full_training_d3_summary": {
+    "backbone_edges": {
+      "indian": 1466,
+      "italian": 2973,
+      "mexican": 2223
+    },
+    "backbone_nodes": {
+      "indian": 237,
+      "italian": 413,
+      "mexican": 350
+    },
+    "bridge_candidate_counts": {
+      "indian-italian": 113,
+      "indian-mexican": 123,
+      "italian-mexican": 161
+    },
+    "bridge_table_rows": [
+      {
+        "bridge_score": 7.130956227631256,
+        "cuisine_pair": "indian-italian",
+        "ingredient": "bay leaf",
+        "prevalence_a": 4.119850187265918,
+        "prevalence_b": 1.674641148325359,
+        "rank": 1,
+        "weighted_degree_a": 9.25098158096393,
+        "weighted_degree_b": 7.130956227631256
+      },
+      {
+        "bridge_score": 5.602283779205404,
+        "cuisine_pair": "indian-italian",
+        "ingredient": "heavy cream",
+        "prevalence_a": 3.703703703703704,
+        "prevalence_b": 3.9074960127591702,
+        "rank": 2,
+        "weighted_degree_a": 5.926275658653207,
+        "weighted_degree_b": 5.602283779205404
+      },
+      {
+        "bridge_score": 5.526253646575403,
+        "cuisine_pair": "indian-italian",
+        "ingredient": "onion",
+        "prevalence_a": 39.866833125260094,
+        "prevalence_b": 15.629984051036685,
+        "rank": 3,
+        "weighted_degree_a": 5.526253646575403,
+        "weighted_degree_b": 13.447549569442423
+      },
+      {
+        "bridge_score": 5.462771582733217,
+        "cuisine_pair": "indian-italian",
+        "ingredient": "garlic",
+        "prevalence_a": 24.178110694964627,
+        "prevalence_b": 18.915470494417864,
+        "rank": 4,
+        "weighted_degree_a": 5.462771582733217,
+        "weighted_degree_b": 10.016558022896204
+      },
+      {
+        "bridge_score": 5.418410420407435,
+        "cuisine_pair": "indian-italian",
+        "ingredient": "bay leaves",
+        "prevalence_a": 3.57885975863504,
+        "prevalence_b": 1.2599681020733653,
+        "rank": 5,
+        "weighted_degree_a": 5.418410420407435,
+        "weighted_degree_b": 8.335581400695705
+      },
+      {
+        "bridge_score": 7.793343401595635,
+        "cuisine_pair": "indian-mexican",
+        "ingredient": "clove",
+        "prevalence_a": 10.486891385767793,
+        "prevalence_b": 0.8543689320388349,
+        "rank": 1,
+        "weighted_degree_a": 11.882995948622677,
+        "weighted_degree_b": 7.793343401595635
+      },
+      {
+        "bridge_score": 7.756891929401805,
+        "cuisine_pair": "indian-mexican",
+        "ingredient": "cinnamon sticks",
+        "prevalence_a": 8.572617561381607,
+        "prevalence_b": 1.145631067961165,
+        "rank": 2,
+        "weighted_degree_a": 9.286538134988756,
+        "weighted_degree_b": 7.756891929401805
+      },
+      {
+        "bridge_score": 6.621775048173855,
+        "cuisine_pair": "indian-mexican",
+        "ingredient": "cinnamon",
+        "prevalence_a": 5.534748231377445,
+        "prevalence_b": 1.1650485436893203,
+        "rank": 3,
+        "weighted_degree_a": 6.621775048173855,
+        "weighted_degree_b": 6.678001236537739
+      },
+      {
+        "bridge_score": 6.4242113475611395,
+        "cuisine_pair": "indian-mexican",
+        "ingredient": "black peppercorn",
+        "prevalence_a": 4.327923429047025,
+        "prevalence_b": 0.8349514563106796,
+        "rank": 4,
+        "weighted_degree_a": 6.4242113475611395,
+        "weighted_degree_b": 7.873079828065807
+      },
+      {
+        "bridge_score": 5.924497343140803,
+        "cuisine_pair": "indian-mexican",
+        "ingredient": "paprika",
+        "prevalence_a": 6.325426550145651,
+        "prevalence_b": 3.2815533980582523,
+        "rank": 5,
+        "weighted_degree_a": 5.924497343140803,
+        "weighted_degree_b": 6.914658223342917
+      },
+      {
+        "bridge_score": 10.089217006161183,
+        "cuisine_pair": "italian-mexican",
+        "ingredient": "dried oregano",
+        "prevalence_a": 7.862838915470494,
+        "prevalence_b": 7.922330097087379,
+        "rank": 1,
+        "weighted_degree_a": 10.870301723045973,
+        "weighted_degree_b": 10.089217006161183
+      },
+      {
+        "bridge_score": 9.617271583553633,
+        "cuisine_pair": "italian-mexican",
+        "ingredient": "baking powder",
+        "prevalence_a": 2.360446570972887,
+        "prevalence_b": 2.5242718446601944,
+        "rank": 2,
+        "weighted_degree_a": 12.56921655237584,
+        "weighted_degree_b": 9.617271583553633
+      },
+      {
+        "bridge_score": 8.992473366695082,
+        "cuisine_pair": "italian-mexican",
+        "ingredient": "all-purpose flour",
+        "prevalence_a": 11.61084529505582,
+        "prevalence_b": 5.184466019417476,
+        "rank": 3,
+        "weighted_degree_a": 12.502909652524819,
+        "weighted_degree_b": 8.992473366695082
+      },
+      {
+        "bridge_score": 8.788503385377377,
+        "cuisine_pair": "italian-mexican",
+        "ingredient": "garlic cloves",
+        "prevalence_a": 20.59011164274322,
+        "prevalence_b": 14.368932038834952,
+        "rank": 4,
+        "weighted_degree_a": 8.788503385377377,
+        "weighted_degree_b": 9.33783788364035
+      },
+      {
+        "bridge_score": 8.522843916587897,
+        "cuisine_pair": "italian-mexican",
+        "ingredient": "garlic",
+        "prevalence_a": 18.915470494417864,
+        "prevalence_b": 20.81553398058253,
+        "rank": 5,
+        "weighted_degree_a": 10.016558022896204,
+        "weighted_degree_b": 8.522843916587897
+      }
+    ],
+    "bridges_per_cuisine": {
+      "indian": [
+        "bay leaf",
+        "bay leaves",
+        "black peppercorn",
+        "cinnamon",
+        "cinnamon sticks",
+        "clove",
+        "garlic",
+        "heavy cream",
+        "onion",
+        "paprika"
+      ],
+      "italian": [
+        "all-purpose flour",
+        "baking powder",
+        "bay leaf",
+        "bay leaves",
+        "dried oregano",
+        "garlic",
+        "garlic cloves",
+        "heavy cream",
+        "onion"
+      ],
+      "mexican": [
+        "all-purpose flour",
+        "baking powder",
+        "black peppercorn",
+        "cinnamon",
+        "cinnamon sticks",
+        "clove",
+        "dried oregano",
+        "garlic",
+        "garlic cloves",
+        "paprika"
+      ]
+    },
+    "hubs_top10": {
+      "indian": [
+        "bay leaf",
+        "cinnamon sticks",
+        "clove",
+        "garlic paste",
+        "green cardamom",
+        "green chilies",
+        "mace",
+        "oil",
+        "red chili powder",
+        "star anise"
+      ],
+      "italian": [
+        "all-purpose flour",
+        "baking powder",
+        "carrot",
+        "cooking spray",
+        "dried basil",
+        "dry white wine",
+        "onion",
+        "sugar",
+        "tomato paste",
+        "vanilla extract"
+      ],
+      "mexican": [
+        "all-purpose flour",
+        "ancho chile pepper",
+        "baking powder",
+        "cumin",
+        "dried oregano",
+        "garlic cloves",
+        "ground cinnamon",
+        "ground cumin",
+        "oregano",
+        "white onion"
+      ]
+    },
+    "n_communities": {
+      "indian": 7,
+      "italian": 7,
+      "mexican": 7
+    }
+  },
+  "full_training_nb_vocab_size": 4105,
+  "full_training_union_backbone_pairs_count": 6149,
+  "inner_crossfit_builds": [
+    {
+      "inner_fold": 0,
+      "n_backbone_pairs": 3987,
+      "n_communities": {
+        "indian": 7,
+        "italian": 7,
+        "mexican": 7
+      },
+      "n_inner_train": 9215,
+      "n_inner_val": 4608,
+      "runtime_seconds": 2.788
+    },
+    {
+      "inner_fold": 1,
+      "n_backbone_pairs": 4031,
+      "n_communities": {
+        "indian": 7,
+        "italian": 7,
+        "mexican": 6
+      },
+      "n_inner_train": 9215,
+      "n_inner_val": 4608,
+      "runtime_seconds": 2.305
+    },
+    {
+      "inner_fold": 2,
+      "n_backbone_pairs": 3907,
+      "n_communities": {
+        "indian": 7,
+        "italian": 8,
+        "mexican": 6
+      },
+      "n_inner_train": 9216,
+      "n_inner_val": 4607,
+      "runtime_seconds": 2.291
+    }
+  ],
+  "inner_crossfit_curveball_n_randomizations": 50,
+  "inner_crossfit_n_splits": 3,
+  "meta_model_tuning": {
+    "M4_inner_cv_curve": {
+      "0.01": {
+        "accuracy_mean": 0.9495770796402816,
+        "macro_f1_mean": 0.9477077116025945
+      },
+      "0.05": {
+        "accuracy_mean": 0.9544964065602665,
+        "macro_f1_mean": 0.9531542913908129
+      },
+      "0.1": {
+        "accuracy_mean": 0.9565219323302302,
+        "macro_f1_mean": 0.9554233069186103
+      },
+      "0.25": {
+        "accuracy_mean": 0.9573176970280732,
+        "macro_f1_mean": 0.9563723669864737
+      },
+      "0.5": {
+        "accuracy_mean": 0.9578963222230262,
+        "macro_f1_mean": 0.9573358450990334
+      },
+      "1.0": {
+        "accuracy_mean": 0.9580410609559525,
+        "macro_f1_mean": 0.9575320591545181
+      },
+      "10.0": {
+        "accuracy_mean": 0.9571004633146821,
+        "macro_f1_mean": 0.9564402803391451
+      },
+      "2.0": {
+        "accuracy_mean": 0.9576069075641737,
+        "macro_f1_mean": 0.9570132283013172
+      },
+      "5.0": {
+        "accuracy_mean": 0.9571004633146821,
+        "macro_f1_mean": 0.9564402803391451
+      }
+    },
+    "M4_selected_C": 1.0,
+    "M5_inner_cv_curve": {
+      "0.01": {
+        "accuracy_mean": 0.9369895989094695,
+        "macro_f1_mean": 0.9342172264297238
+      },
+      "0.05": {
+        "accuracy_mean": 0.9380022989874508,
+        "macro_f1_mean": 0.9355817810619507
+      },
+      "0.1": {
+        "accuracy_mean": 0.9376405777691356,
+        "macro_f1_mean": 0.9354889710505043
+      },
+      "0.25": {
+        "accuracy_mean": 0.9380745898451632,
+        "macro_f1_mean": 0.9360625994191429
+      },
+      "0.5": {
+        "accuracy_mean": 0.9380745898451632,
+        "macro_f1_mean": 0.9360905402455778
+      },
+      "1.0": {
+        "accuracy_mean": 0.938363941697015,
+        "macro_f1_mean": 0.936547052089047
+      },
+      "10.0": {
+        "accuracy_mean": 0.9380745270381626,
+        "macro_f1_mean": 0.9361374118043458
+      },
+      "2.0": {
+        "accuracy_mean": 0.9382192814728393,
+        "macro_f1_mean": 0.9363181848213533
+      },
+      "5.0": {
+        "accuracy_mean": 0.9380745270381626,
+        "macro_f1_mean": 0.9361374118043458
+      }
+    },
+    "M5_selected_C": 1.0
+  },
+  "n_test_recipes": 3456,
+  "n_train_recipes": 13823,
+  "normalizer_sha256": "760d350b8906154df72208039266707d9ae2590f2208fae9923aed581220d11d",
+  "paired_comparisons": {
+    "M4 vs M1": {
+      "bootstrap_delta_accuracy_ci95": [
+        -0.00520833333333337,
+        0.00347222222222221
+      ],
+      "bootstrap_delta_macro_f1_ci95": [
+        -0.005606810776359402,
+        0.003976976549217123
+      ],
+      "comparison": "M4 (Full Stack: NB + network features) vs. M1 (Naive Bayes)",
+      "delta_accuracy": -0.0008680555555554692,
+      "delta_macro_f1": -0.0007279819728598369,
+      "f1_diffs": {
+        "indian": -6.270889901993648e-05,
+        "italian": -0.0005348823515697321,
+        "mexican": -0.0015863546679897311
+      },
+      "macro_f1_ci_includes_zero": true,
+      "mcnemar": {
+        "a_right_b_wrong": 27,
+        "a_wrong_b_right": 30,
+        "both_correct": 3287,
+        "both_wrong": 112,
+        "chi2_continuity_corrected": 0.07017543859649122,
+        "chi2_uncorrected": 0.15789473684210525,
+        "n_discordant": 57,
+        "n_total": 3456,
+        "net_difference_a_minus_b": -3,
+        "p_value_exact_binomial": 0.7913664277791806
+      },
+      "model_a": "M4: Full Stack (NB + network features)",
+      "model_b": "M1: Naive Bayes",
+      "precision_diffs": {
+        "indian": 0.0015520004026811085,
+        "italian": 0.00498330575286976,
+        "mexican": -0.009938205040454062
+      },
+      "recall_diffs": {
+        "indian": -0.0016666666666667052,
+        "italian": -0.0063775510204082675,
+        "mexican": 0.006211180124223614
+      },
+      "regression_guard_flagged_cuisines": [],
+      "regression_guard_triggered": false
+    },
+    "M5 vs M0": {
+      "bootstrap_delta_accuracy_ci95": [
+        0.05353009259259267,
+        0.07523148148148151
+      ],
+      "bootstrap_delta_macro_f1_ci95": [
+        0.056640717979899724,
+        0.08043942387504
+      ],
+      "comparison": "M5 (Network-Only Fingerprint Scorer v2) vs. M0 (Original Fingerprint Scorer)",
+      "delta_accuracy": 0.06452546296296291,
+      "delta_macro_f1": 0.06867386981385626,
+      "f1_diffs": {
+        "indian": 0.08189906462390883,
+        "italian": 0.05430474246110151,
+        "mexican": 0.06981780235655877
+      },
+      "macro_f1_ci_includes_zero": false,
+      "mcnemar": {
+        "a_right_b_wrong": 287,
+        "a_wrong_b_right": 64,
+        "both_correct": 2966,
+        "both_wrong": 139,
+        "chi2_continuity_corrected": 140.4102564102564,
+        "chi2_uncorrected": 141.67806267806267,
+        "n_discordant": 351,
+        "n_total": 3456,
+        "net_difference_a_minus_b": 223,
+        "p_value_exact_binomial": 7.657757778331679e-35
+      },
+      "model_a": "M5: Network-Only Fingerprint Scorer v2",
+      "model_b": "M0: Original Fingerprint Scorer",
+      "precision_diffs": {
+        "indian": 0.043621482003287415,
+        "italian": 0.05960415967796051,
+        "mexican": 0.07851946702297441
+      },
+      "recall_diffs": {
+        "indian": 0.11333333333333329,
+        "italian": 0.04846938775510201,
+        "mexican": 0.06133540372670809
+      },
+      "regression_guard_flagged_cuisines": [],
+      "regression_guard_triggered": false
+    }
+  },
+  "predictions_sha256": {
+    "M0": "43c2d4b5de670f8588e1a8d02107c402c0062801d620e78d02293efd453f6245",
+    "M1": "cc144f94375ce307c7190ef6937ea42f456dc9c870ec89c115cf24d244ce0d32",
+    "M4": "0403e17e0d5e57160648861ed91057f292b89eb8f5f4aec16410792ec4f8d502",
+    "M5": "60ae961fb48154a12b1f2dfac1522db876dfc10aba63dc9389ab1c8cc96bab69"
+  },
+  "seed": 42,
+  "standardized_coefficients_full_train": {
+    "M4_full_stack_25_features": [
+      {
+        "feature": "nb_log_prob_indian",
+        "indian": 4.7185345673191,
+        "italian": -2.7806208065654014,
+        "mexican": -1.9379137607536832
+      },
+      {
+        "feature": "nb_log_prob_italian",
+        "indian": -2.1294122329239196,
+        "italian": 4.2582214870828015,
+        "mexican": -2.1288092541589063
+      },
+      {
+        "feature": "nb_log_prob_mexican",
+        "indian": -2.054079154612077,
+        "italian": -1.4116089113481156,
+        "mexican": 3.465688065960201
+      },
+      {
+        "feature": "pair_log_odds_indian",
+        "indian": 0.21280809514059823,
+        "italian": -0.17783376588484856,
+        "mexican": -0.03497432925574794
+      },
+      {
+        "feature": "pair_log_odds_italian",
+        "indian": 0.27596622749062605,
+        "italian": -0.36163465785091,
+        "mexican": 0.08566843036028189
+      },
+      {
+        "feature": "pair_log_odds_mexican",
+        "indian": -0.4135020897383933,
+        "italian": -0.2525076316439542,
+        "mexican": 0.6660097213823464
+      },
+      {
+        "feature": "comm_cov_frac_indian",
+        "indian": 0.485124755877878,
+        "italian": -0.06881778565225027,
+        "mexican": -0.41630697022563296
+      },
+      {
+        "feature": "comm_cov_frac_italian",
+        "indian": -0.3209679872438729,
+        "italian": 0.6404602759373648,
+        "mexican": -0.3194922886934925
+      },
+      {
+        "feature": "comm_cov_frac_mexican",
+        "indian": -0.29044394458285655,
+        "italian": -0.5531802718962465,
+        "mexican": 0.8436242164791021
+      },
+      {
+        "feature": "comm_max_cov_indian",
+        "indian": 0.21898762266243493,
+        "italian": -0.19277573323630778,
+        "mexican": -0.026211889426129505
+      },
+      {
+        "feature": "comm_max_cov_italian",
+        "indian": 0.10035500964734234,
+        "italian": -0.23914907081613418,
+        "mexican": 0.13879406116879192
+      },
+      {
+        "feature": "comm_max_cov_mexican",
+        "indian": -0.059062698742455774,
+        "italian": 0.20796362360337894,
+        "mexican": -0.14890092486092552
+      },
+      {
+        "feature": "comm_entropy_indian",
+        "indian": -0.05652638311472357,
+        "italian": -0.10171619855972286,
+        "mexican": 0.15824258167445074
+      },
+      {
+        "feature": "comm_entropy_italian",
+        "indian": 0.14695260909091204,
+        "italian": -0.012165850928334982,
+        "mexican": -0.134786758162577
+      },
+      {
+        "feature": "comm_entropy_mexican",
+        "indian": 0.03639243352359442,
+        "italian": 0.2608608863873334,
+        "mexican": -0.29725331991092424
+      },
+      {
+        "feature": "hub_count_indian",
+        "indian": -0.3075176679897224,
+        "italian": -0.04440491563404465,
+        "mexican": 0.3519225836237669
+      },
+      {
+        "feature": "hub_count_italian",
+        "indian": -0.15620991126470554,
+        "italian": 0.03913139269522533,
+        "mexican": 0.11707851856947864
+      },
+      {
+        "feature": "hub_count_mexican",
+        "indian": -0.082199017487469,
+        "italian": 0.025192757761065068,
+        "mexican": 0.05700625972640061
+      },
+      {
+        "feature": "bridge_count_indian",
+        "indian": -0.1833771562442475,
+        "italian": 0.14839245140247298,
+        "mexican": 0.03498470484177383
+      },
+      {
+        "feature": "bridge_count_italian",
+        "indian": 0.1514765609973128,
+        "italian": -0.10098085728885779,
+        "mexican": -0.05049570370845384
+      },
+      {
+        "feature": "bridge_count_mexican",
+        "indian": -0.14064091592860734,
+        "italian": 0.10204502674435884,
+        "mexican": 0.03859588918425133
+      },
+      {
+        "feature": "backbone_ing_count_indian",
+        "indian": -0.8404991029087802,
+        "italian": 0.48187751643960586,
+        "mexican": 0.35862158646917275
+      },
+      {
+        "feature": "backbone_ing_count_italian",
+        "indian": 0.8311343607107162,
+        "italian": -1.3581222017416186,
+        "mexican": 0.5269878410309095
+      },
+      {
+        "feature": "backbone_ing_count_mexican",
+        "indian": 0.5003729415096637,
+        "italian": 0.5850024985791032,
+        "mexican": -1.085375440088763
+      },
+      {
+        "feature": "recipe_length",
+        "indian": -0.16475780611733012,
+        "italian": -0.23449539350104867,
+        "mexican": 0.3992531996183779
+      }
+    ],
+    "M4_intercept": {
+      "indian": -2.9545826573244307,
+      "italian": 1.4380988023350678,
+      "mexican": 1.5164838549893642
+    },
+    "M5_intercept": {
+      "indian": -1.366179269157991,
+      "italian": 0.256118602629873,
+      "mexican": 1.1100606665281212
+    },
+    "M5_network_only_22_features": [
+      {
+        "feature": "pair_log_odds_indian",
+        "indian": 2.8779363829576488,
+        "italian": -1.1418946701967663,
+        "mexican": -1.7360417127608947
+      },
+      {
+        "feature": "pair_log_odds_italian",
+        "indian": -0.7729416608900733,
+        "italian": 2.1851379795209622,
+        "mexican": -1.4121963186309021
+      },
+      {
+        "feature": "pair_log_odds_mexican",
+        "indian": -1.9018965785438202,
+        "italian": -0.44843333792967993,
+        "mexican": 2.3503299164735045
+      },
+      {
+        "feature": "comm_cov_frac_indian",
+        "indian": 1.156382291162307,
+        "italian": -0.5646158954511891,
+        "mexican": -0.5917663957111222
+      },
+      {
+        "feature": "comm_cov_frac_italian",
+        "indian": -0.5369526455391541,
+        "italian": 1.3038281345766918,
+        "mexican": -0.766875489037533
+      },
+      {
+        "feature": "comm_cov_frac_mexican",
+        "indian": -1.0608267678336125,
+        "italian": -0.4967451088944346,
+        "mexican": 1.5575718767280624
+      },
+      {
+        "feature": "comm_max_cov_indian",
+        "indian": 0.2754524641704924,
+        "italian": -0.1554708763240225,
+        "mexican": -0.1199815878464688
+      },
+      {
+        "feature": "comm_max_cov_italian",
+        "indian": 0.16273609091567107,
+        "italian": -0.33589166920930935,
+        "mexican": 0.17315557829363085
+      },
+      {
+        "feature": "comm_max_cov_mexican",
+        "indian": 0.016320783638717667,
+        "italian": 0.196381270144788,
+        "mexican": -0.21270205378350995
+      },
+      {
+        "feature": "comm_entropy_indian",
+        "indian": 0.23827937274153496,
+        "italian": -0.13028584395101772,
+        "mexican": -0.10799352879052312
+      },
+      {
+        "feature": "comm_entropy_italian",
+        "indian": 0.20216543181777175,
+        "italian": -0.1125116394169034,
+        "mexican": -0.08965379240086824
+      },
+      {
+        "feature": "comm_entropy_mexican",
+        "indian": -0.028206519404052284,
+        "italian": 0.20328107633686363,
+        "mexican": -0.17507455693280846
+      },
+      {
+        "feature": "hub_count_indian",
+        "indian": 0.04358830170595295,
+        "italian": -0.12228623189130287,
+        "mexican": 0.07869793018535792
+      },
+      {
+        "feature": "hub_count_italian",
+        "indian": 0.010655235958466616,
+        "italian": -0.06742094254566348,
+        "mexican": 0.05676570658720393
+      },
+      {
+        "feature": "hub_count_mexican",
+        "indian": 0.005131728700214573,
+        "italian": -0.11503072312256847,
+        "mexican": 0.10989899442235486
+      },
+      {
+        "feature": "bridge_count_indian",
+        "indian": -0.0884760465750681,
+        "italian": 0.020058471474404496,
+        "mexican": 0.06841757510067217
+      },
+      {
+        "feature": "bridge_count_italian",
+        "indian": -0.035407133614010114,
+        "italian": -0.0006209675644007911,
+        "mexican": 0.036028101178413346
+      },
+      {
+        "feature": "bridge_count_mexican",
+        "indian": -0.13250034793853063,
+        "italian": 0.2354511562755936,
+        "mexican": -0.10295080833706663
+      },
+      {
+        "feature": "backbone_ing_count_indian",
+        "indian": 1.1636771539912767,
+        "italian": -0.5452622551124916,
+        "mexican": -0.6184148988787677
+      },
+      {
+        "feature": "backbone_ing_count_italian",
+        "indian": -0.7450476980132563,
+        "italian": 0.914060337490269,
+        "mexican": -0.16901263947700929
+      },
+      {
+        "feature": "backbone_ing_count_mexican",
+        "indian": -0.29394107799697766,
+        "italian": -0.5453724597269164,
+        "mexican": 0.8393135377238806
+      },
+      {
+        "feature": "recipe_length",
+        "indian": 0.16797869199046875,
+        "italian": -0.25681338275940224,
+        "mexican": 0.0888346907689452
+      }
+    ]
+  },
+  "test_metrics": [
+    {
+      "cv_accuracy_mean": 0.8662382792975037,
+      "cv_accuracy_std": 0.0076778115940186855,
+      "cv_macro_f1_mean": 0.8582195471670622,
+      "cv_macro_f1_std": 0.009159657883444599,
+      "f1_indian": 0.8548530721282279,
+      "f1_italian": 0.8937228091982597,
+      "f1_mexican": 0.8650330610657332,
+      "model": "M0: Original Fingerprint Scorer",
+      "n_features": 6149,
+      "precision_indian": 0.9177820267686424,
+      "precision_italian": 0.8715151515151515,
+      "precision_mexican": 0.8667186282151208,
+      "recall_indian": 0.8,
+      "recall_italian": 0.9170918367346939,
+      "recall_mexican": 0.8633540372670807,
+      "selected_C": NaN,
+      "test_accuracy": 0.8767361111111112,
+      "test_macro_f1": 0.871202980797407,
+      "test_samples": 3456,
+      "test_weighted_f1_appendix": 0.8762823468612478,
+      "tied_score_fallback_count": 0,
+      "zero_score_fallback_count": 139
+    },
+    {
+      "cv_accuracy_mean": 0.956594578185558,
+      "cv_accuracy_std": 0.005765512756768014,
+      "cv_macro_f1_mean": 0.9553186626146422,
+      "cv_macro_f1_std": 0.00617693842896516,
+      "f1_indian": 0.9624687239366139,
+      "f1_italian": 0.9633343779379505,
+      "f1_mexican": 0.9540047581284695,
+      "model": "M1: Naive Bayes",
+      "n_features": 4105,
+      "precision_indian": 0.9632721202003339,
+      "precision_italian": 0.9470117067159581,
+      "precision_mexican": 0.9748784440842788,
+      "recall_indian": 0.9616666666666667,
+      "recall_italian": 0.9802295918367347,
+      "recall_mexican": 0.9340062111801242,
+      "selected_C": NaN,
+      "test_accuracy": 0.9597800925925926,
+      "test_macro_f1": 0.9599359533343447,
+      "test_samples": 3456,
+      "test_weighted_f1_appendix": 0.9597070796985369,
+      "tied_score_fallback_count": 0,
+      "zero_score_fallback_count": 0
+    },
+    {
+      "cv_accuracy_mean": 0.9587644815936229,
+      "cv_accuracy_std": 0.004637800301834236,
+      "cv_macro_f1_mean": 0.9581562306639073,
+      "cv_macro_f1_std": 0.004416130528836799,
+      "f1_indian": 0.9624060150375939,
+      "f1_italian": 0.9627994955863808,
+      "f1_mexican": 0.9524184034604798,
+      "model": "M4: Full Stack (NB + network features)",
+      "n_features": 25,
+      "precision_indian": 0.964824120603015,
+      "precision_italian": 0.9519950124688279,
+      "precision_mexican": 0.9649402390438248,
+      "recall_indian": 0.96,
+      "recall_italian": 0.9738520408163265,
+      "recall_mexican": 0.9402173913043478,
+      "selected_C": 1.0,
+      "test_accuracy": 0.9589120370370371,
+      "test_macro_f1": 0.9592079713614848,
+      "test_samples": 3456,
+      "test_weighted_f1_appendix": 0.9588623037497394,
+      "tied_score_fallback_count": 0,
+      "zero_score_fallback_count": 0
+    },
+    {
+      "cv_accuracy_mean": 0.9403896651078318,
+      "cv_accuracy_std": 0.004656172948800783,
+      "cv_macro_f1_mean": 0.938374216202129,
+      "cv_macro_f1_std": 0.004601777043558341,
+      "f1_indian": 0.9367521367521368,
+      "f1_italian": 0.9480275516593613,
+      "f1_mexican": 0.934850863422292,
+      "model": "M5: Network-Only Fingerprint Scorer v2",
+      "n_features": 22,
+      "precision_indian": 0.9614035087719298,
+      "precision_italian": 0.931119311193112,
+      "precision_mexican": 0.9452380952380952,
+      "recall_indian": 0.9133333333333333,
+      "recall_italian": 0.9655612244897959,
+      "recall_mexican": 0.9246894409937888,
+      "selected_C": 1.0,
+      "test_accuracy": 0.9412615740740741,
+      "test_macro_f1": 0.9398768506112632,
+      "test_samples": 3456,
+      "test_weighted_f1_appendix": 0.9411592578533196,
+      "tied_score_fallback_count": 0,
+      "zero_score_fallback_count": 0
+    }
+  ],
+  "total_runtime_seconds": 11.867
+}

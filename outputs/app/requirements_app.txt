@@ -1,0 +1,6 @@
+streamlit>=1.40.0
+numpy>=1.25.0
+pandas>=2.0.0
+pyvis>=0.3.2
+networkx>=3.0
+scikit-learn>=1.4.0

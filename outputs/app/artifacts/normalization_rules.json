@@ -1,0 +1,101 @@
+{
+  "normalizer_sha256": "760d350b8906154df72208039266707d9ae2590f2208fae9923aed581220d11d",
+  "plural_whitelist": {
+    "almonds": "almond",
+    "anchovies": "anchovy",
+    "apples": "apple",
+    "apricots": "apricot",
+    "artichokes": "artichoke",
+    "avocados": "avocado",
+    "bananas": "banana",
+    "beets": "beet",
+    "blackberries": "blackberry",
+    "blueberries": "blueberry",
+    "breasts": "breast",
+    "capers": "caper",
+    "carrots": "carrot",
+    "cashews": "cashew",
+    "cherries": "cherry",
+    "chestnuts": "chestnut",
+    "chickpeas": "chickpea",
+    "clams": "clam",
+    "cranberries": "cranberry",
+    "cucumbers": "cucumber",
+    "currants": "currant",
+    "cutlets": "cutlet",
+    "dates": "date",
+    "drumsticks": "drumstick",
+    "eggplants": "eggplant",
+    "eggs": "egg",
+    "figs": "fig",
+    "fillets": "fillet",
+    "grapes": "grape",
+    "hazelnuts": "hazelnut",
+    "jalapenos": "jalapeno",
+    "leeks": "leek",
+    "lemons": "lemon",
+    "lentils": "lentil",
+    "limes": "lime",
+    "mangoes": "mango",
+    "meatballs": "meatball",
+    "mushrooms": "mushroom",
+    "mussels": "mussel",
+    "olives": "olive",
+    "onions": "onion",
+    "oranges": "orange",
+    "parsnips": "parsnip",
+    "peaches": "peach",
+    "peanuts": "peanut",
+    "pears": "pear",
+    "pecans": "pecan",
+    "peppercorns": "peppercorn",
+    "pistachios": "pistachio",
+    "plantains": "plantain",
+    "plums": "plum",
+    "potatoes": "potato",
+    "prawns": "prawn",
+    "prunes": "prune",
+    "radishes": "radish",
+    "raisins": "raisin",
+    "raspberries": "raspberry",
+    "sausages": "sausage",
+    "scallions": "scallion",
+    "scallops": "scallop",
+    "seeds": "seed",
+    "shallots": "shallot",
+    "strawberries": "strawberry",
+    "thighs": "thigh",
+    "tomatillos": "tomatillo",
+    "tomatoes": "tomato",
+    "tortillas": "tortilla",
+    "tostadas": "tostada",
+    "walnuts": "walnut",
+    "yams": "yam",
+    "zucchinis": "zucchini"
+  },
+  "singularize_exceptions": [
+    "veal scallops"
+  ],
+  "synonyms": {
+    "asafetida": {
+      "rationale": "alternative spelling of the same spice (Ferula resin)",
+      "target": "asafoetida"
+    },
+    "chat masala": {
+      "rationale": "transliteration variant of the same spice blend",
+      "target": "chaat masala"
+    },
+    "cuminseed": {
+      "rationale": "spacing variant of 'cumin seed'",
+      "target": "cumin seed"
+    },
+    "garbanzo beans": {
+      "rationale": "garbanzo and chickpea are two names for the same legume, Cicer arietinum",
+      "target": "chickpea"
+    },
+    "scallion": {
+      "rationale": "US/UK names for the same young Allium (A. fistulosum / immature A. cepa) sold as one product",
+      "target": "green onion"
+    }
+  }
+}

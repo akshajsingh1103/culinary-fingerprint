@@ -1,0 +1,4364 @@
+{
+  "recipes": [
+    {
+      "cuisine": "indian",
+      "id": 4587,
+      "normalized_ingredients": [
+        "garlic cloves",
+        "ground cumin",
+        "ground turmeric",
+        "peeled fresh ginger",
+        "salt",
+        "sugar",
+        "tomato",
+        "vegetable oil"
+      ],
+      "raw_ingredients": [
+        "tomatoes",
+        "salt",
+        "peeled fresh ginger",
+        "ground turmeric",
+        "vegetable oil",
+        "ground cumin",
+        "sugar",
+        "garlic cloves"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 4952,
+      "normalized_ingredients": [
+        "coarse salt",
+        "nigella seed",
+        "unsalted butter",
+        "whole wheat flour"
+      ],
+      "raw_ingredients": [
+        "unsalted butter",
+        "nigella seeds",
+        "whole wheat flour",
+        "coarse salt"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 5867,
+      "normalized_ingredients": [
+        "cayenne pepper",
+        "ground black pepper",
+        "ground cinnamon",
+        "ground coriander",
+        "ground cumin",
+        "ground ginger",
+        "kosher salt",
+        "paprika",
+        "saffron threads",
+        "sugar"
+      ],
+      "raw_ingredients": [
+        "ground ginger",
+        "ground black pepper",
+        "ground cumin",
+        "sugar",
+        "cayenne pepper",
+        "ground cinnamon",
+        "paprika",
+        "saffron threads",
+        "kosher salt",
+        "ground coriander"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 8522,
+      "normalized_ingredients": [
+        "basmati rice",
+        "bay leaves",
+        "cardamom pods",
+        "chili powder",
+        "cinnamon sticks",
+        "cumin seed",
+        "deveined shrimp",
+        "lemon juice",
+        "minced garlic",
+        "onion",
+        "plain whole-milk yogurt",
+        "raita",
+        "raw cashew",
+        "saffron threads",
+        "salt",
+        "vegetable oil"
+      ],
+      "raw_ingredients": [
+        "saffron threads",
+        "vegetable oil",
+        "cardamom pods",
+        "onions",
+        "bay leaves",
+        "raw cashews",
+        "lemon juice",
+        "basmati rice",
+        "chili powder",
+        "salt",
+        "cinnamon sticks",
+        "raita",
+        "minced garlic",
+        "deveined shrimp",
+        "cumin seed",
+        "plain whole-milk yogurt"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 11003,
+      "normalized_ingredients": [
+        "chillies",
+        "cumin seed",
+        "fresh coriander",
+        "frozen peas",
+        "garam masala",
+        "garlic",
+        "ginger",
+        "lamb",
+        "mushroom",
+        "onion",
+        "salt",
+        "tomato",
+        "tumeric",
+        "vegetable oil"
+      ],
+      "raw_ingredients": [
+        "fresh coriander",
+        "ginger",
+        "cumin seed",
+        "tomatoes",
+        "mushrooms",
+        "salt",
+        "onions",
+        "garam masala",
+        "garlic",
+        "chillies",
+        "tumeric",
+        "vegetable oil",
+        "lamb",
+        "frozen peas"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 11260,
+      "normalized_ingredients": [
+        "chickpea",
+        "chili powder",
+        "chopped cilantro fresh",
+        "chutney",
+        "fresh ginger",
+        "ground black pepper",
+        "ground coriander",
+        "ground cumin",
+        "plain yogurt",
+        "potato",
+        "potato chips",
+        "purple onion",
+        "rock salt",
+        "salt",
+        "wheat crackers"
+      ],
+      "raw_ingredients": [
+        "plain yogurt",
+        "potatoes",
+        "ground coriander",
+        "chopped cilantro fresh",
+        "garbanzo beans",
+        "purple onion",
+        "potato chips",
+        "ground cumin",
+        "ground black pepper",
+        "salt",
+        "chutney",
+        "fresh ginger",
+        "chili powder",
+        "rock salt",
+        "wheat crackers"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 19493,
+      "normalized_ingredients": [
+        "basmati rice",
+        "bay leaves",
+        "black peppercorn",
+        "butter",
+        "cilantro",
+        "cinnamon sticks",
+        "garlic",
+        "ginger",
+        "green cardamom pods",
+        "ground tumeric",
+        "mint",
+        "oil",
+        "salt",
+        "serrano",
+        "shrimp",
+        "water",
+        "whole cloves",
+        "yellow onion"
+      ],
+      "raw_ingredients": [
+        "black peppercorns",
+        "bay leaves",
+        "ground tumeric",
+        "serrano",
+        "basmati rice",
+        "green cardamom pods",
+        "whole cloves",
+        "ginger",
+        "yellow onion",
+        "cinnamon sticks",
+        "water",
+        "cilantro",
+        "salt",
+        "shrimp",
+        "mint",
+        "butter",
+        "garlic",
+        "oil"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 21489,
+      "normalized_ingredients": [
+        "bread slices",
+        "carrot",
+        "fenugreek seed",
+        "green chilies",
+        "oil",
+        "onion",
+        "parboiled rice",
+        "salt",
+        "urad dal"
+      ],
+      "raw_ingredients": [
+        "urad dal",
+        "oil",
+        "parboiled rice",
+        "green chilies",
+        "onions",
+        "fenugreek seeds",
+        "bread slices",
+        "salt",
+        "carrots"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 21769,
+      "normalized_ingredients": [
+        "granulated sugar",
+        "ground cardamom",
+        "heavy cream",
+        "large egg yolks",
+        "light brown sugar"
+      ],
+      "raw_ingredients": [
+        "granulated sugar",
+        "large egg yolks",
+        "heavy cream",
+        "light brown sugar",
+        "ground cardamom"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 23583,
+      "normalized_ingredients": [
+        "amchur",
+        "bay leaf",
+        "black salt",
+        "chaat masala",
+        "chili powder",
+        "cilantro leaves",
+        "coriander powder",
+        "cumin seed",
+        "garlic",
+        "green chilies",
+        "ground cumin",
+        "kale",
+        "lemon juice",
+        "mango",
+        "oil",
+        "onion",
+        "salt",
+        "tomato"
+      ],
+      "raw_ingredients": [
+        "amchur",
+        "garlic",
+        "cumin seed",
+        "bay leaf",
+        "ground cumin",
+        "coriander powder",
+        "cilantro leaves",
+        "black salt",
+        "chaat masala",
+        "kale",
+        "salt",
+        "oil",
+        "onions",
+        "tomatoes",
+        "chili powder",
+        "green chilies",
+        "lemon juice",
+        "mango"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 25607,
+      "normalized_ingredients": [
+        "butter",
+        "chickpea",
+        "chile powder",
+        "coriander",
+        "corn starch",
+        "cumin",
+        "curry",
+        "extra firm tofu",
+        "frozen spinach",
+        "garam masala",
+        "garlic cloves",
+        "ginger",
+        "kosher salt",
+        "water",
+        "yellow onion"
+      ],
+      "raw_ingredients": [
+        "water",
+        "chile powder",
+        "garam masala",
+        "curry",
+        "coriander",
+        "butter",
+        "garlic cloves",
+        "kosher salt",
+        "extra firm tofu",
+        "yellow onion",
+        "cumin",
+        "frozen spinach",
+        "garbanzo beans",
+        "ginger",
+        "corn starch"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 25784,
+      "normalized_ingredients": [
+        "black peppercorn",
+        "coriander seed",
+        "cumin seed",
+        "dal",
+        "fenugreek seed",
+        "ghee",
+        "mustard seed",
+        "oil",
+        "red chili peppers",
+        "salt",
+        "tamarind extract",
+        "urad dal"
+      ],
+      "raw_ingredients": [
+        "coriander seeds",
+        "cumin seed",
+        "ghee",
+        "red chili peppers",
+        "salt",
+        "mustard seeds",
+        "black peppercorns",
+        "urad dal",
+        "oil",
+        "tamarind extract",
+        "fenugreek seeds",
+        "dal"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 26367,
+      "normalized_ingredients": [
+        "black mustard seed",
+        "cumin seed",
+        "dried oregano",
+        "fennel seed",
+        "fenugreek seed"
+      ],
+      "raw_ingredients": [
+        "cumin seed",
+        "fennel seeds",
+        "dried oregano",
+        "fenugreek seeds",
+        "black mustard seeds"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 31701,
+      "normalized_ingredients": [
+        "chicken",
+        "chili powder",
+        "coconut",
+        "coriander powder",
+        "garam masala",
+        "garlic paste",
+        "mint leaves",
+        "oil",
+        "onion",
+        "salt",
+        "tomato",
+        "yoghurt"
+      ],
+      "raw_ingredients": [
+        "garam masala",
+        "chili powder",
+        "chicken",
+        "garlic paste",
+        "mint leaves",
+        "oil",
+        "tomatoes",
+        "coriander powder",
+        "salt",
+        "coconut",
+        "yoghurt",
+        "onions"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 34522,
+      "normalized_ingredients": [
+        "cashew nuts",
+        "chili powder",
+        "coriander",
+        "cumin",
+        "curry sauce",
+        "garam masala",
+        "ghee",
+        "lamb leg",
+        "paprika",
+        "pepper",
+        "plain yogurt",
+        "salt"
+      ],
+      "raw_ingredients": [
+        "plain yogurt",
+        "chili powder",
+        "ghee",
+        "garam masala",
+        "salt",
+        "cashew nuts",
+        "pepper",
+        "paprika",
+        "coriander",
+        "curry sauce",
+        "lamb leg",
+        "cumin"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 36034,
+      "normalized_ingredients": [
+        "cherry tomato",
+        "chopped cilantro fresh",
+        "fresh ginger",
+        "fresh lime juice",
+        "garlic cloves",
+        "ground cardamom",
+        "ground cumin",
+        "jalapeno chilies",
+        "onion",
+        "plain yogurt",
+        "salmon fillet",
+        "salt"
+      ],
+      "raw_ingredients": [
+        "salmon fillets",
+        "jalapeno chilies",
+        "fresh lime juice",
+        "cherry tomatoes",
+        "garlic cloves",
+        "chopped cilantro fresh",
+        "plain yogurt",
+        "salt",
+        "onions",
+        "fresh ginger",
+        "ground cardamom",
+        "ground cumin"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 36573,
+      "normalized_ingredients": [
+        "cayenne pepper",
+        "chickpea",
+        "cilantro leaves",
+        "diced tomato",
+        "fresh ginger",
+        "garlic cloves",
+        "ground coriander",
+        "ground cumin",
+        "jalapeno chilies",
+        "onion",
+        "salt",
+        "vegetable oil",
+        "water"
+      ],
+      "raw_ingredients": [
+        "vegetable oil",
+        "cayenne pepper",
+        "onions",
+        "fresh ginger",
+        "salt",
+        "ground coriander",
+        "jalapeno chilies",
+        "cilantro leaves",
+        "garlic cloves",
+        "water",
+        "diced tomatoes",
+        "chickpeas",
+        "ground cumin"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 37788,
+      "normalized_ingredients": [
+        "chopped cilantro fresh",
+        "chopped fresh mint",
+        "eggplant",
+        "garam masala",
+        "garlic cloves",
+        "olive oil",
+        "onion",
+        "pita bread rounds"
+      ],
+      "raw_ingredients": [
+        "pita bread rounds",
+        "chopped cilantro fresh",
+        "olive oil",
+        "garlic cloves",
+        "garam masala",
+        "chopped fresh mint",
+        "eggplant",
+        "onions"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 38027,
+      "normalized_ingredients": [
+        "brown sugar",
+        "chopped fresh mint",
+        "cider vinegar",
+        "curry powder",
+        "ground allspice",
+        "ground cinnamon",
+        "ground cloves",
+        "ground nutmeg",
+        "jalapeno chilies",
+        "mango",
+        "olive oil",
+        "peeled fresh ginger",
+        "purple onion",
+        "raisin"
+      ],
+      "raw_ingredients": [
+        "ground cloves",
+        "ground nutmeg",
+        "purple onion",
+        "ground cinnamon",
+        "curry powder",
+        "peeled fresh ginger",
+        "chopped fresh mint",
+        "cider vinegar",
+        "jalapeno chilies",
+        "ground allspice",
+        "brown sugar",
+        "olive oil",
+        "raisins",
+        "mango"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 39966,
+      "normalized_ingredients": [
+        "ghee",
+        "salt",
+        "water",
+        "whole wheat flour"
+      ],
+      "raw_ingredients": [
+        "salt",
+        "water",
+        "ghee",
+        "whole wheat flour"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 40718,
+      "normalized_ingredients": [
+        "active dry yeast",
+        "baking powder",
+        "black onion seed",
+        "garlic",
+        "ghee",
+        "milk",
+        "plain flour",
+        "salt",
+        "sugar",
+        "vegetable oil",
+        "yoghurt"
+      ],
+      "raw_ingredients": [
+        "sugar",
+        "black onion seeds",
+        "salt",
+        "active dry yeast",
+        "vegetable oil",
+        "milk",
+        "baking powder",
+        "ghee",
+        "plain flour",
+        "yoghurt",
+        "garlic"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 42722,
+      "normalized_ingredients": [
+        "asafoetida",
+        "buttermilk",
+        "cilantro leaves",
+        "coconut",
+        "coriander",
+        "ginger",
+        "gram flour",
+        "grated carrot",
+        "green chilies",
+        "ground cumin",
+        "mustard seed",
+        "oil",
+        "raisin",
+        "salt",
+        "tumeric",
+        "water"
+      ],
+      "raw_ingredients": [
+        "water",
+        "ginger",
+        "green chilies",
+        "coriander",
+        "asafoetida",
+        "buttermilk",
+        "salt",
+        "gram flour",
+        "coconut",
+        "grated carrot",
+        "oil",
+        "ground cumin",
+        "tumeric",
+        "raisins",
+        "cilantro leaves",
+        "mustard seeds"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 42733,
+      "normalized_ingredients": [
+        "canola oil",
+        "chopped cilantro fresh",
+        "chopped onion",
+        "cooking spray",
+        "cumin seed",
+        "curry powder",
+        "diced tomato",
+        "garlic cloves",
+        "ground turmeric",
+        "jalapeno chilies",
+        "kosher salt",
+        "mustard seed",
+        "peeled fresh ginger",
+        "pitas",
+        "raisin",
+        "sugar"
+      ],
+      "raw_ingredients": [
+        "pitas",
+        "raisins",
+        "garlic cloves",
+        "canola oil",
+        "kosher salt",
+        "cooking spray",
+        "chopped onion",
+        "chopped cilantro fresh",
+        "sugar",
+        "jalapeno chilies",
+        "diced tomatoes",
+        "mustard seeds",
+        "curry powder",
+        "peeled fresh ginger",
+        "cumin seed",
+        "ground turmeric"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 46971,
+      "normalized_ingredients": [
+        "biryani masala",
+        "chickpea flour",
+        "coriander powder",
+        "fenugreek leaves",
+        "fish fillet",
+        "garam masala",
+        "garlic paste",
+        "green bell pepper",
+        "kasuri methi",
+        "lemon juice",
+        "oil",
+        "onion",
+        "pepper",
+        "red bell pepper",
+        "red chili powder",
+        "salt",
+        "tumeric",
+        "yoghurt"
+      ],
+      "raw_ingredients": [
+        "fenugreek leaves",
+        "green bell pepper",
+        "coriander powder",
+        "salt",
+        "onions",
+        "chickpea flour",
+        "fish fillets",
+        "garam masala",
+        "kasuri methi",
+        "red bell pepper",
+        "garlic paste",
+        "pepper",
+        "yoghurt",
+        "lemon juice",
+        "red chili powder",
+        "tumeric",
+        "Biryani Masala",
+        "oil"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 47973,
+      "normalized_ingredients": [
+        "basmati rice",
+        "ground cardamom",
+        "mango",
+        "nonfat sweetened condensed milk",
+        "salt",
+        "whole milk"
+      ],
+      "raw_ingredients": [
+        "salt",
+        "nonfat sweetened condensed milk",
+        "basmati rice",
+        "whole milk",
+        "mango",
+        "ground cardamom"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 2360,
+      "normalized_ingredients": [
+        "calf liver",
+        "flat leaf parsley",
+        "onion",
+        "unsalted butter",
+        "water"
+      ],
+      "raw_ingredients": [
+        "flat leaf parsley",
+        "unsalted butter",
+        "calf liver",
+        "water",
+        "onions"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 3976,
+      "normalized_ingredients": [
+        "butter",
+        "flat leaf parsley",
+        "fresh thyme",
+        "grated lemon peel",
+        "green onion",
+        "ground black pepper",
+        "jack cheese",
+        "polenta",
+        "salt",
+        "water",
+        "whipping cream"
+      ],
+      "raw_ingredients": [
+        "ground black pepper",
+        "whipping cream",
+        "polenta",
+        "jack cheese",
+        "green onions",
+        "flat leaf parsley",
+        "fresh thyme",
+        "salt",
+        "water",
+        "butter",
+        "grated lemon peel"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 7021,
+      "normalized_ingredients": [
+        "baby spinach",
+        "large egg whites",
+        "parmesan cheese",
+        "part-skim mozzarella cheese",
+        "part-skim ricotta cheese",
+        "pesto",
+        "roasted red peppers",
+        "wonton wrappers"
+      ],
+      "raw_ingredients": [
+        "pesto",
+        "roasted red peppers",
+        "part-skim mozzarella cheese",
+        "baby spinach",
+        "large egg whites",
+        "wonton wrappers",
+        "parmesan cheese",
+        "part-skim ricotta cheese"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 8332,
+      "normalized_ingredients": [
+        "all-purpose flour",
+        "chopped fresh thyme",
+        "cooking spray",
+        "dry yeast",
+        "fine sea salt",
+        "garlic cloves",
+        "olive oil",
+        "sea salt",
+        "sugar",
+        "warm water"
+      ],
+      "raw_ingredients": [
+        "olive oil",
+        "sea salt",
+        "sugar",
+        "cooking spray",
+        "all-purpose flour",
+        "dry yeast",
+        "fine sea salt",
+        "warm water",
+        "chopped fresh thyme",
+        "garlic cloves"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 10035,
+      "normalized_ingredients": [
+        "cracked black pepper",
+        "dried basil",
+        "dried thyme",
+        "kosher salt",
+        "marjoram",
+        "onion",
+        "pork roast",
+        "red wine",
+        "water"
+      ],
+      "raw_ingredients": [
+        "kosher salt",
+        "red wine",
+        "marjoram",
+        "dried basil",
+        "pork roast",
+        "water",
+        "cracked black pepper",
+        "dried thyme",
+        "onions"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 10102,
+      "normalized_ingredients": [
+        "carrot",
+        "celery",
+        "crushed tomato",
+        "lean ground beef",
+        "nutmeg",
+        "onion",
+        "pepper",
+        "salt",
+        "unsalted butter",
+        "white wine",
+        "whole milk"
+      ],
+      "raw_ingredients": [
+        "crushed tomatoes",
+        "salt",
+        "white wine",
+        "whole milk",
+        "celery",
+        "nutmeg",
+        "unsalted butter",
+        "carrots",
+        "pepper",
+        "lean ground beef",
+        "onions"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 16399,
+      "normalized_ingredients": [
+        "cucumber",
+        "dri oregano leaves, crush",
+        "dried basil",
+        "feta cheese crumbles",
+        "onion",
+        "pepper",
+        "ripe olive",
+        "romaine lettuce",
+        "round sourdough bread",
+        "tomato",
+        "vinaigrette"
+      ],
+      "raw_ingredients": [
+        "round sourdough bread",
+        "vinaigrette",
+        "onions",
+        "romaine lettuce",
+        "dri oregano leaves, crush",
+        "ripe olives",
+        "tomatoes",
+        "dried basil",
+        "cucumber",
+        "pepper",
+        "feta cheese crumbles"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 17923,
+      "normalized_ingredients": [
+        "black pepper",
+        "borlotti beans",
+        "carrot",
+        "celery ribs",
+        "extra-virgin olive oil",
+        "farro",
+        "fresh thyme",
+        "garlic cloves",
+        "italian parsley leaves",
+        "onion",
+        "sage leaves",
+        "salt",
+        "tomato",
+        "water"
+      ],
+      "raw_ingredients": [
+        "sage leaves",
+        "water",
+        "extra-virgin olive oil",
+        "borlotti beans",
+        "tomatoes",
+        "Italian parsley leaves",
+        "garlic cloves",
+        "celery ribs",
+        "fresh thyme",
+        "salt",
+        "onions",
+        "black pepper",
+        "farro",
+        "carrots"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 18283,
+      "normalized_ingredients": [
+        "dry white wine",
+        "fresh tarragon",
+        "ground white pepper",
+        "heavy cream",
+        "leek",
+        "lump crab meat",
+        "olive oil",
+        "salt",
+        "shallot",
+        "shells",
+        "tagliatelle",
+        "unsalted butter"
+      ],
+      "raw_ingredients": [
+        "olive oil",
+        "shallots",
+        "salt",
+        "leeks",
+        "fresh tarragon",
+        "tagliatelle",
+        "unsalted butter",
+        "heavy cream",
+        "ground white pepper",
+        "lump crab meat",
+        "dry white wine",
+        "shells"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 18680,
+      "normalized_ingredients": [
+        "butter",
+        "cannoli shells",
+        "chopped pecan",
+        "granulated sugar",
+        "heavy cream",
+        "lemon zest",
+        "mascarpone",
+        "pear",
+        "powdered sugar",
+        "sauce"
+      ],
+      "raw_ingredients": [
+        "powdered sugar",
+        "cannoli shells",
+        "chopped pecans",
+        "granulated sugar",
+        "heavy cream",
+        "mascarpone",
+        "butter",
+        "pears",
+        "lemon zest",
+        "sauce"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 20715,
+      "normalized_ingredients": [
+        "chopped walnut",
+        "dried currant",
+        "escarole",
+        "flat leaf parsley",
+        "fresh lemon juice",
+        "grated parmesan cheese",
+        "gyoza wrappers",
+        "lemon zest",
+        "minced garlic",
+        "olive oil",
+        "onion",
+        "rib",
+        "swiss chard",
+        "unsalted butter"
+      ],
+      "raw_ingredients": [
+        "olive oil",
+        "grated parmesan cheese",
+        "escarole",
+        "dried currants",
+        "unsalted butter",
+        "chopped walnuts",
+        "rib",
+        "swiss chard",
+        "gyoza wrappers",
+        "flat leaf parsley",
+        "minced garlic",
+        "lemon zest",
+        "fresh lemon juice",
+        "onions"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 22962,
+      "normalized_ingredients": [
+        "arborio rice",
+        "bacon",
+        "chicken stock",
+        "chopped parsley",
+        "cooked shrimp",
+        "dry white wine",
+        "garlic"
+      ],
+      "raw_ingredients": [
+        "bacon",
+        "chicken stock",
+        "chopped parsley",
+        "arborio rice",
+        "garlic",
+        "dry white wine",
+        "cooked shrimp"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 23000,
+      "normalized_ingredients": [
+        "black pepper",
+        "canadian bacon",
+        "chopped onion",
+        "dried oregano",
+        "gnocchi",
+        "grated parmesan cheese",
+        "no-salt-added diced tomato",
+        "olive oil",
+        "roasted garlic",
+        "rubbed sage",
+        "sugar"
+      ],
+      "raw_ingredients": [
+        "no-salt-added diced tomatoes",
+        "chopped onion",
+        "dried oregano",
+        "sugar",
+        "grated parmesan cheese",
+        "rubbed sage",
+        "olive oil",
+        "canadian bacon",
+        "black pepper",
+        "roasted garlic",
+        "gnocchi"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 23185,
+      "normalized_ingredients": [
+        "bread crumbs",
+        "flour for dusting",
+        "ground beef",
+        "ground pork",
+        "large egg",
+        "olive oil",
+        "pepper",
+        "prosciutto",
+        "provolone cheese",
+        "red wine",
+        "romano cheese",
+        "salt",
+        "spinach leaves",
+        "water"
+      ],
+      "raw_ingredients": [
+        "spinach leaves",
+        "water",
+        "red wine",
+        "flour for dusting",
+        "pepper",
+        "large eggs",
+        "provolone cheese",
+        "bread crumbs",
+        "prosciutto",
+        "salt",
+        "romano cheese",
+        "olive oil",
+        "ground pork",
+        "ground beef"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 23827,
+      "normalized_ingredients": [
+        "chees fresh mozzarella",
+        "cooking spray",
+        "french bread",
+        "fresh basil",
+        "plum tomato",
+        "prosciutto",
+        "reduced fat mayonnaise"
+      ],
+      "raw_ingredients": [
+        "french bread",
+        "plum tomatoes",
+        "fresh basil",
+        "chees fresh mozzarella",
+        "cooking spray",
+        "prosciutto",
+        "reduced fat mayonnaise"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 25839,
+      "normalized_ingredients": [
+        "garlic",
+        "green bell pepper, slice",
+        "olive oil",
+        "onion",
+        "ragu old world style sweet tomato basil pasta sauc",
+        "sweet italian sausag links, cut into"
+      ],
+      "raw_ingredients": [
+        "green bell pepper, slice",
+        "sweet italian sausag links, cut into",
+        "ragu old world style sweet tomato basil pasta sauc",
+        "garlic",
+        "olive oil",
+        "onions"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 32805,
+      "normalized_ingredients": [
+        "bread crumbs",
+        "butter",
+        "cooked turkey",
+        "crimini mushroom",
+        "evaporated milk",
+        "flour",
+        "freshly ground pepper",
+        "fusilli",
+        "grated parmesan cheese",
+        "green onion",
+        "kosher salt",
+        "low sodium chicken broth",
+        "sherry"
+      ],
+      "raw_ingredients": [
+        "evaporated milk",
+        "sherry",
+        "butter",
+        "kosher salt",
+        "low sodium chicken broth",
+        "crimini mushrooms",
+        "bread crumbs",
+        "grated parmesan cheese",
+        "green onions",
+        "freshly ground pepper",
+        "cooked turkey",
+        "flour",
+        "fusilli"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 35864,
+      "normalized_ingredients": [
+        "dried basil",
+        "dry white wine",
+        "garlic",
+        "olive oil",
+        "onion",
+        "oregano",
+        "tomato"
+      ],
+      "raw_ingredients": [
+        "dry white wine",
+        "dried basil",
+        "onions",
+        "olive oil",
+        "oregano",
+        "tomatoes",
+        "garlic"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 36076,
+      "normalized_ingredients": [
+        "butternut squash",
+        "grated parmesan cheese",
+        "ground black pepper",
+        "heavy cream",
+        "kosher salt",
+        "low sodium chicken stock",
+        "olive oil",
+        "sage leaves",
+        "shallot",
+        "unsalted butter"
+      ],
+      "raw_ingredients": [
+        "kosher salt",
+        "grated parmesan cheese",
+        "low sodium chicken stock",
+        "ground black pepper",
+        "shallots",
+        "olive oil",
+        "butternut squash",
+        "sage leaves",
+        "unsalted butter",
+        "heavy cream"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 36567,
+      "normalized_ingredients": [
+        "black olive",
+        "cherry tomato",
+        "fusilli",
+        "green bell pepper",
+        "italian salad dressing",
+        "pepperoni slices",
+        "provolone cheese",
+        "white sugar"
+      ],
+      "raw_ingredients": [
+        "fusilli",
+        "italian salad dressing",
+        "pepperoni slices",
+        "provolone cheese",
+        "green bell pepper",
+        "black olives",
+        "cherry tomatoes",
+        "white sugar"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 37373,
+      "normalized_ingredients": [
+        "dry white wine",
+        "extra-virgin olive oil",
+        "fish fillet",
+        "flat leaf parsley",
+        "garlic cloves",
+        "ground black pepper",
+        "purple onion",
+        "salt",
+        "tomato"
+      ],
+      "raw_ingredients": [
+        "ground black pepper",
+        "salt",
+        "tomatoes",
+        "extra-virgin olive oil",
+        "flat leaf parsley",
+        "dry white wine",
+        "garlic cloves",
+        "fish fillets",
+        "purple onion"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 38645,
+      "normalized_ingredients": [
+        "bacon",
+        "sliced mushroom",
+        "spaghetti",
+        "sweet onion",
+        "tomato sauce"
+      ],
+      "raw_ingredients": [
+        "bacon",
+        "tomato sauce",
+        "spaghetti",
+        "sweet onion",
+        "sliced mushrooms"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 44414,
+      "normalized_ingredients": [
+        "extra-virgin olive oil",
+        "fresh basil",
+        "fresh parsley",
+        "garlic",
+        "pepper",
+        "salt",
+        "shallot",
+        "sherry wine vinegar"
+      ],
+      "raw_ingredients": [
+        "sherry wine vinegar",
+        "fresh parsley",
+        "pepper",
+        "garlic",
+        "fresh basil",
+        "extra-virgin olive oil",
+        "shallots",
+        "salt"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 45099,
+      "normalized_ingredients": [
+        "flat leaf parsley",
+        "fresh mushroom",
+        "garlic cloves",
+        "garlic powder",
+        "grated parmesan cheese",
+        "italian seasoning",
+        "jumbo pasta shells",
+        "large egg",
+        "lean ground beef",
+        "onion",
+        "ricotta cheese",
+        "salt",
+        "tomato",
+        "tomato sauce"
+      ],
+      "raw_ingredients": [
+        "garlic powder",
+        "ricotta cheese",
+        "garlic cloves",
+        "tomatoes",
+        "grated parmesan cheese",
+        "jumbo pasta shells",
+        "onions",
+        "large eggs",
+        "salt",
+        "flat leaf parsley",
+        "tomato sauce",
+        "lean ground beef",
+        "fresh mushrooms",
+        "italian seasoning"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "italian",
+      "id": 47274,
+      "normalized_ingredients": [
+        "1% low-fat milk",
+        "33% less sodium ham",
+        "black pepper",
+        "frozen hash browns",
+        "large egg",
+        "large egg whites",
+        "salt",
+        "vegetable oil"
+      ],
+      "raw_ingredients": [
+        "large egg whites",
+        "1% low-fat milk",
+        "frozen hash browns",
+        "vegetable oil",
+        "large eggs",
+        "salt",
+        "black pepper",
+        "33% less sodium ham"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 290,
+      "normalized_ingredients": [
+        "cream cheese, soften",
+        "ground cinnamon",
+        "melted butter",
+        "refrigerated crescent rolls",
+        "vanilla extract",
+        "white sugar"
+      ],
+      "raw_ingredients": [
+        "ground cinnamon",
+        "cream cheese, soften",
+        "refrigerated crescent rolls",
+        "melted butter",
+        "white sugar",
+        "vanilla extract"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 1842,
+      "normalized_ingredients": [
+        "chunky mild salsa",
+        "egg noodles, cooked and drained",
+        "ground beef",
+        "kidney beans",
+        "sliced black olive",
+        "sweet corn",
+        "taco sauce",
+        "taco seasoning mix",
+        "tomato sauce"
+      ],
+      "raw_ingredients": [
+        "taco seasoning mix",
+        "sweet corn",
+        "tomato sauce",
+        "sliced black olives",
+        "ground beef",
+        "kidney beans",
+        "chunky mild salsa",
+        "taco sauce",
+        "egg noodles, cooked and drained"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 5364,
+      "normalized_ingredients": [
+        "avocado",
+        "boneless pork shoulder",
+        "chopped cilantro",
+        "corn tortilla",
+        "garlic",
+        "ground cumin",
+        "kosher salt",
+        "lime juice",
+        "orange juice"
+      ],
+      "raw_ingredients": [
+        "lime juice",
+        "chopped cilantro",
+        "avocado",
+        "orange juice",
+        "boneless pork shoulder",
+        "garlic",
+        "ground cumin",
+        "kosher salt",
+        "corn tortillas"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 6268,
+      "normalized_ingredients": [
+        "chili powder",
+        "cilantro",
+        "cotija",
+        "garlic powder",
+        "lime",
+        "mayonaise",
+        "sweet corn"
+      ],
+      "raw_ingredients": [
+        "cotija",
+        "cilantro",
+        "garlic powder",
+        "lime",
+        "sweet corn",
+        "mayonaise",
+        "chili powder"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 6375,
+      "normalized_ingredients": [
+        "avocado",
+        "black pepper",
+        "boneless skinless chicken breast",
+        "chicken broth",
+        "chipotles in adobo",
+        "coarse salt",
+        "corn",
+        "corn tortilla",
+        "diced tomato",
+        "fresh cilantro",
+        "garlic",
+        "lime",
+        "olive oil",
+        "onion",
+        "shredded cheese",
+        "sour cream",
+        "tomato paste",
+        "water"
+      ],
+      "raw_ingredients": [
+        "avocado",
+        "water",
+        "olive oil",
+        "garlic",
+        "chipotles in adobo",
+        "chicken broth",
+        "corn",
+        "coarse salt",
+        "sour cream",
+        "tomato paste",
+        "fresh cilantro",
+        "boneless skinless chicken breasts",
+        "shredded cheese",
+        "onions",
+        "black pepper",
+        "lime",
+        "diced tomatoes",
+        "corn tortillas"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 9380,
+      "normalized_ingredients": [
+        "black olive",
+        "cheddar cheese",
+        "chicken breast",
+        "cream cheese",
+        "cream of chicken soup",
+        "flour tortilla",
+        "green chilies",
+        "green onion",
+        "red enchilada sauce"
+      ],
+      "raw_ingredients": [
+        "cheddar cheese",
+        "chicken breasts",
+        "red enchilada sauce",
+        "flour tortillas",
+        "cream cheese",
+        "green onions",
+        "green chilies",
+        "cream of chicken soup",
+        "black olives"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 11306,
+      "normalized_ingredients": [
+        "chili beans",
+        "enchilada sauce",
+        "flour tortilla",
+        "ground beef",
+        "onion",
+        "ripe olive",
+        "salsa",
+        "shredded cheddar cheese",
+        "vegetable oil"
+      ],
+      "raw_ingredients": [
+        "flour tortillas",
+        "ripe olives",
+        "chili beans",
+        "salsa",
+        "onions",
+        "vegetable oil",
+        "ground beef",
+        "shredded cheddar cheese",
+        "enchilada sauce"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 13349,
+      "normalized_ingredients": [
+        "adobo sauce",
+        "balsamic vinegar",
+        "diced tomato",
+        "fresh cilantro",
+        "fresh tarragon",
+        "green bell pepper",
+        "purple onion",
+        "salt"
+      ],
+      "raw_ingredients": [
+        "diced tomatoes",
+        "adobo sauce",
+        "fresh cilantro",
+        "purple onion",
+        "green bell pepper",
+        "fresh tarragon",
+        "balsamic vinegar",
+        "salt"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 22375,
+      "normalized_ingredients": [
+        "avocado",
+        "garlic",
+        "ground chicken",
+        "pepper",
+        "salt"
+      ],
+      "raw_ingredients": [
+        "ground chicken",
+        "garlic",
+        "pepper",
+        "avocado",
+        "salt"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 23305,
+      "normalized_ingredients": [
+        "butter",
+        "chopped onion",
+        "corn bread",
+        "cottage cheese",
+        "egg",
+        "frozen broccoli",
+        "frozen corn",
+        "jalapeno chilies",
+        "monterey jack"
+      ],
+      "raw_ingredients": [
+        "cottage cheese",
+        "frozen broccoli",
+        "butter",
+        "corn bread",
+        "jalapeno chilies",
+        "chopped onion",
+        "eggs",
+        "frozen corn",
+        "monterey jack"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 23674,
+      "normalized_ingredients": [
+        "american cheese",
+        "chili con carne",
+        "green chilies",
+        "tortilla chips"
+      ],
+      "raw_ingredients": [
+        "green chilies",
+        "chili con carne",
+        "American cheese",
+        "tortilla chips"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 26389,
+      "normalized_ingredients": [
+        "black beans",
+        "chicken breast",
+        "chili powder",
+        "cilantro sprigs",
+        "cooking spray",
+        "corn kernels",
+        "fresh cilantro",
+        "garlic cloves",
+        "green onion",
+        "ground cumin",
+        "non-fat sour cream",
+        "pepper",
+        "poblano chiles",
+        "red bell pepper",
+        "reduced fat monterey jack cheese",
+        "tomatillo"
+      ],
+      "raw_ingredients": [
+        "fresh cilantro",
+        "chicken breasts",
+        "non-fat sour cream",
+        "ground cumin",
+        "black beans",
+        "cooking spray",
+        "tomatillos",
+        "red bell pepper",
+        "reduced fat monterey jack cheese",
+        "corn kernels",
+        "chili powder",
+        "garlic cloves",
+        "pepper",
+        "green onions",
+        "cilantro sprigs",
+        "poblano chiles"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 28846,
+      "normalized_ingredients": [
+        "cooked chicken",
+        "pizza crust",
+        "red enchilada sauce",
+        "taco seasoned cheese"
+      ],
+      "raw_ingredients": [
+        "cooked chicken",
+        "pizza crust",
+        "red enchilada sauce",
+        "taco seasoned cheese"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 29598,
+      "normalized_ingredients": [
+        "ancho chile pepper",
+        "boiling water",
+        "cilantro",
+        "corn tortilla",
+        "cotija",
+        "dried guajillo chiles",
+        "garlic cloves",
+        "green pumpkin seed",
+        "ground cinnamon",
+        "ground cloves",
+        "kosher salt",
+        "onion",
+        "peanut",
+        "plum tomato",
+        "sesame seed",
+        "vegetable oil"
+      ],
+      "raw_ingredients": [
+        "cotija",
+        "peanuts",
+        "green pumpkin seeds",
+        "onions",
+        "kosher salt",
+        "cilantro",
+        "ancho chile pepper",
+        "plum tomatoes",
+        "ground cloves",
+        "vegetable oil",
+        "dried guajillo chiles",
+        "boiling water",
+        "ground cinnamon",
+        "sesame seeds",
+        "garlic cloves",
+        "corn tortillas"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 32959,
+      "normalized_ingredients": [
+        "all-purpose flour",
+        "egg substitute",
+        "green pepper",
+        "ground cumin",
+        "ground red pepper",
+        "mexicorn",
+        "salt",
+        "skim milk",
+        "sugar",
+        "vegetable oil cooking spray"
+      ],
+      "raw_ingredients": [
+        "vegetable oil cooking spray",
+        "ground red pepper",
+        "green pepper",
+        "skim milk",
+        "salt",
+        "sugar",
+        "mexicorn",
+        "ground cumin",
+        "egg substitute",
+        "all-purpose flour"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 34149,
+      "normalized_ingredients": [
+        "black beans",
+        "chipotle chile powder",
+        "coarse salt",
+        "diced tomato",
+        "extra-virgin olive oil",
+        "garlic cloves",
+        "ground cumin",
+        "ground pepper",
+        "pinto beans",
+        "tomato paste",
+        "yellow onion",
+        "zucchini"
+      ],
+      "raw_ingredients": [
+        "zucchini",
+        "yellow onion",
+        "ground cumin",
+        "black beans",
+        "diced tomatoes",
+        "pinto beans",
+        "tomato paste",
+        "coarse salt",
+        "garlic cloves",
+        "ground pepper",
+        "extra-virgin olive oil",
+        "chipotle chile powder"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 34320,
+      "normalized_ingredients": [
+        "chopped cilantro fresh",
+        "cucumber",
+        "fresh lime juice",
+        "guajillo chile powder",
+        "jicama",
+        "navel orange",
+        "radish",
+        "salt"
+      ],
+      "raw_ingredients": [
+        "guajillo chile powder",
+        "cucumber",
+        "navel oranges",
+        "chopped cilantro fresh",
+        "jicama",
+        "fresh lime juice",
+        "radishes",
+        "salt"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 34929,
+      "normalized_ingredients": [
+        "freshly ground pepper",
+        "green onion",
+        "monterey jack",
+        "olive oil",
+        "russet potato",
+        "salt",
+        "turkey bacon"
+      ],
+      "raw_ingredients": [
+        "turkey bacon",
+        "freshly ground pepper",
+        "russet potatoes",
+        "monterey jack",
+        "olive oil",
+        "scallions",
+        "salt"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 36468,
+      "normalized_ingredients": [
+        "boneless beef chuck roast",
+        "canola oil",
+        "chopped green chilies",
+        "finely chopped onion",
+        "flour tortilla",
+        "fresh cilantro",
+        "garlic cloves",
+        "ground cumin",
+        "oil",
+        "pepper",
+        "salt",
+        "tomatillo",
+        "water"
+      ],
+      "raw_ingredients": [
+        "pepper",
+        "finely chopped onion",
+        "salt",
+        "ground cumin",
+        "fresh cilantro",
+        "tomatillos",
+        "garlic cloves",
+        "water",
+        "flour tortillas",
+        "oil",
+        "chopped green chilies",
+        "boneless beef chuck roast",
+        "canola oil"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 40013,
+      "normalized_ingredients": [
+        "all-purpose flour",
+        "avocado",
+        "baking powder",
+        "butter",
+        "carnitas",
+        "chopped cilantro fresh",
+        "cilantro sprigs",
+        "cooking spray",
+        "fat free less sodium chicken broth",
+        "fresh lime juice",
+        "masa harina",
+        "pinto beans",
+        "purple onion",
+        "salsa verde",
+        "salt"
+      ],
+      "raw_ingredients": [
+        "cooking spray",
+        "purple onion",
+        "fresh lime juice",
+        "fat free less sodium chicken broth",
+        "butter",
+        "all-purpose flour",
+        "chopped cilantro fresh",
+        "avocado",
+        "baking powder",
+        "salt",
+        "carnitas",
+        "salsa verde",
+        "cilantro sprigs",
+        "pinto beans",
+        "masa harina"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 40104,
+      "normalized_ingredients": [
+        "almond",
+        "black beans",
+        "chicken stock",
+        "chipotles in adobo",
+        "dark chocolate",
+        "garlic",
+        "kosher salt",
+        "olive oil",
+        "pasilla chiles",
+        "shallot"
+      ],
+      "raw_ingredients": [
+        "dark chocolate",
+        "olive oil",
+        "chipotles in adobo",
+        "black beans",
+        "shallots",
+        "pasilla chiles",
+        "almonds",
+        "chicken stock",
+        "kosher salt",
+        "garlic"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 40111,
+      "normalized_ingredients": [
+        "fresh lime juice",
+        "lime wedges",
+        "margarita salt",
+        "orange liqueur",
+        "powdered sugar",
+        "tequila"
+      ],
+      "raw_ingredients": [
+        "powdered sugar",
+        "orange liqueur",
+        "lime wedges",
+        "margarita salt",
+        "fresh lime juice",
+        "tequila"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 40568,
+      "normalized_ingredients": [
+        "chopped cilantro fresh",
+        "corn tortilla",
+        "fresh lime juice",
+        "kraft mayonnaise",
+        "kraft mexican style finely shredded four cheese",
+        "slaw mix",
+        "taco bell taco seasoning mix",
+        "tilapia fillet"
+      ],
+      "raw_ingredients": [
+        "slaw mix",
+        "chopped cilantro fresh",
+        "Kraft Mayonnaise",
+        "corn tortillas",
+        "tilapia fillets",
+        "KRAFT Mexican Style Finely Shredded Four Cheese",
+        "Taco Bell Taco Seasoning Mix",
+        "fresh lime juice"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 40766,
+      "normalized_ingredients": [
+        "boneless skinless chicken breast halves",
+        "chopped cilantro fresh",
+        "country crock spread",
+        "crumbs",
+        "ground cumin",
+        "lime wedges"
+      ],
+      "raw_ingredients": [
+        "lime wedges",
+        "ground cumin",
+        "chopped cilantro fresh",
+        "boneless skinless chicken breast halves",
+        "crumbs",
+        "Country Crock® Spread"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 41584,
+      "normalized_ingredients": [
+        "black beans",
+        "lean ground beef",
+        "salsa",
+        "shredded cheddar cheese",
+        "sour cream",
+        "taco seasoning",
+        "taco toppings",
+        "water",
+        "wonton wrappers"
+      ],
+      "raw_ingredients": [
+        "shredded cheddar cheese",
+        "salsa",
+        "lean ground beef",
+        "taco toppings",
+        "water",
+        "taco seasoning",
+        "black beans",
+        "wonton wrappers",
+        "sour cream"
+      ],
+      "split": "held-out display"
+    },
+    {
+      "cuisine": "indian",
+      "id": 1193,
+      "normalized_ingredients": [
+        "blanched almond",
+        "cardamom seed",
+        "half & half",
+        "sugar",
+        "unsalted shelled pistachio",
+        "whole milk ricotta cheese"
+      ],
+      "raw_ingredients": [
+        "half & half",
+        "unsalted shelled pistachio",
+        "cardamom seeds",
+        "sugar",
+        "blanched almonds",
+        "whole milk ricotta cheese"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 2887,
+      "normalized_ingredients": [
+        "chili flakes",
+        "onion",
+        "red bell pepper",
+        "salt",
+        "sugar",
+        "white wine vinegar"
+      ],
+      "raw_ingredients": [
+        "chili flakes",
+        "red bell pepper",
+        "white wine vinegar",
+        "salt",
+        "sugar",
+        "onions"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 4579,
+      "normalized_ingredients": [
+        "active dry yeast",
+        "all-purpose flour",
+        "canola oil",
+        "cilantro",
+        "ghee",
+        "greek yogurt",
+        "honey",
+        "kosher salt",
+        "water"
+      ],
+      "raw_ingredients": [
+        "water",
+        "all-purpose flour",
+        "honey",
+        "ghee",
+        "active dry yeast",
+        "greek yogurt",
+        "kosher salt",
+        "cilantro",
+        "canola oil"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 5421,
+      "normalized_ingredients": [
+        "chicken thigh",
+        "cilantro",
+        "coarse salt",
+        "coconut milk",
+        "diced tomato",
+        "garam masala",
+        "garlic",
+        "olive oil",
+        "paprika",
+        "tomato paste",
+        "yellow onion"
+      ],
+      "raw_ingredients": [
+        "tomato paste",
+        "diced tomatoes",
+        "yellow onion",
+        "garam masala",
+        "cilantro",
+        "chicken thighs",
+        "olive oil",
+        "paprika",
+        "coconut milk",
+        "coarse salt",
+        "garlic"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 6202,
+      "normalized_ingredients": [
+        "boneless skinless chicken breast",
+        "butter",
+        "cayenne pepper",
+        "cooked white rice",
+        "curry paste",
+        "curry powder",
+        "garlic",
+        "greek yogurt",
+        "ground ginger",
+        "heavy cream",
+        "light coconut milk",
+        "masala",
+        "naan",
+        "onion",
+        "pepper",
+        "salt",
+        "tomato paste",
+        "tumeric"
+      ],
+      "raw_ingredients": [
+        "pepper",
+        "heavy cream",
+        "cayenne pepper",
+        "onions",
+        "tomato paste",
+        "boneless skinless chicken breasts",
+        "garlic",
+        "curry paste",
+        "masala",
+        "ground ginger",
+        "curry powder",
+        "light coconut milk",
+        "greek yogurt",
+        "naan",
+        "tumeric",
+        "butter",
+        "salt",
+        "cooked white rice"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 8165,
+      "normalized_ingredients": [
+        "curry powder",
+        "diced tomato",
+        "fresh ginger",
+        "garlic cloves",
+        "lentil",
+        "olive oil",
+        "onion",
+        "plain whole-milk yogurt",
+        "vegetable broth"
+      ],
+      "raw_ingredients": [
+        "diced tomatoes",
+        "onions",
+        "olive oil",
+        "garlic cloves",
+        "curry powder",
+        "vegetable broth",
+        "plain whole-milk yogurt",
+        "fresh ginger",
+        "lentils"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 11488,
+      "normalized_ingredients": [
+        "all-purpose flour",
+        "salt",
+        "seed",
+        "vegetable oil",
+        "water",
+        "whole wheat flour"
+      ],
+      "raw_ingredients": [
+        "whole wheat flour",
+        "all-purpose flour",
+        "vegetable oil",
+        "seeds",
+        "water",
+        "salt"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 13833,
+      "normalized_ingredients": [
+        "butter beans",
+        "chopped cilantro fresh",
+        "coconut milk",
+        "curry paste",
+        "frozen spinach",
+        "onion",
+        "pepper",
+        "pumpkin",
+        "salt",
+        "vegetable oil",
+        "water"
+      ],
+      "raw_ingredients": [
+        "water",
+        "coconut milk",
+        "butter beans",
+        "pepper",
+        "salt",
+        "chopped cilantro fresh",
+        "frozen spinach",
+        "vegetable oil",
+        "onions",
+        "pumpkin",
+        "curry paste"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 14513,
+      "normalized_ingredients": [
+        "asafoetida",
+        "cilantro leaves",
+        "coconut",
+        "curry leaves",
+        "green chilies",
+        "green peas",
+        "ground turmeric",
+        "lemon juice",
+        "mustard seed",
+        "oil",
+        "onion",
+        "peanut",
+        "poha",
+        "potato",
+        "salt",
+        "sugar"
+      ],
+      "raw_ingredients": [
+        "asafoetida",
+        "potatoes",
+        "cilantro leaves",
+        "mustard seeds",
+        "coconut",
+        "green peas",
+        "oil",
+        "ground turmeric",
+        "curry leaves",
+        "peanuts",
+        "salt",
+        "lemon juice",
+        "sugar",
+        "poha",
+        "green chilies",
+        "onions"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 15990,
+      "normalized_ingredients": [
+        "fresh coriander",
+        "garlic",
+        "instant yeast",
+        "kalonji",
+        "salted butter",
+        "sea salt",
+        "strong white bread flour",
+        "sugar",
+        "sunflower oil",
+        "warm water",
+        "yoghurt"
+      ],
+      "raw_ingredients": [
+        "strong white bread flour",
+        "salted butter",
+        "sunflower oil",
+        "warm water",
+        "yoghurt",
+        "kalonji",
+        "sugar",
+        "instant yeast",
+        "garlic",
+        "fresh coriander",
+        "sea salt"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 16571,
+      "normalized_ingredients": [
+        "brown lentil",
+        "butter",
+        "cayenne pepper",
+        "cumin",
+        "diced tomato",
+        "evaporated milk",
+        "fresh cilantro",
+        "fresh ginger",
+        "garlic",
+        "pepper",
+        "salt"
+      ],
+      "raw_ingredients": [
+        "pepper",
+        "butter",
+        "cayenne pepper",
+        "fresh ginger",
+        "garlic",
+        "cumin",
+        "fresh cilantro",
+        "diced tomatoes",
+        "brown lentils",
+        "evaporated milk",
+        "salt"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 20577,
+      "normalized_ingredients": [
+        "cauliflower florets",
+        "chopped onion",
+        "garam masala",
+        "ground coriander",
+        "kosher salt",
+        "olive oil",
+        "peeled fresh ginger"
+      ],
+      "raw_ingredients": [
+        "garam masala",
+        "ground coriander",
+        "kosher salt",
+        "cauliflower florets",
+        "peeled fresh ginger",
+        "olive oil",
+        "chopped onion"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 20812,
+      "normalized_ingredients": [
+        "boneless chicken skinless thigh",
+        "butter",
+        "cayenne pepper",
+        "cilantro leaves",
+        "crushed tomato",
+        "diced onion",
+        "fresh ginger",
+        "garam masala",
+        "garlic cloves",
+        "ground coriander",
+        "ground cumin",
+        "heavy cream",
+        "jalapeno chilies",
+        "nonfat plain greek yogurt",
+        "salt",
+        "sugar"
+      ],
+      "raw_ingredients": [
+        "crushed tomatoes",
+        "jalapeno chilies",
+        "cilantro leaves",
+        "ground cumin",
+        "sugar",
+        "garam masala",
+        "heavy cream",
+        "ground coriander",
+        "boneless chicken skinless thigh",
+        "nonfat plain greek yogurt",
+        "salt",
+        "garlic cloves",
+        "diced onions",
+        "fresh ginger",
+        "butter",
+        "cayenne pepper"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 21157,
+      "normalized_ingredients": [
+        "cayenne pepper",
+        "chicken drumstick",
+        "cinnamon",
+        "coriander",
+        "cumin",
+        "dried basil",
+        "garlic powder",
+        "ginger",
+        "lemon",
+        "low fat plain yoghurt",
+        "onion powder",
+        "paprika",
+        "salt",
+        "spices"
+      ],
+      "raw_ingredients": [
+        "garlic powder",
+        "lemon",
+        "salt",
+        "low fat plain yoghurt",
+        "spices",
+        "paprika",
+        "coriander",
+        "dried basil",
+        "cinnamon",
+        "ginger",
+        "cumin",
+        "onion powder",
+        "chicken drumsticks",
+        "cayenne pepper"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 21817,
+      "normalized_ingredients": [
+        "dried thyme",
+        "extra-virgin olive oil",
+        "fat",
+        "field lettuce",
+        "fine sea salt",
+        "garlic",
+        "ground white pepper",
+        "hamachi fillet",
+        "lemon",
+        "salad",
+        "tandoori spices",
+        "vinaigrette"
+      ],
+      "raw_ingredients": [
+        "dried thyme",
+        "extra-virgin olive oil",
+        "fat",
+        "salad",
+        "lemon",
+        "fine sea salt",
+        "field lettuce",
+        "garlic",
+        "ground white pepper",
+        "tandoori spices",
+        "hamachi fillets",
+        "vinaigrette"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 25027,
+      "normalized_ingredients": [
+        "curry powder",
+        "garlic cloves",
+        "mustard seed",
+        "plum tomato",
+        "salt",
+        "vegetable oil"
+      ],
+      "raw_ingredients": [
+        "curry powder",
+        "mustard seeds",
+        "salt",
+        "vegetable oil",
+        "plum tomatoes",
+        "garlic cloves"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 27611,
+      "normalized_ingredients": [
+        "basmati rice",
+        "bay leaves",
+        "carrot",
+        "cinnamon sticks",
+        "clove",
+        "coarse salt",
+        "coconut",
+        "coconut milk",
+        "coriander seed",
+        "cumin seed",
+        "fresh ginger",
+        "frozen peas",
+        "poppy seed",
+        "russet potato",
+        "vegetable oil",
+        "water",
+        "yellow onion"
+      ],
+      "raw_ingredients": [
+        "coconut",
+        "vegetable oil",
+        "yellow onion",
+        "coconut milk",
+        "clove",
+        "coriander seeds",
+        "russet potatoes",
+        "carrots",
+        "basmati rice",
+        "water",
+        "bay leaves",
+        "poppy seeds",
+        "cinnamon sticks",
+        "fresh ginger",
+        "coarse salt",
+        "cumin seed",
+        "frozen peas"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 32817,
+      "normalized_ingredients": [
+        "almond flour",
+        "cardamon",
+        "condensed milk",
+        "dry coconut",
+        "nutmeg",
+        "powdered milk",
+        "pumpkin puree",
+        "pumpkin seed",
+        "sugar",
+        "unsalted butter"
+      ],
+      "raw_ingredients": [
+        "almond flour",
+        "powdered milk",
+        "sugar",
+        "dry coconut",
+        "condensed milk",
+        "nutmeg",
+        "cardamon",
+        "pumpkin seeds",
+        "unsalted butter",
+        "pumpkin purée"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 33159,
+      "normalized_ingredients": [
+        "chicken",
+        "chiles",
+        "coarse salt",
+        "coriander seed",
+        "cucumber",
+        "cumin seed",
+        "fennel seed",
+        "greek yogurt",
+        "ground turmeric",
+        "large garlic cloves",
+        "lime wedges",
+        "minced ginger",
+        "onion",
+        "vegetable oil"
+      ],
+      "raw_ingredients": [
+        "coriander seeds",
+        "large garlic cloves",
+        "onions",
+        "chiles",
+        "vegetable oil",
+        "cucumber",
+        "chicken",
+        "minced ginger",
+        "coarse salt",
+        "greek yogurt",
+        "fennel seeds",
+        "lime wedges",
+        "cumin seed",
+        "ground turmeric"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 38964,
+      "normalized_ingredients": [
+        "coconut oil",
+        "curry leaves",
+        "dried red chile peppers",
+        "ginger",
+        "grated coconut",
+        "mustard seed",
+        "salt",
+        "shallot",
+        "urad dal",
+        "water"
+      ],
+      "raw_ingredients": [
+        "water",
+        "salt",
+        "coconut oil",
+        "ginger",
+        "dried red chile peppers",
+        "curry leaves",
+        "shallots",
+        "mustard seeds",
+        "grated coconut",
+        "urad dal"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 40414,
+      "normalized_ingredients": [
+        "coconut",
+        "dumpling wrappers",
+        "golden raisin",
+        "ground cardamom",
+        "light brown sugar",
+        "slivered almond",
+        "vegetable oil",
+        "whole milk"
+      ],
+      "raw_ingredients": [
+        "light brown sugar",
+        "whole milk",
+        "coconut",
+        "vegetable oil",
+        "slivered almonds",
+        "golden raisins",
+        "dumpling wrappers",
+        "ground cardamom"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 40466,
+      "normalized_ingredients": [
+        "chicken thigh",
+        "spices",
+        "vegetable oil",
+        "yoghurt"
+      ],
+      "raw_ingredients": [
+        "chicken thighs",
+        "vegetable oil",
+        "yoghurt",
+        "spices"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 42290,
+      "normalized_ingredients": [
+        "coconut flakes",
+        "coriander seed",
+        "cumin seed",
+        "fresh ginger",
+        "garlic cloves",
+        "jalapeno chilies",
+        "jasmine rice",
+        "malt vinegar",
+        "medium shrimp",
+        "neutral oil",
+        "onion",
+        "red chili peppers",
+        "salt",
+        "tamarind concentrate"
+      ],
+      "raw_ingredients": [
+        "jasmine rice",
+        "malt vinegar",
+        "tamarind concentrate",
+        "red chili peppers",
+        "jalapeno chilies",
+        "garlic cloves",
+        "coconut flakes",
+        "coriander seeds",
+        "cumin seed",
+        "onions",
+        "neutral oil",
+        "fresh ginger",
+        "salt",
+        "medium shrimp"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 44890,
+      "normalized_ingredients": [
+        "cashew nuts",
+        "cumin seed",
+        "dried chile peppers",
+        "fresh curry leaves",
+        "fresh lime juice",
+        "ground turmeric",
+        "long-grain rice",
+        "mustard seed",
+        "plain yogurt",
+        "salt",
+        "tamarind paste",
+        "vegetable oil",
+        "water"
+      ],
+      "raw_ingredients": [
+        "fresh curry leaves",
+        "tamarind paste",
+        "mustard seeds",
+        "plain yogurt",
+        "salt",
+        "dried chile peppers",
+        "ground turmeric",
+        "vegetable oil",
+        "long-grain rice",
+        "cashew nuts",
+        "water",
+        "cumin seed",
+        "fresh lime juice"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "indian",
+      "id": 49327,
+      "normalized_ingredients": [
+        "avocado",
+        "black pepper",
+        "cilantro sprigs",
+        "coriander seed",
+        "cumin seed",
+        "garam masala",
+        "ground turmeric",
+        "kosher salt",
+        "lime juice",
+        "peach",
+        "purple onion",
+        "serrano chile",
+        "shrimp",
+        "vegetable oil"
+      ],
+      "raw_ingredients": [
+        "lime juice",
+        "vegetable oil",
+        "shrimp",
+        "black pepper",
+        "garam masala",
+        "purple onion",
+        "ground turmeric",
+        "kosher salt",
+        "peaches",
+        "cumin seed",
+        "avocado",
+        "coriander seeds",
+        "cilantro sprigs",
+        "serrano chile"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 3689,
+      "normalized_ingredients": [
+        "cream cheese, soften",
+        "cut up cooked chicken",
+        "frozen chopped spinach, thawed and squeezed dry",
+        "knorr pasta sides - butter & herb",
+        "shredded mozzarella cheese",
+        "tomato"
+      ],
+      "raw_ingredients": [
+        "tomatoes",
+        "cream cheese, soften",
+        "shredded mozzarella cheese",
+        "Knorr® Pasta Sides™ - Butter & Herb",
+        "cut up cooked chicken",
+        "frozen chopped spinach, thawed and squeezed dry"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 4525,
+      "normalized_ingredients": [
+        "baguette",
+        "fresh basil",
+        "fresh tomato",
+        "garlic",
+        "olive oil",
+        "red wine vinegar",
+        "salt"
+      ],
+      "raw_ingredients": [
+        "olive oil",
+        "fresh tomatoes",
+        "garlic",
+        "fresh basil",
+        "red wine vinegar",
+        "baguette",
+        "salt"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 5571,
+      "normalized_ingredients": [
+        "crabmeat",
+        "extra-virgin olive oil",
+        "flat leaf parsley",
+        "preserved lemon",
+        "purple onion",
+        "salted butter",
+        "sambal ulek",
+        "spaghettini"
+      ],
+      "raw_ingredients": [
+        "salted butter",
+        "spaghettini",
+        "sambal ulek",
+        "purple onion",
+        "preserved lemon",
+        "crabmeat",
+        "extra-virgin olive oil",
+        "flat leaf parsley"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 6014,
+      "normalized_ingredients": [
+        "arugula",
+        "grated parmesan cheese",
+        "ground pepper",
+        "olive oil",
+        "potato gnocchi",
+        "salt",
+        "walnut",
+        "water"
+      ],
+      "raw_ingredients": [
+        "water",
+        "potato gnocchi",
+        "ground pepper",
+        "walnuts",
+        "grated parmesan cheese",
+        "arugula",
+        "olive oil",
+        "salt"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 12819,
+      "normalized_ingredients": [
+        "chestnut",
+        "cocoa",
+        "creme fraiche",
+        "marrons",
+        "mascarpone",
+        "powdered sugar"
+      ],
+      "raw_ingredients": [
+        "marrons",
+        "chestnuts",
+        "mascarpone",
+        "cocoa",
+        "powdered sugar",
+        "crème fraîche"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 12925,
+      "normalized_ingredients": [
+        "bacon",
+        "chopped onion",
+        "fontina cheese",
+        "fresh parsley",
+        "frozen corn kernels",
+        "garlic cloves",
+        "grated parmesan cheese",
+        "low salt chicken broth",
+        "polenta"
+      ],
+      "raw_ingredients": [
+        "bacon",
+        "low salt chicken broth",
+        "fontina cheese",
+        "chopped onion",
+        "polenta",
+        "grated parmesan cheese",
+        "garlic cloves",
+        "frozen corn kernels",
+        "fresh parsley"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 13052,
+      "normalized_ingredients": [
+        "basil",
+        "cracked black pepper",
+        "crushed red pepper",
+        "crushed tomato",
+        "dried oregano",
+        "minced garlic",
+        "olive oil",
+        "salt",
+        "sugar",
+        "tomato paste"
+      ],
+      "raw_ingredients": [
+        "tomato paste",
+        "olive oil",
+        "salt",
+        "minced garlic",
+        "cracked black pepper",
+        "sugar",
+        "basil",
+        "dried oregano",
+        "crushed tomatoes",
+        "crushed red pepper"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 13339,
+      "normalized_ingredients": [
+        "butter",
+        "center cut loin pork chop",
+        "cooking spray",
+        "fresh lemon juice",
+        "fresh parmesan cheese",
+        "fresh parsley",
+        "ground black pepper",
+        "italian seasoning",
+        "kosher salt",
+        "large egg whites",
+        "olive oil",
+        "seasoned bread crumbs"
+      ],
+      "raw_ingredients": [
+        "olive oil",
+        "butter",
+        "italian seasoning",
+        "seasoned bread crumbs",
+        "ground black pepper",
+        "fresh parsley",
+        "kosher salt",
+        "fresh parmesan cheese",
+        "fresh lemon juice",
+        "large egg whites",
+        "cooking spray",
+        "center cut loin pork chop"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 16657,
+      "normalized_ingredients": [
+        "anchovy fillet",
+        "bread crumb fresh",
+        "crushed red pepper flakes",
+        "garlic cloves",
+        "grated parmesan cheese",
+        "ground black pepper",
+        "kale",
+        "kosher salt",
+        "olive oil",
+        "orecchiette",
+        "unsalted butter"
+      ],
+      "raw_ingredients": [
+        "bread crumb fresh",
+        "ground black pepper",
+        "anchovy fillets",
+        "kale",
+        "grated parmesan cheese",
+        "orecchiette",
+        "olive oil",
+        "crushed red pepper flakes",
+        "kosher salt",
+        "unsalted butter",
+        "garlic cloves"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 16835,
+      "normalized_ingredients": [
+        "baguette",
+        "bartlett pear",
+        "butter",
+        "cream cheese, soften",
+        "dry sherry",
+        "fresh rosemary",
+        "gorgonzola",
+        "honey",
+        "salted roasted pecan"
+      ],
+      "raw_ingredients": [
+        "honey",
+        "cream cheese, soften",
+        "fresh rosemary",
+        "dry sherry",
+        "gorgonzola",
+        "baguette",
+        "salted roasted pecans",
+        "butter",
+        "bartlett pears"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 18102,
+      "normalized_ingredients": [
+        "mozzarella cheese",
+        "oregano",
+        "parmigiano reggiano cheese",
+        "pasta",
+        "pepperoni",
+        "pizza sauce",
+        "ricotta",
+        "sausage casings",
+        "sliced black olive"
+      ],
+      "raw_ingredients": [
+        "mozzarella cheese",
+        "ricotta",
+        "pasta",
+        "parmigiano reggiano cheese",
+        "oregano",
+        "sliced black olives",
+        "pepperoni",
+        "sausage casings",
+        "pizza sauce"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 22269,
+      "normalized_ingredients": [
+        "black pepper",
+        "kosher salt",
+        "large egg",
+        "prosciutto",
+        "soft rolls",
+        "swiss cheese",
+        "unsalted butter"
+      ],
+      "raw_ingredients": [
+        "prosciutto",
+        "soft rolls",
+        "unsalted butter",
+        "black pepper",
+        "large eggs",
+        "kosher salt",
+        "swiss cheese"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 22334,
+      "normalized_ingredients": [
+        "all-purpose flour",
+        "butter",
+        "coffee ice cream",
+        "hot fudge topping",
+        "large egg",
+        "sugar"
+      ],
+      "raw_ingredients": [
+        "sugar",
+        "all-purpose flour",
+        "large eggs",
+        "hot fudge topping",
+        "butter",
+        "coffee ice cream"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 22724,
+      "normalized_ingredients": [
+        "all-purpose flour",
+        "black truffles",
+        "grated lemon peel",
+        "ground black pepper",
+        "large egg",
+        "large egg yolks",
+        "olive oil",
+        "salt",
+        "truffle oil",
+        "unsalted butter",
+        "water",
+        "whole milk ricotta cheese"
+      ],
+      "raw_ingredients": [
+        "large egg yolks",
+        "large eggs",
+        "grated lemon peel",
+        "olive oil",
+        "truffle oil",
+        "all-purpose flour",
+        "black truffles",
+        "ground black pepper",
+        "whole milk ricotta cheese",
+        "water",
+        "unsalted butter",
+        "salt"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 24571,
+      "normalized_ingredients": [
+        "fresh rosemary",
+        "freshly ground pepper",
+        "large egg",
+        "olive oil",
+        "prosciutto",
+        "salt",
+        "sea salt",
+        "sourdough bread",
+        "vinaigrette",
+        "white distilled vinegar"
+      ],
+      "raw_ingredients": [
+        "white distilled vinegar",
+        "large eggs",
+        "freshly ground pepper",
+        "olive oil",
+        "salt",
+        "fresh rosemary",
+        "prosciutto",
+        "vinaigrette",
+        "sourdough bread",
+        "sea salt"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 34598,
+      "normalized_ingredients": [
+        "garlic salt",
+        "italian bread",
+        "olive oil",
+        "shredded italian cheese",
+        "tomato"
+      ],
+      "raw_ingredients": [
+        "tomatoes",
+        "garlic salt",
+        "shredded Italian cheese",
+        "olive oil",
+        "Italian bread"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 35631,
+      "normalized_ingredients": [
+        "basil pesto sauce",
+        "boneless skinless chicken breast halves",
+        "coarse salt",
+        "fettucine",
+        "ground pepper",
+        "heavy cream",
+        "olive oil"
+      ],
+      "raw_ingredients": [
+        "fettucine",
+        "coarse salt",
+        "olive oil",
+        "boneless skinless chicken breast halves",
+        "basil pesto sauce",
+        "heavy cream",
+        "ground pepper"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 36699,
+      "normalized_ingredients": [
+        "bacon",
+        "borlotti beans",
+        "carrot",
+        "chopped celery",
+        "chopped onion",
+        "crushed red pepper",
+        "diced tomato",
+        "dried basil",
+        "fat free less sodium chicken broth",
+        "fennel bulb",
+        "garlic cloves",
+        "kale",
+        "parmigiano-reggiano cheese",
+        "salt",
+        "tomato paste",
+        "water",
+        "zucchini"
+      ],
+      "raw_ingredients": [
+        "parmigiano-reggiano cheese",
+        "kale",
+        "diced tomatoes",
+        "chopped onion",
+        "water",
+        "zucchini",
+        "crushed red pepper",
+        "carrots",
+        "fat free less sodium chicken broth",
+        "fennel bulb",
+        "chopped celery",
+        "garlic cloves",
+        "tomato paste",
+        "dried basil",
+        "bacon",
+        "salt",
+        "borlotti beans"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 37912,
+      "normalized_ingredients": [
+        "chicken cutlet",
+        "garlic powder",
+        "italian seasoned dry bread crumbs",
+        "lemon pepper",
+        "mayonaise",
+        "salt",
+        "shredded parmesan cheese"
+      ],
+      "raw_ingredients": [
+        "chicken cutlets",
+        "italian seasoned dry bread crumbs",
+        "mayonaise",
+        "shredded parmesan cheese",
+        "salt",
+        "garlic powder",
+        "lemon pepper"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 38591,
+      "normalized_ingredients": [
+        "all-purpose flour",
+        "cheese",
+        "grated nutmeg",
+        "heavy cream",
+        "large egg",
+        "parmigiano reggiano cheese",
+        "salt",
+        "truffles",
+        "unsalted butter",
+        "whole milk"
+      ],
+      "raw_ingredients": [
+        "truffles",
+        "whole milk",
+        "all-purpose flour",
+        "large eggs",
+        "salt",
+        "unsalted butter",
+        "heavy cream",
+        "grated nutmeg",
+        "parmigiano reggiano cheese",
+        "cheese"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 39111,
+      "normalized_ingredients": [
+        "extra-virgin olive oil",
+        "flat leaf parsley",
+        "garlic cloves",
+        "ground black pepper",
+        "ice",
+        "kosher salt",
+        "lemon juice",
+        "mussel",
+        "shrimp",
+        "squid",
+        "varnish clam"
+      ],
+      "raw_ingredients": [
+        "kosher salt",
+        "garlic cloves",
+        "varnish clams",
+        "extra-virgin olive oil",
+        "shrimp",
+        "mussels",
+        "squid",
+        "flat leaf parsley",
+        "ground black pepper",
+        "lemon juice",
+        "ice"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 44873,
+      "normalized_ingredients": [
+        "caper",
+        "fresh basil",
+        "garlic cloves",
+        "grated parmesan cheese",
+        "green olive",
+        "italian plum tomato",
+        "kalamata",
+        "linguine",
+        "olive oil"
+      ],
+      "raw_ingredients": [
+        "capers",
+        "kalamata",
+        "fresh basil",
+        "grated parmesan cheese",
+        "garlic cloves",
+        "green olives",
+        "italian plum tomatoes",
+        "olive oil",
+        "linguine"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 45017,
+      "normalized_ingredients": [
+        "ground beef",
+        "marinara sauce",
+        "mozzarella cheese",
+        "parmesan cheese",
+        "pasta"
+      ],
+      "raw_ingredients": [
+        "marinara sauce",
+        "mozzarella cheese",
+        "parmesan cheese",
+        "pasta",
+        "ground beef"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 47566,
+      "normalized_ingredients": [
+        "carnation",
+        "cheese",
+        "dried basil",
+        "evaporated low-fat 2% milk",
+        "garlic powder",
+        "ground black pepper",
+        "penne pasta",
+        "sun-dried tomato"
+      ],
+      "raw_ingredients": [
+        "carnation",
+        "ground black pepper",
+        "sun-dried tomatoes",
+        "evaporated low-fat 2% milk",
+        "dried basil",
+        "cheese",
+        "garlic powder",
+        "penne pasta"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "italian",
+      "id": 48002,
+      "normalized_ingredients": [
+        "bread slices",
+        "brie cheese",
+        "butter",
+        "fresh basil leaves",
+        "jelly",
+        "smoked turkey",
+        "strawberry"
+      ],
+      "raw_ingredients": [
+        "brie cheese",
+        "strawberries",
+        "fresh basil leaves",
+        "smoked turkey",
+        "jelly",
+        "butter",
+        "bread slices"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 1986,
+      "normalized_ingredients": [
+        "boneless skinless chicken breast",
+        "canola oil",
+        "chayotes",
+        "cooked white rice",
+        "cumin seed",
+        "epazote",
+        "fresh cilantro",
+        "garlic",
+        "green beans",
+        "hoja santa",
+        "kosher salt",
+        "onion",
+        "pumpkin seed",
+        "romaine lettuce",
+        "serrano chile",
+        "tomatillo",
+        "vegetable stock"
+      ],
+      "raw_ingredients": [
+        "romaine lettuce",
+        "vegetable stock",
+        "pumpkin seeds",
+        "cooked white rice",
+        "hoja santa",
+        "boneless skinless chicken breasts",
+        "garlic",
+        "chayotes",
+        "canola oil",
+        "kosher salt",
+        "tomatillos",
+        "cumin seed",
+        "onions",
+        "fresh cilantro",
+        "epazote",
+        "green beans",
+        "serrano chile"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 4182,
+      "normalized_ingredients": [
+        "avocado",
+        "black beans",
+        "breakfast sausage",
+        "cilantro leaves",
+        "egg",
+        "green enchilada sauce",
+        "jack cheese",
+        "large flour tortilla",
+        "oil",
+        "sliced green onion"
+      ],
+      "raw_ingredients": [
+        "avocado",
+        "breakfast sausages",
+        "oil",
+        "jack cheese",
+        "green enchilada sauce",
+        "eggs",
+        "large flour tortillas",
+        "sliced green onions",
+        "black beans",
+        "cilantro leaves"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 5093,
+      "normalized_ingredients": [
+        "black beans",
+        "colby jack cheese",
+        "salt",
+        "tomatillo salsa",
+        "water",
+        "white rice"
+      ],
+      "raw_ingredients": [
+        "black beans",
+        "white rice",
+        "water",
+        "tomatillo salsa",
+        "salt",
+        "colby jack cheese"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 7227,
+      "normalized_ingredients": [
+        "bay leaves",
+        "black peppercorn",
+        "cauliflower florets",
+        "cider vinegar",
+        "dried oregano",
+        "dried thyme",
+        "garlic",
+        "jalapeno chilies",
+        "jicama",
+        "marjoram",
+        "onion",
+        "sliced carrot",
+        "vegetable oil",
+        "water",
+        "zucchini"
+      ],
+      "raw_ingredients": [
+        "cider vinegar",
+        "jalapeno chilies",
+        "vegetable oil",
+        "marjoram",
+        "dried thyme",
+        "jicama",
+        "garlic",
+        "black peppercorns",
+        "zucchini",
+        "sliced carrots",
+        "onions",
+        "water",
+        "bay leaves",
+        "cauliflower florets",
+        "dried oregano"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 8361,
+      "normalized_ingredients": [
+        "butter",
+        "chili powder",
+        "cream cheese",
+        "jumbo pasta shells",
+        "lean ground beef",
+        "salt",
+        "shredded cheddar cheese",
+        "shredded monterey jack cheese",
+        "sour cream",
+        "taco sauce",
+        "tortilla chips"
+      ],
+      "raw_ingredients": [
+        "shredded cheddar cheese",
+        "salt",
+        "sour cream",
+        "lean ground beef",
+        "tortilla chips",
+        "chili powder",
+        "jumbo pasta shells",
+        "shredded Monterey Jack cheese",
+        "taco sauce",
+        "butter",
+        "cream cheese"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 8555,
+      "normalized_ingredients": [
+        "corn tortilla",
+        "enchilada sauce",
+        "onion",
+        "shredded cheddar cheese"
+      ],
+      "raw_ingredients": [
+        "enchilada sauce",
+        "onions",
+        "corn tortillas",
+        "shredded cheddar cheese"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 8735,
+      "normalized_ingredients": [
+        "boneless skinless chicken breast halves",
+        "chile sauce",
+        "cilantro leaves",
+        "garlic cloves",
+        "salt",
+        "vegetable oil"
+      ],
+      "raw_ingredients": [
+        "cilantro leaves",
+        "vegetable oil",
+        "boneless skinless chicken breast halves",
+        "garlic cloves",
+        "salt",
+        "chile sauce"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 9148,
+      "normalized_ingredients": [
+        "avocado",
+        "chopped cilantro",
+        "corn kernels",
+        "fresh lime juice",
+        "salt",
+        "serrano chile",
+        "tomato"
+      ],
+      "raw_ingredients": [
+        "tomatoes",
+        "chopped cilantro",
+        "salt",
+        "avocado",
+        "fresh lime juice",
+        "corn kernels",
+        "serrano chile"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 14755,
+      "normalized_ingredients": [
+        "boneless skinless chicken breast halves",
+        "cheese spread",
+        "chicken broth",
+        "chili powder",
+        "condensed cream of celery soup",
+        "condensed cream of chicken soup",
+        "corn tortilla",
+        "diced tomato",
+        "enchilada sauce",
+        "garlic powder",
+        "green chile",
+        "onion"
+      ],
+      "raw_ingredients": [
+        "chicken broth",
+        "garlic powder",
+        "enchilada sauce",
+        "condensed cream of celery soup",
+        "cheese spread",
+        "boneless skinless chicken breast halves",
+        "condensed cream of chicken soup",
+        "diced tomatoes",
+        "onions",
+        "green chile",
+        "chili powder",
+        "corn tortillas"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 16248,
+      "normalized_ingredients": [
+        "cider vinegar",
+        "corn tortilla",
+        "epazote",
+        "garlic cloves",
+        "habanero chile",
+        "large egg",
+        "pumpkin seed",
+        "pumpkin seed oil",
+        "tomato",
+        "vegetable oil",
+        "water",
+        "white onion",
+        "zucchini"
+      ],
+      "raw_ingredients": [
+        "tomatoes",
+        "water",
+        "epazote",
+        "corn tortillas",
+        "white onion",
+        "large eggs",
+        "garlic cloves",
+        "cider vinegar",
+        "vegetable oil",
+        "pumpkin seed oil",
+        "habanero chile",
+        "zucchini",
+        "pumpkin seeds"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 17083,
+      "normalized_ingredients": [
+        "boneless skinless chicken breast",
+        "canned black beans",
+        "canola oil",
+        "chili powder",
+        "dried oregano",
+        "garlic",
+        "green cabbage",
+        "hominy",
+        "lime wedges",
+        "purple onion",
+        "reduced sodium chicken broth",
+        "salt"
+      ],
+      "raw_ingredients": [
+        "green cabbage",
+        "boneless skinless chicken breasts",
+        "purple onion",
+        "reduced sodium chicken broth",
+        "lime wedges",
+        "dried oregano",
+        "canned black beans",
+        "chili powder",
+        "salt",
+        "hominy",
+        "garlic",
+        "canola oil"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 20328,
+      "normalized_ingredients": [
+        "boneless skinless chicken breast",
+        "canola oil",
+        "chicken bouillon",
+        "creamy peanut butter",
+        "dried oregano",
+        "garlic cloves",
+        "ground cloves",
+        "mexican chocolate",
+        "olive oil",
+        "onion",
+        "pasilla chiles",
+        "pepitas",
+        "sesame seed",
+        "tortilla"
+      ],
+      "raw_ingredients": [
+        "chicken bouillon",
+        "boneless skinless chicken breasts",
+        "pepitas",
+        "pasilla chiles",
+        "sesame seeds",
+        "creamy peanut butter",
+        "dried oregano",
+        "olive oil",
+        "mexican chocolate",
+        "onions",
+        "ground cloves",
+        "tortillas",
+        "garlic cloves",
+        "canola oil"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 22014,
+      "normalized_ingredients": [
+        "ancho chile pepper",
+        "apple cider vinegar",
+        "dried oregano",
+        "flat leaf parsley",
+        "flour tortilla",
+        "garlic cloves",
+        "ground black pepper",
+        "ground cumin",
+        "orange juice",
+        "pork butt",
+        "sea salt",
+        "vegetable oil",
+        "water",
+        "white onion"
+      ],
+      "raw_ingredients": [
+        "flour tortillas",
+        "orange juice",
+        "pork butt",
+        "water",
+        "vegetable oil",
+        "ancho chile pepper",
+        "ground cumin",
+        "ground black pepper",
+        "sea salt",
+        "flat leaf parsley",
+        "white onion",
+        "apple cider vinegar",
+        "garlic cloves",
+        "dried oregano"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 24315,
+      "normalized_ingredients": [
+        "chopped green chilies",
+        "cilantro",
+        "colby jack cheese",
+        "corn tortilla",
+        "ear of corn",
+        "garlic",
+        "jalapeno chilies",
+        "medium shrimp",
+        "olive oil",
+        "red bell pepper",
+        "red enchilada sauce",
+        "shredded monterey jack cheese",
+        "sour cream",
+        "sweet onion",
+        "taco seasoning mix"
+      ],
+      "raw_ingredients": [
+        "chopped green chilies",
+        "garlic",
+        "sour cream",
+        "taco seasoning mix",
+        "colby jack cheese",
+        "red enchilada sauce",
+        "medium shrimp",
+        "sweet onion",
+        "jalapeno chilies",
+        "ear of corn",
+        "corn tortillas",
+        "olive oil",
+        "cilantro",
+        "red bell pepper",
+        "shredded Monterey Jack cheese"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 28908,
+      "normalized_ingredients": [
+        "all-purpose flour",
+        "beef broth",
+        "chili powder",
+        "chuck roast",
+        "cumin",
+        "garlic",
+        "onion",
+        "potato",
+        "red bell pepper",
+        "salt"
+      ],
+      "raw_ingredients": [
+        "potatoes",
+        "all-purpose flour",
+        "cumin",
+        "garlic",
+        "red bell pepper",
+        "chili powder",
+        "beef broth",
+        "chuck roast",
+        "salt",
+        "onions"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 29286,
+      "normalized_ingredients": [
+        "avocado",
+        "baking potato",
+        "cheese",
+        "flour tortilla",
+        "fresh cilantro",
+        "green onion",
+        "large egg",
+        "mexican chorizo",
+        "olive oil",
+        "salsa",
+        "vegetable oil"
+      ],
+      "raw_ingredients": [
+        "large eggs",
+        "cheese",
+        "olive oil",
+        "baking potatoes",
+        "mexican chorizo",
+        "fresh cilantro",
+        "vegetable oil",
+        "scallions",
+        "avocado",
+        "flour tortillas",
+        "salsa"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 29520,
+      "normalized_ingredients": [
+        "avocado",
+        "beer",
+        "fresh coriander",
+        "green chilies",
+        "ground black pepper",
+        "lemon juice",
+        "red chili peppers",
+        "red pepper",
+        "sea salt",
+        "shredded cheddar cheese",
+        "sour cream",
+        "spring onion",
+        "tomato",
+        "tortilla"
+      ],
+      "raw_ingredients": [
+        "fresh coriander",
+        "spring onions",
+        "beer",
+        "tomatoes",
+        "ground black pepper",
+        "sea salt",
+        "sour cream",
+        "avocado",
+        "shredded cheddar cheese",
+        "red pepper",
+        "lemon juice",
+        "red chili peppers",
+        "tortillas",
+        "green chilies"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 30530,
+      "normalized_ingredients": [
+        "all-purpose flour",
+        "bacon bits",
+        "cream cheese",
+        "dry bread crumbs",
+        "jalapeno chilies",
+        "milk",
+        "oil",
+        "shredded cheddar cheese"
+      ],
+      "raw_ingredients": [
+        "milk",
+        "cream cheese",
+        "bacon bits",
+        "all-purpose flour",
+        "jalapeno chilies",
+        "oil",
+        "shredded cheddar cheese",
+        "dry bread crumbs"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 32818,
+      "normalized_ingredients": [
+        "chayotes",
+        "chopped pecan",
+        "cider vinegar",
+        "diced onion",
+        "dried cherry",
+        "garlic cloves",
+        "greens",
+        "olive oil",
+        "posole",
+        "salt",
+        "unsalted butter",
+        "vegetable stock"
+      ],
+      "raw_ingredients": [
+        "posole",
+        "unsalted butter",
+        "chopped pecans",
+        "olive oil",
+        "salt",
+        "greens",
+        "cider vinegar",
+        "vegetable stock",
+        "chayotes",
+        "diced onions",
+        "dried cherry",
+        "garlic cloves"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 33668,
+      "normalized_ingredients": [
+        "avocado",
+        "black pepper",
+        "cherry tomato",
+        "cilantro",
+        "corn",
+        "jalapeno chilies",
+        "kosher salt",
+        "lime juice",
+        "white onion"
+      ],
+      "raw_ingredients": [
+        "kosher salt",
+        "jalapeno chilies",
+        "black pepper",
+        "corn",
+        "avocado",
+        "lime juice",
+        "cilantro",
+        "white onion",
+        "cherry tomatoes"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 37449,
+      "normalized_ingredients": [
+        "monterey jack",
+        "salmon",
+        "salsa",
+        "tortilla"
+      ],
+      "raw_ingredients": [
+        "salmon",
+        "salsa",
+        "tortillas",
+        "monterey jack"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 39020,
+      "normalized_ingredients": [
+        "cinnamon sticks",
+        "masa harina",
+        "mexican chocolate",
+        "milk",
+        "piloncillo",
+        "salt",
+        "star anise",
+        "warm water"
+      ],
+      "raw_ingredients": [
+        "milk",
+        "cinnamon sticks",
+        "piloncillo",
+        "mexican chocolate",
+        "star anise",
+        "masa harina",
+        "warm water",
+        "salt"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 39381,
+      "normalized_ingredients": [
+        "avocado",
+        "black pepper",
+        "cilantro leaves",
+        "fresh lime juice",
+        "kosher salt",
+        "purple onion",
+        "serrano chile",
+        "tomato"
+      ],
+      "raw_ingredients": [
+        "avocado",
+        "purple onion",
+        "black pepper",
+        "fresh lime juice",
+        "tomatoes",
+        "cilantro leaves",
+        "kosher salt",
+        "serrano chile"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 45877,
+      "normalized_ingredients": [
+        "bacon",
+        "cheddar cheese",
+        "chicken breast",
+        "flour tortilla",
+        "sandwiches",
+        "sliced ham"
+      ],
+      "raw_ingredients": [
+        "flour tortillas",
+        "sandwiches",
+        "bacon",
+        "chicken breasts",
+        "cheddar cheese",
+        "sliced ham"
+      ],
+      "split": "training"
+    },
+    {
+      "cuisine": "mexican",
+      "id": 49150,
+      "normalized_ingredients": [
+        "beef consomme",
+        "beef rib short",
+        "chopped green bell pepper",
+        "taco seasoning mix"
+      ],
+      "raw_ingredients": [
+        "taco seasoning mix",
+        "beef consomme",
+        "chopped green bell pepper",
+        "beef rib short"
+      ],
+      "split": "training"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+ .gitignore                                         |    13 [32m+[m
+ Makefile                                           |    41 [32m+[m
+ README.md                                          |   453 [32m+[m
+ audit_ingredients.py                               |    99 [32m+[m
+ config.yaml                                        |    70 [32m+[m
+ data/processed/split.json                          | 17301 [32m+++++++[m
+ evaluate.py                                        |     9 [32m+[m
+ outputs/d1_dataset/d1_summary.json                 |    27 [32m+[m
+ outputs/d1_dataset/edges_indian.csv                | 22285 [32m+++++++++[m
+ outputs/d1_dataset/edges_italian.csv               | 48489 [32m+++++++++++++++++++[m
+ outputs/d1_dataset/edges_mexican.csv               | 42704 [32m++++++++++++++++[m
+ outputs/d1_dataset/ingredient_prevalence_all.csv   |  7260 [32m+++[m
+ outputs/d1_dataset/merge_log.csv                   |   721 [32m+[m
+ outputs/d1_dataset/nodes.csv                       |  1179 [32m+[m
+ outputs/d1_dataset/normalization_report.json       |   271 [32m+[m
+ outputs/d2_backbone/backbone_indian.csv            |  1830 [32m+[m
+ outputs/d2_backbone/backbone_italian.csv           |  3759 [32m++[m
+ outputs/d2_backbone/backbone_mexican.csv           |  2848 [32m++[m
+ outputs/d2_backbone/backbone_summary.csv           |     4 [32m+[m
+ outputs/d2_backbone/effective_config.json          |    71 [32m+[m
+ outputs/d2_backbone/graph_indian.html              |   479 [32m+[m
+ outputs/d2_backbone/graph_italian.html             |   479 [32m+[m
+ outputs/d2_backbone/graph_mexican.html             |   479 [32m+[m
+ outputs/d2_backbone/null_benchmark.json            |    69 [32m+[m
+ outputs/d2_backbone/null_model_checks.json         |    44 [32m+[m
+ outputs/d2_backbone/null_model_metadata.json       |   322 [32m+[m
+ outputs/d2_backbone/null_stats_indian.csv          | 22285 [32m+++++++++[m
+ outputs/d2_backbone/null_stats_italian.csv         | 48489 [32m+++++++++++++++++++[m
+ outputs/d2_backbone/null_stats_mexican.csv         | 42704 [32m++++++++++++++++[m
+ outputs/d3_report/analysis_summary.json            |    22 [32m+[m
+ outputs/d3_report/bridges.csv                      |    16 [32m+[m
+ outputs/d3_report/communities_indian.csv           |   262 [32m+[m
+ outputs/d3_report/communities_italian.csv          |   474 [32m+[m
+ outputs/d3_report/communities_mexican.csv          |   409 [32m+[m
+ outputs/d3_report/figures/fig1_backbone_edges.png  |   Bin [31m0[m -> [32m28847[m bytes
+ outputs/d3_report/figures/fig2_top_hubs.png        |   Bin [31m0[m -> [32m54788[m bytes
+ outputs/d3_report/figures/fig3_hub_overlap.png     |   Bin [31m0[m -> [32m41786[m bytes
+ outputs/d3_report/figures/fig4_community_sizes.png |   Bin [31m0[m -> [32m24673[m bytes
+ outputs/d3_report/figures/fig5_bridges.png         |   Bin [31m0[m -> [32m31574[m bytes
+ outputs/d3_report/hubs_indian.csv                  |    21 [32m+[m
+ outputs/d3_report/hubs_italian.csv                 |    18 [32m+[m
+ outputs/d3_report/hubs_mexican.csv                 |    18 [32m+[m
+ outputs/d3_report/report.md                        |   207 [32m+[m
+ outputs/d3_report/report.pdf                       |   239 [32m+[m
+ outputs/d3_report/universal_vs_specific_hubs.csv   |    27 [32m+[m
+ outputs/d4_scorer/confusion_matrix.png             |   Bin [31m0[m -> [32m46757[m bytes
+ outputs/d4_scorer/confusion_matrix_ablation.png    |   Bin [31m0[m -> [32m47813[m bytes
+ outputs/d4_scorer/confusion_matrix_nb.png          |   Bin [31m0[m -> [32m46308[m bytes
+ outputs/d4_scorer/confusion_matrix_normalized.png  |   Bin [31m0[m -> [32m61762[m bytes
+ .../confusion_matrix_normalized_ablation.png       |   Bin [31m0[m -> [32m62082[m bytes
+ .../d4_scorer/confusion_matrix_normalized_nb.png   |   Bin [31m0[m -> [32m60918[m bytes
+ outputs/d4_scorer/evaluation_metadata.json         |   596 [32m+[m
+ outputs/d4_scorer/garam_masala_diagnostic.json     |   334 [32m+[m
+ outputs/d4_scorer/results.csv                      |     4 [32m+[m
+ .../training_artifacts/backbone_indian.csv         |  1467 [32m+[m
+ .../training_artifacts/backbone_italian.csv        |  2974 [32m++[m
+ .../training_artifacts/backbone_mexican.csv        |  2224 [32m+[m
+ .../training_artifacts/backbone_summary_train.csv  |     4 [32m+[m
+ .../d4_scorer/training_artifacts/nodes_train.csv   |  1041 [32m+[m
+ .../training_artifacts/training_metadata.json      |   323 [32m+[m
+ outputs/poster_outline.md                          |    69 [32m+[m
+ outputs/validation_summary.json                    |   135 [32m+[m
+ requirements.txt                                   |    13 [32m+[m
+ run_all.py                                         |   331 [32m+[m
+ src/__init__.py                                    |     1 [32m+[m
+ src/analysis.py                                    |   273 [32m+[m
+ src/backbone.py                                    |   200 [32m+[m
+ src/build_networks.py                              |   203 [32m+[m
+ src/common.py                                      |   233 [32m+[m
+ src/evaluate.py                                    |   465 [32m+[m
+ src/fingerprint.py                                 |   148 [32m+[m
+ src/graph_utils.py                                 |    77 [32m+[m
+ src/normalize.py                                   |   151 [32m+[m
+ src/null_model.py                                  |   479 [32m+[m
+ src/poster.py                                      |   166 [32m+[m
+ src/preprocess.py                                  |   205 [32m+[m
+ src/report.py                                      |   505 [32m+[m
+ src/split_data.py                                  |    88 [32m+[m
+ src/visualize.py                                   |    91 [32m+[m
+ tests/conftest.py                                  |    43 [32m+[m
+ tests/test_d1.py                                   |   210 [32m+[m
+ tests/test_d2.py                                   |   176 [32m+[m
+ tests/test_d3.py                                   |   125 [32m+[m
+ tests/test_evaluation.py                           |   159 [32m+[m
+ tests/test_fingerprint.py                          |   116 [32m+[m
+ tests/test_no_leakage.py                           |    74 [32m+[m
+ 86 files changed, 280200 insertions(+)

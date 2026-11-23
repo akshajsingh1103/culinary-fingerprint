@@ -1,0 +1,173 @@
+{
+  "confusion_matrices": {
+    "Fingerprint Scorer v1 (Original NPMI Sum)": [
+      [
+        480,
+        57,
+        63
+      ],
+      [
+        22,
+        1438,
+        108
+      ],
+      [
+        21,
+        155,
+        1112
+      ]
+    ],
+    "Fingerprint Scorer v2 (Network-Informed Stacked)": [
+      [
+        548,
+        24,
+        28
+      ],
+      [
+        13,
+        1514,
+        41
+      ],
+      [
+        9,
+        88,
+        1191
+      ]
+    ]
+  },
+  "cuisines": [
+    "indian",
+    "italian",
+    "mexican"
+  ],
+  "models": [
+    {
+      "cv_accuracy_mean": 0.8662382792975037,
+      "cv_accuracy_std": 0.0076778115940186,
+      "cv_macro_f1_mean": 0.8582195471670622,
+      "cv_macro_f1_std": 0.0091596578834445,
+      "f1_indian": 0.8548530721282279,
+      "f1_italian": 0.8937228091982597,
+      "f1_mexican": 0.8650330610657332,
+      "model": "Fingerprint Scorer v1 (Original NPMI Sum)",
+      "n_features": 6149,
+      "precision_indian": 0.9177820267686424,
+      "precision_italian": 0.8715151515151515,
+      "precision_mexican": 0.8667186282151208,
+      "recall_indian": 0.8,
+      "recall_italian": 0.917091836734694,
+      "recall_mexican": 0.8633540372670807,
+      "selected_C": NaN,
+      "test_accuracy": 0.8767361111111112,
+      "test_macro_f1": 0.871202980797407,
+      "test_samples": 3456,
+      "test_weighted_f1_appendix": 0.8762823468612478,
+      "tied_score_fallback_count": 0,
+      "zero_score_fallback_count": 139
+    },
+    {
+      "cv_accuracy_mean": 0.9403896651078318,
+      "cv_accuracy_std": 0.0046561729488007,
+      "cv_macro_f1_mean": 0.938374216202129,
+      "cv_macro_f1_std": 0.0046017770435583,
+      "f1_indian": 0.9367521367521368,
+      "f1_italian": 0.9480275516593611,
+      "f1_mexican": 0.934850863422292,
+      "model": "Fingerprint Scorer v2 (Network-Informed Stacked)",
+      "n_features": 22,
+      "precision_indian": 0.9614035087719298,
+      "precision_italian": 0.931119311193112,
+      "precision_mexican": 0.9452380952380952,
+      "recall_indian": 0.9133333333333332,
+      "recall_italian": 0.965561224489796,
+      "recall_mexican": 0.9246894409937888,
+      "selected_C": 1.0,
+      "test_accuracy": 0.941261574074074,
+      "test_macro_f1": 0.9398768506112632,
+      "test_samples": 3456,
+      "test_weighted_f1_appendix": 0.9411592578533196,
+      "tied_score_fallback_count": 0,
+      "zero_score_fallback_count": 0
+    }
+  ],
+  "n_test_recipes": 3456,
+  "n_train_recipes": 13823,
+  "paired_comparison_v2_vs_v1": {
+    "bootstrap_delta_accuracy_ci95": [
+      0.05353009259259267,
+      0.07523148148148151
+    ],
+    "bootstrap_delta_macro_f1_ci95": [
+      0.056640717979899724,
+      0.08043942387504
+    ],
+    "delta_accuracy": 0.06452546296296291,
+    "delta_macro_f1": 0.06867386981385626,
+    "f1_diffs": {
+      "indian": 0.08189906462390883,
+      "italian": 0.05430474246110151,
+      "mexican": 0.06981780235655877
+    },
+    "mcnemar": {
+      "a_right_b_wrong": 287,
+      "a_wrong_b_right": 64,
+      "both_correct": 2966,
+      "both_wrong": 139,
+      "chi2_continuity_corrected": 140.4102564102564,
+      "chi2_uncorrected": 141.67806267806267,
+      "n_discordant": 351,
+      "n_total": 3456,
+      "net_difference_a_minus_b": 223,
+      "p_value_exact_binomial": 7.657757778331679e-35
+    },
+    "precision_diffs": {
+      "indian": 0.043621482003287415,
+      "italian": 0.05960415967796051,
+      "mexican": 0.07851946702297441
+    },
+    "recall_diffs": {
+      "indian": 0.11333333333333329,
+      "italian": 0.04846938775510201,
+      "mexican": 0.06133540372670809
+    }
+  },
+  "pipeline_overview": {
+    "d1": {
+      "eligible_nodes": {
+        "indian": 237,
+        "italian": 432,
+        "mexican": 371
+      },
+      "min_ingredient_count": 20,
+      "title": "D1 — Ingredient Co-Occurrence Networks",
+      "training_recipes": 13823
+    },
+    "d2": {
+      "backbone_edges": {
+        "indian": 1466,
+        "italian": 2973,
+        "mexican": 2223
+      },
+      "backbone_nodes": {
+        "indian": 237,
+        "italian": 413,
+        "mexican": 350
+      },
+      "min_co_count": 5,
+      "n_randomizations": 1000,
+      "title": "D2 — Curveball Null-Model Backbone Validation",
+      "union_backbone_pairs": 6149,
+      "z_threshold": 3.0
+    },
+    "d3": {
+      "n_communities": {
+        "indian": 7,
+        "italian": 7,
+        "mexican": 7
+      },
+      "title": "D3 — Meso-Scale Hubs, Communities & Cross-Cuisine Bridges",
+      "top_n_bridges_per_pair": 5,
+      "top_n_hubs": 10
+    }
+  }
+}

@@ -1,0 +1,5446 @@
+{
+  "ablation_pathology": {
+    "flipped_with_1_or_2_indian_matches": 1517,
+    "mean_matched_pairs_in_indian_when_flipped": 3.4556666666666667,
+    "mean_matched_pairs_in_true_cuisine_when_flipped": 15.25,
+    "non_indian_recipes_flipped_from_correct_to_indian": 3000
+  },
+  "bootstrap_ci": {
+    "models": {
+      "Fingerprint (normalized ablation)": {
+        "accuracy_ci95": [
+          0.465673153439919,
+          0.48303732908919916
+        ],
+        "accuracy_mean": 0.4743315850394271,
+        "macro_f1_ci95": [
+          0.46013029843360836,
+          0.4778121655101351
+        ],
+        "macro_f1_mean": 0.4689006499635643
+      },
+      "Fingerprint Scorer": {
+        "accuracy_ci95": [
+          0.8606670042682486,
+          0.8718801996672213
+        ],
+        "accuracy_mean": 0.8662592418433047,
+        "macro_f1_ci95": [
+          0.8519197603197135,
+          0.8643923900519878
+        ],
+        "macro_f1_mean": 0.8582628331435207
+      },
+      "Naive Bayes": {
+        "accuracy_ci95": [
+          0.9532662953049266,
+          0.9600665557404326
+        ],
+        "accuracy_mean": 0.9566014251609636,
+        "macro_f1_ci95": [
+          0.9516322946628136,
+          0.9588431964603936
+        ],
+        "macro_f1_mean": 0.9553115549371578
+      }
+    },
+    "n_boot": 2000,
+    "pairwise_differences": {
+      "Fingerprint (normalized ablation) minus Naive Bayes": {
+        "delta_accuracy_ci95": [
+          -0.4913604138030818,
+          -0.47290747305215947
+        ],
+        "delta_accuracy_mean": -0.4822698401215366,
+        "delta_macro_f1_ci95": [
+          -0.4956739995987336,
+          -0.47710995250795823
+        ],
+        "delta_macro_f1_mean": -0.48641090497359346
+      },
+      "Fingerprint Scorer minus Fingerprint (normalized ablation)": {
+        "delta_accuracy_ci95": [
+          0.3834189394487449,
+          0.400783115098025
+        ],
+        "delta_accuracy_mean": 0.39192765680387753,
+        "delta_macro_f1_ci95": [
+          0.38036069790600635,
+          0.3984847274164071
+        ],
+        "delta_macro_f1_mean": 0.38936218317995647
+      },
+      "Fingerprint Scorer minus Naive Bayes": {
+        "delta_accuracy_ci95": [
+          -0.09628879403892066,
+          -0.08456919626709103
+        ],
+        "delta_accuracy_mean": -0.09034218331765896,
+        "delta_macro_f1_ci95": [
+          -0.10373746054633623,
+          -0.09104328535021747
+        ],
+        "delta_macro_f1_mean": -0.097048721793637
+      }
+    },
+    "seed": 42
+  },
+  "confusion_matrices": {
+    "Fingerprint (normalized ablation)": [
+      [
+        1625,
+        358,
+        420
+      ],
+      [
+        1773,
+        2860,
+        1637
+      ],
+      [
+        1639,
+        1440,
+        2071
+      ]
+    ],
+    "Fingerprint Scorer": [
+      [
+        1883,
+        265,
+        255
+      ],
+      [
+        91,
+        5756,
+        423
+      ],
+      [
+        139,
+        676,
+        4335
+      ]
+    ],
+    "Naive Bayes": [
+      [
+        2293,
+        74,
+        36
+      ],
+      [
+        36,
+        6115,
+        119
+      ],
+      [
+        85,
+        250,
+        4815
+      ]
+    ],
+    "cuisines": [
+      "indian",
+      "italian",
+      "mexican"
+    ]
+  },
+  "coverage_bins": [
+    {
+      "accuracy_fingerprint": 0.5029585798816568,
+      "accuracy_naive_bayes": 0.8949704142011834,
+      "accuracy_normalized_ablation": 0.5029585798816568,
+      "matched_pairs_bin": "0 (zero-score fallback)",
+      "mean_backbone_ingredients": 3.029585798816568,
+      "mean_ingredients": 4.985207100591716,
+      "n_recipes": 676,
+      "pct_recipes": 4.890400057874557
+    },
+    {
+      "accuracy_fingerprint": 0.8393782383419689,
+      "accuracy_naive_bayes": 0.9430051813471503,
+      "accuracy_normalized_ablation": 0.8393782383419689,
+      "matched_pairs_bin": "1",
+      "mean_backbone_ingredients": 4.3644214162348876,
+      "mean_ingredients": 6.029360967184801,
+      "n_recipes": 579,
+      "pct_recipes": 4.188671055487231
+    },
+    {
+      "accuracy_fingerprint": 0.7135036496350365,
+      "accuracy_naive_bayes": 0.927007299270073,
+      "accuracy_normalized_ablation": 0.7135036496350365,
+      "matched_pairs_bin": "2",
+      "mean_backbone_ingredients": 4.890510948905109,
+      "mean_ingredients": 6.5036496350364965,
+      "n_recipes": 548,
+      "pct_recipes": 3.9644071475077767
+    },
+    {
+      "accuracy_fingerprint": 0.8151260504201681,
+      "accuracy_naive_bayes": 0.945845004668534,
+      "accuracy_normalized_ablation": 0.6367880485527544,
+      "matched_pairs_bin": "3–4",
+      "mean_backbone_ingredients": 5.7404295051353875,
+      "mean_ingredients": 7.222222222222222,
+      "n_recipes": 1071,
+      "pct_recipes": 7.747956304709542
+    },
+    {
+      "accuracy_fingerprint": 0.8546666666666667,
+      "accuracy_naive_bayes": 0.9493333333333334,
+      "accuracy_normalized_ablation": 0.534,
+      "matched_pairs_bin": "5–7",
+      "mean_backbone_ingredients": 6.800666666666666,
+      "mean_ingredients": 8.150666666666666,
+      "n_recipes": 1500,
+      "pct_recipes": 10.851479418360704
+    },
+    {
+      "accuracy_fingerprint": 0.8810511756569848,
+      "accuracy_naive_bayes": 0.9585062240663901,
+      "accuracy_normalized_ablation": 0.4384508990318119,
+      "matched_pairs_bin": "8–12",
+      "mean_backbone_ingredients": 7.976947902259106,
+      "mean_ingredients": 9.280313508529277,
+      "n_recipes": 2169,
+      "pct_recipes": 15.691239238949576
+    },
+    {
+      "accuracy_fingerprint": 0.9031764255644853,
+      "accuracy_naive_bayes": 0.9598163030998852,
+      "accuracy_normalized_ablation": 0.36586299272866435,
+      "matched_pairs_bin": "13–20",
+      "mean_backbone_ingredients": 9.672407194795255,
+      "mean_ingredients": 11.005740528128587,
+      "n_recipes": 2613,
+      "pct_recipes": 18.903277146784344
+    },
+    {
+      "accuracy_fingerprint": 0.9188880426504189,
+      "accuracy_naive_bayes": 0.9714394516374715,
+      "accuracy_normalized_ablation": 0.39223153084539225,
+      "matched_pairs_bin": "21–35",
+      "mean_backbone_ingredients": 11.646230007616147,
+      "mean_ingredients": 13.02056359482102,
+      "n_recipes": 2626,
+      "pct_recipes": 18.99732330174347
+    },
+    {
+      "accuracy_fingerprint": 0.9397354238118569,
+      "accuracy_naive_bayes": 0.9745222929936306,
+      "accuracy_normalized_ablation": 0.45026947574718273,
+      "matched_pairs_bin": "36+",
+      "mean_backbone_ingredients": 15.75110240078393,
+      "mean_ingredients": 17.258206761391474,
+      "n_recipes": 2041,
+      "pct_recipes": 14.765246328582796
+    }
+  ],
+  "coverage_stats": {
+    "n_in_any_backbone": {
+      "max": 53,
+      "mean": 9.32583375533531,
+      "median": 9.0,
+      "min": 0,
+      "pct_of_recipe_ingredients_mean": 85.63588941634133,
+      "std": 4.275294088503132
+    },
+    "n_ingredients": {
+      "max": 65,
+      "mean": 10.75663748824423,
+      "median": 10.0,
+      "min": 1,
+      "std": 4.489278280992226
+    },
+    "n_matched_per_cuisine": {
+      "indian": {
+        "mean_all_recipes": 4.337263980322651,
+        "mean_when_other_cuisine": 2.102802101576182,
+        "mean_when_true_cuisine": 14.956304619225968,
+        "median_all_recipes": 2.0,
+        "zero_match_recipes_count": 4263
+      },
+      "italian": {
+        "mean_all_recipes": 7.072053823337915,
+        "mean_when_other_cuisine": 3.933271547729379,
+        "mean_when_true_cuisine": 10.85311004784689,
+        "median_all_recipes": 4.0,
+        "zero_match_recipes_count": 2216
+      },
+      "mexican": {
+        "mean_all_recipes": 7.1501844751501125,
+        "mean_when_other_cuisine": 4.593335639340482,
+        "mean_when_true_cuisine": 11.45611650485437,
+        "median_all_recipes": 4.0,
+        "zero_match_recipes_count": 1864
+      }
+    }
+  },
+  "cv_summary": {
+    "Fingerprint (normalized ablation)": {
+      "accuracy_mean": 0.47428309732730034,
+      "accuracy_std": 0.010493273297392098,
+      "macro_f1_mean": 0.4686677221025198,
+      "macro_f1_std": 0.011399892622904893,
+      "oof_pooled": {
+        "accuracy": 0.4742819937784851,
+        "f1_indian": 0.4368279569892473,
+        "f1_italian": 0.5234260614934114,
+        "f1_mexican": 0.44643242078034057,
+        "macro_f1": 0.46889547975433304,
+        "model": "Fingerprint (normalized ablation)",
+        "precision_indian": 0.32261266626960494,
+        "precision_italian": 0.613997423787033,
+        "precision_mexican": 0.5016957364341085,
+        "recall_indian": 0.6762380357885975,
+        "recall_italian": 0.45614035087719296,
+        "recall_mexican": 0.4021359223300971,
+        "test_samples": 13823,
+        "tied_score_fallback_count": 0,
+        "zero_score_fallback_count": 676
+      }
+    },
+    "Fingerprint Scorer": {
+      "accuracy_mean": 0.8662382792975037,
+      "accuracy_std": 0.0076778115940186855,
+      "macro_f1_mean": 0.8582195471670622,
+      "macro_f1_std": 0.009159657883444599,
+      "oof_pooled": {
+        "accuracy": 0.8662374303696737,
+        "f1_indian": 0.8339238263950398,
+        "f1_italian": 0.8877920876070023,
+        "f1_mexican": 0.8530945586932992,
+        "macro_f1": 0.8582701575651138,
+        "model": "Fingerprint Scorer",
+        "precision_indian": 0.8911500236630383,
+        "precision_italian": 0.8594893235777213,
+        "precision_mexican": 0.8647516457211251,
+        "recall_indian": 0.7836038285476488,
+        "recall_italian": 0.9180223285486443,
+        "recall_mexican": 0.841747572815534,
+        "test_samples": 13823,
+        "tied_score_fallback_count": 0,
+        "zero_score_fallback_count": 676
+      }
+    },
+    "Naive Bayes": {
+      "accuracy_mean": 0.956594578185558,
+      "accuracy_std": 0.005765512756768014,
+      "macro_f1_mean": 0.9553186626146422,
+      "macro_f1_std": 0.00617693842896516,
+      "oof_pooled": {
+        "accuracy": 0.9565940823265572,
+        "f1_indian": 0.952044841187461,
+        "f1_italian": 0.9623101738925172,
+        "f1_mexican": 0.9515810276679841,
+        "macro_f1": 0.9553120142493207,
+        "model": "Naive Bayes",
+        "precision_indian": 0.9498757249378624,
+        "precision_italian": 0.9496816275819226,
+        "precision_mexican": 0.9688128772635815,
+        "recall_indian": 0.9542238868081565,
+        "recall_italian": 0.9752791068580542,
+        "recall_mexican": 0.9349514563106797,
+        "test_samples": 13823,
+        "tied_score_fallback_count": 0,
+        "zero_score_fallback_count": 0
+      }
+    }
+  },
+  "fallback_analysis": {
+    "non_zero_score_accuracy_fp": 0.8849167110367384,
+    "non_zero_score_accuracy_nb": 0.9597626835019396,
+    "non_zero_score_count": 13147,
+    "non_zero_score_ingredient_count_stats": {
+      "max": 65,
+      "mean": 11.05339621206359,
+      "median": 10.0,
+      "min": 2,
+      "std": 4.383354021031178
+    },
+    "non_zero_score_true_class_distribution": {
+      "indian": 2312,
+      "italian": 5930,
+      "mexican": 4905
+    },
+    "tied_score_count": 0,
+    "zero_score_accuracy_fp": 0.5029585798816568,
+    "zero_score_accuracy_nb": 0.8949704142011834,
+    "zero_score_backbone_ingredient_count_stats": {
+      "histogram": {
+        "0": 23,
+        "1": 98,
+        "2": 140,
+        "3": 169,
+        "4": 125,
+        "5": 77,
+        "6": 33,
+        "7": 8,
+        "8": 3
+      },
+      "max": 8,
+      "mean": 3.029585798816568,
+      "median": 3.0,
+      "min": 0,
+      "std": 1.5735820349685634
+    },
+    "zero_score_count": 676,
+    "zero_score_ingredient_count_stats": {
+      "histogram": {
+        "1": 8,
+        "2": 44,
+        "3": 94,
+        "4": 142,
+        "5": 136,
+        "6": 116,
+        "7": 75,
+        "8": 41,
+        "9": 12,
+        "10": 4,
+        "11": 2,
+        "12": 1,
+        "13": 1
+      },
+      "max": 13,
+      "mean": 4.985207100591716,
+      "median": 5.0,
+      "min": 1,
+      "std": 1.8474615501460445
+    },
+    "zero_score_pct": 4.890400057874557,
+    "zero_score_true_class_distribution": {
+      "indian": 91,
+      "italian": 340,
+      "mexican": 245
+    }
+  },
+  "mcnemar": {
+    "fingerprint_vs_naive_bayes": {
+      "a_right_b_wrong": 238,
+      "a_wrong_b_right": 1487,
+      "both_correct": 11736,
+      "both_wrong": 362,
+      "chi2_continuity_corrected": 902.9008695652174,
+      "chi2_uncorrected": 904.3484057971015,
+      "n_discordant": 1725,
+      "n_total": 13823,
+      "net_difference_a_minus_b": -1249,
+      "p_value_exact_binomial": 1.425869067638837e-220
+    },
+    "fingerprint_vs_normalized_ablation": {
+      "a_right_b_wrong": 5772,
+      "a_wrong_b_right": 354,
+      "both_correct": 6202,
+      "both_wrong": 1495,
+      "chi2_continuity_corrected": 4790.056970290565,
+      "chi2_uncorrected": 4791.8256611165525,
+      "n_discordant": 6126,
+      "n_total": 13823,
+      "net_difference_a_minus_b": 5418,
+      "p_value_exact_binomial": 0.0
+    },
+    "naive_bayes_vs_normalized_ablation": {
+      "a_right_b_wrong": 6957,
+      "a_wrong_b_right": 290,
+      "both_correct": 6266,
+      "both_wrong": 310,
+      "chi2_continuity_corrected": 6131.579412170553,
+      "chi2_uncorrected": 6133.419207948116,
+      "n_discordant": 7247,
+      "n_total": 13823,
+      "net_difference_a_minus_b": 6667,
+      "p_value_exact_binomial": 0.0
+    }
+  },
+  "misclassified_15_examples": [
+    {
+      "cuisine": "indian",
+      "error_category": "Zero-score fallback (0 backbone pairs matched -> defaults to Italian; NB correct)",
+      "fold": 1,
+      "id": 32349,
+      "ingredients": [
+        "boneless skinless chicken breast",
+        "bread",
+        "cashew chop unsalt",
+        "curry powder",
+        "dried apricot",
+        "fresh parsley",
+        "grated orange",
+        "orange juice",
+        "peeled fresh ginger",
+        "reduced fat mayonnaise",
+        "seedless green grape",
+        "sliced green onion",
+        "watercress"
+      ],
+      "matched_pairs_per_cuisine": {
+        "indian": [],
+        "italian": [],
+        "mexican": []
+      },
+      "n_in_any_backbone": 7,
+      "n_in_backbone_per_cuisine": {
+        "indian": 3,
+        "italian": 4,
+        "mexican": 4
+      },
+      "n_ingredients": 13,
+      "n_matched_distinct_pairs": 0,
+      "n_matched_max_cuisine": 0,
+      "n_matched_per_cuisine": {
+        "indian": 0,
+        "italian": 0,
+        "mexican": 0
+      },
+      "n_matched_sum_across_cuisines": 0,
+      "n_total_recipe_pairs": 78,
+      "nb_log_probs": {
+        "indian": -0.40777343706932356,
+        "italian": -1.543530119724963,
+        "mexican": -2.1099436378148084
+      },
+      "nb_pred": "indian",
+      "norm_fallback": "zero_score",
+      "norm_pred": "italian",
+      "norm_scores": {
+        "indian": 0.0,
+        "italian": 0.0,
+        "mexican": 0.0
+      },
+      "primary_fallback": "zero_score",
+      "primary_pred": "italian",
+      "primary_scores": {
+        "indian": 0.0,
+        "italian": 0.0,
+        "mexican": 0.0
+      },
+      "raw_ingredient_count": 13
+    },
+    {
+      "cuisine": "mexican",
+      "error_category": "Zero-score fallback (0 backbone pairs matched -> defaults to Italian; NB correct)",
+      "fold": 3,
+      "id": 36893,
+      "ingredients": [
+        "asadero",
+        "buns",
+        "canola oil",
+        "carnitas",
+        "chiles",
+        "hass avocado",
+        "iceberg lettuce",
+        "mayonaise",
+        "onion rings",
+        "papalo",
+        "refried beans",
+        "sliced tomato"
+      ],
+      "matched_pairs_per_cuisine": {
+        "indian": [],
+        "italian": [],
+        "mexican": []
+      },
+      "n_in_any_backbone": 5,
+      "n_in_backbone_per_cuisine": {
+        "indian": 2,
+        "italian": 2,
+        "mexican": 5
+      },
+      "n_ingredients": 12,
+      "n_matched_distinct_pairs": 0,
+      "n_matched_max_cuisine": 0,
+      "n_matched_per_cuisine": {
+        "indian": 0,
+        "italian": 0,
+        "mexican": 0
+      },
+      "n_matched_sum_across_cuisines": 0,
+      "n_total_recipe_pairs": 66,
+      "nb_log_probs": {
+        "indian": -17.88387803389878,
+        "italian": -24.671874325074782,
+        "mexican": -1.7124577311733447e-08
+      },
+      "nb_pred": "mexican",
+      "norm_fallback": "zero_score",
+      "norm_pred": "italian",
+      "norm_scores": {
+        "indian": 0.0,
+        "italian": 0.0,
+        "mexican": 0.0
+      },
+      "primary_fallback": "zero_score",
+      "primary_pred": "italian",
+      "primary_scores": {
+        "indian": 0.0,
+        "italian": 0.0,
+        "mexican": 0.0
+      },
+      "raw_ingredient_count": 12
+    },
+    {
+      "cuisine": "indian",
+      "error_category": "True Indian -> Predicted Italian (Italian backbone density/shared staples outweigh Indian pairs; NB correct)",
+      "fold": 0,
+      "id": 36370,
+      "ingredients": [
+        "active dry yeast",
+        "bread flour",
+        "butter",
+        "egg",
+        "garam masala",
+        "milk",
+        "minced garlic",
+        "salt",
+        "warm water",
+        "white sugar"
+      ],
+      "matched_pairs_per_cuisine": {
+        "indian": [
+          {
+            "NPMI": 0.16113495971086206,
+            "pair": [
+              "butter",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.30700600818608775,
+            "pair": [
+              "egg",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.2992204019215236,
+            "pair": [
+              "egg",
+              "warm water"
+            ]
+          }
+        ],
+        "italian": [
+          {
+            "NPMI": 0.5607922781816533,
+            "pair": [
+              "active dry yeast",
+              "bread flour"
+            ]
+          },
+          {
+            "NPMI": 0.09924311490385351,
+            "pair": [
+              "active dry yeast",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.7101945309605042,
+            "pair": [
+              "active dry yeast",
+              "warm water"
+            ]
+          },
+          {
+            "NPMI": 0.31280805816081775,
+            "pair": [
+              "active dry yeast",
+              "white sugar"
+            ]
+          },
+          {
+            "NPMI": 0.08871779922233913,
+            "pair": [
+              "bread flour",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.6511439964906912,
+            "pair": [
+              "bread flour",
+              "warm water"
+            ]
+          },
+          {
+            "NPMI": 0.23246343940548705,
+            "pair": [
+              "bread flour",
+              "white sugar"
+            ]
+          },
+          {
+            "NPMI": 0.0842807694514323,
+            "pair": [
+              "butter",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.21432766739879094,
+            "pair": [
+              "butter",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.0739707826971378,
+            "pair": [
+              "butter",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.16439251443260344,
+            "pair": [
+              "butter",
+              "white sugar"
+            ]
+          },
+          {
+            "NPMI": 0.29338829110548004,
+            "pair": [
+              "egg",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.06575044588010479,
+            "pair": [
+              "egg",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.4076229206804472,
+            "pair": [
+              "egg",
+              "white sugar"
+            ]
+          },
+          {
+            "NPMI": 0.30989781711004594,
+            "pair": [
+              "milk",
+              "white sugar"
+            ]
+          },
+          {
+            "NPMI": 0.11840386053468814,
+            "pair": [
+              "salt",
+              "warm water"
+            ]
+          },
+          {
+            "NPMI": 0.26855731317754117,
+            "pair": [
+              "warm water",
+              "white sugar"
+            ]
+          }
+        ],
+        "mexican": [
+          {
+            "NPMI": 0.1386751254137485,
+            "pair": [
+              "butter",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.3155065629425262,
+            "pair": [
+              "butter",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.17105651815763562,
+            "pair": [
+              "butter",
+              "white sugar"
+            ]
+          },
+          {
+            "NPMI": 0.4657944820152204,
+            "pair": [
+              "egg",
+              "milk"
+            ]
+          }
+        ]
+      },
+      "n_in_any_backbone": 10,
+      "n_in_backbone_per_cuisine": {
+        "indian": 8,
+        "italian": 9,
+        "mexican": 7
+      },
+      "n_ingredients": 10,
+      "n_matched_distinct_pairs": 18,
+      "n_matched_max_cuisine": 17,
+      "n_matched_per_cuisine": {
+        "indian": 3,
+        "italian": 17,
+        "mexican": 4
+      },
+      "n_matched_sum_across_cuisines": 24,
+      "n_total_recipe_pairs": 45,
+      "nb_log_probs": {
+        "indian": -0.5752787572004081,
+        "italian": -0.8269081263401432,
+        "mexican": -9.856883665187524
+      },
+      "nb_pred": "indian",
+      "norm_fallback": null,
+      "norm_pred": "italian",
+      "norm_scores": {
+        "indian": 0.25578712327282443,
+        "italian": 0.27387974116433045,
+        "mexican": 0.2727581721322827
+      },
+      "primary_fallback": null,
+      "primary_pred": "italian",
+      "primary_scores": {
+        "indian": 0.7673613698184734,
+        "italian": 4.655955599793618,
+        "mexican": 1.0910326885291308
+      },
+      "raw_ingredient_count": 10
+    },
+    {
+      "cuisine": "indian",
+      "error_category": "True Indian -> Predicted Italian (Italian backbone density/shared staples outweigh Indian pairs; NB correct)",
+      "fold": 4,
+      "id": 31330,
+      "ingredients": [
+        "active dry yeast",
+        "all-purpose flour",
+        "baking powder",
+        "butter",
+        "chopped cilantro fresh",
+        "egg",
+        "garlic",
+        "honey",
+        "plain yogurt",
+        "salt",
+        "warm water"
+      ],
+      "matched_pairs_per_cuisine": {
+        "indian": [
+          {
+            "NPMI": 0.427608464513265,
+            "pair": [
+              "all-purpose flour",
+              "baking powder"
+            ]
+          },
+          {
+            "NPMI": 0.20506753955532883,
+            "pair": [
+              "all-purpose flour",
+              "warm water"
+            ]
+          },
+          {
+            "NPMI": 0.16494911602531687,
+            "pair": [
+              "butter",
+              "garlic"
+            ]
+          },
+          {
+            "NPMI": 0.2263200314579854,
+            "pair": [
+              "butter",
+              "honey"
+            ]
+          },
+          {
+            "NPMI": 0.30582449554274127,
+            "pair": [
+              "egg",
+              "warm water"
+            ]
+          },
+          {
+            "NPMI": 0.129250890303132,
+            "pair": [
+              "garlic",
+              "plain yogurt"
+            ]
+          }
+        ],
+        "italian": [
+          {
+            "NPMI": 0.2740245727152208,
+            "pair": [
+              "active dry yeast",
+              "all-purpose flour"
+            ]
+          },
+          {
+            "NPMI": 0.24760373559894716,
+            "pair": [
+              "active dry yeast",
+              "honey"
+            ]
+          },
+          {
+            "NPMI": 0.09951981750375222,
+            "pair": [
+              "active dry yeast",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.7245775940111487,
+            "pair": [
+              "active dry yeast",
+              "warm water"
+            ]
+          },
+          {
+            "NPMI": 0.523712326092395,
+            "pair": [
+              "all-purpose flour",
+              "baking powder"
+            ]
+          },
+          {
+            "NPMI": 0.23668793808582037,
+            "pair": [
+              "all-purpose flour",
+              "butter"
+            ]
+          },
+          {
+            "NPMI": 0.23393708615236627,
+            "pair": [
+              "all-purpose flour",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.1488443026106211,
+            "pair": [
+              "all-purpose flour",
+              "honey"
+            ]
+          },
+          {
+            "NPMI": 0.11320888252056317,
+            "pair": [
+              "all-purpose flour",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.31143871350312763,
+            "pair": [
+              "all-purpose flour",
+              "warm water"
+            ]
+          },
+          {
+            "NPMI": 0.21850452168354,
+            "pair": [
+              "baking powder",
+              "butter"
+            ]
+          },
+          {
+            "NPMI": 0.4161533764760684,
+            "pair": [
+              "baking powder",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.08549858682304323,
+            "pair": [
+              "baking powder",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.1027458381634174,
+            "pair": [
+              "butter",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.04797485332377064,
+            "pair": [
+              "butter",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.07450889188639666,
+            "pair": [
+              "egg",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.09689851371929337,
+            "pair": [
+              "garlic",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.24182050374704878,
+            "pair": [
+              "honey",
+              "warm water"
+            ]
+          },
+          {
+            "NPMI": 0.11484747562321232,
+            "pair": [
+              "salt",
+              "warm water"
+            ]
+          }
+        ],
+        "mexican": [
+          {
+            "NPMI": 0.5879856638835942,
+            "pair": [
+              "all-purpose flour",
+              "baking powder"
+            ]
+          },
+          {
+            "NPMI": 0.2794994127166998,
+            "pair": [
+              "all-purpose flour",
+              "butter"
+            ]
+          },
+          {
+            "NPMI": 0.3165339084379309,
+            "pair": [
+              "all-purpose flour",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.12046126180347816,
+            "pair": [
+              "all-purpose flour",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.31267273415854085,
+            "pair": [
+              "all-purpose flour",
+              "warm water"
+            ]
+          },
+          {
+            "NPMI": 0.20960000856173855,
+            "pair": [
+              "baking powder",
+              "butter"
+            ]
+          },
+          {
+            "NPMI": 0.33931681243974904,
+            "pair": [
+              "baking powder",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.1598725966004812,
+            "pair": [
+              "baking powder",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.4353944579944187,
+            "pair": [
+              "baking powder",
+              "warm water"
+            ]
+          },
+          {
+            "NPMI": 0.14962647191462225,
+            "pair": [
+              "butter",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.10449162628016925,
+            "pair": [
+              "garlic",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.10604895510971458,
+            "pair": [
+              "salt",
+              "warm water"
+            ]
+          }
+        ]
+      },
+      "n_in_any_backbone": 11,
+      "n_in_backbone_per_cuisine": {
+        "indian": 10,
+        "italian": 9,
+        "mexican": 9
+      },
+      "n_ingredients": 11,
+      "n_matched_distinct_pairs": 24,
+      "n_matched_max_cuisine": 19,
+      "n_matched_per_cuisine": {
+        "indian": 6,
+        "italian": 19,
+        "mexican": 12
+      },
+      "n_matched_sum_across_cuisines": 37,
+      "n_total_recipe_pairs": 55,
+      "nb_log_probs": {
+        "indian": -0.4548365852958014,
+        "italian": -1.6058604857180825,
+        "mexican": -1.8034379249973824
+      },
+      "nb_pred": "indian",
+      "norm_fallback": null,
+      "norm_pred": "mexican",
+      "norm_scores": {
+        "indian": 0.2431700895662949,
+        "italian": 0.2269740805389344,
+        "mexican": 0.2601253258250948
+      },
+      "primary_fallback": null,
+      "primary_pred": "italian",
+      "primary_scores": {
+        "indian": 1.4590205373977694,
+        "italian": 4.3125075302397535,
+        "mexican": 3.1215039099011377
+      },
+      "raw_ingredient_count": 11
+    },
+    {
+      "cuisine": "indian",
+      "error_category": "True Indian -> Predicted Italian (Italian backbone density/shared staples outweigh Indian pairs; NB correct)",
+      "fold": 1,
+      "id": 13654,
+      "ingredients": [
+        "active dry yeast",
+        "bread flour",
+        "butter",
+        "cilantro leaves",
+        "cumin",
+        "egg",
+        "greek style plain yogurt",
+        "lemon juice",
+        "mint leaves",
+        "plain yogurt",
+        "purple onion",
+        "red bell pepper",
+        "salt",
+        "sauce",
+        "sliced cucumber",
+        "warm water",
+        "wheat flour",
+        "white sugar"
+      ],
+      "matched_pairs_per_cuisine": {
+        "indian": [
+          {
+            "NPMI": 0.3051870481242319,
+            "pair": [
+              "cilantro leaves",
+              "mint leaves"
+            ]
+          },
+          {
+            "NPMI": 0.06729581290205555,
+            "pair": [
+              "cilantro leaves",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.3380391156265611,
+            "pair": [
+              "egg",
+              "warm water"
+            ]
+          },
+          {
+            "NPMI": 0.0837533197590502,
+            "pair": [
+              "lemon juice",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.08198639257084615,
+            "pair": [
+              "mint leaves",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.3617553411497113,
+            "pair": [
+              "warm water",
+              "white sugar"
+            ]
+          }
+        ],
+        "italian": [
+          {
+            "NPMI": 0.5086960455861864,
+            "pair": [
+              "active dry yeast",
+              "bread flour"
+            ]
+          },
+          {
+            "NPMI": 0.09085875964090172,
+            "pair": [
+              "active dry yeast",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.7127322910879653,
+            "pair": [
+              "active dry yeast",
+              "warm water"
+            ]
+          },
+          {
+            "NPMI": 0.2950603831769973,
+            "pair": [
+              "active dry yeast",
+              "white sugar"
+            ]
+          },
+          {
+            "NPMI": 0.6709867964584073,
+            "pair": [
+              "bread flour",
+              "warm water"
+            ]
+          },
+          {
+            "NPMI": 0.24420423216270107,
+            "pair": [
+              "bread flour",
+              "white sugar"
+            ]
+          },
+          {
+            "NPMI": 0.11278977114665437,
+            "pair": [
+              "butter",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.07083736813794755,
+            "pair": [
+              "butter",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.17555966870970663,
+            "pair": [
+              "butter",
+              "white sugar"
+            ]
+          },
+          {
+            "NPMI": 0.06764959875511449,
+            "pair": [
+              "egg",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.443459038807927,
+            "pair": [
+              "egg",
+              "white sugar"
+            ]
+          },
+          {
+            "NPMI": 0.09282645383052592,
+            "pair": [
+              "lemon juice",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.19194133017485163,
+            "pair": [
+              "purple onion",
+              "red bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.11228602324871377,
+            "pair": [
+              "salt",
+              "warm water"
+            ]
+          },
+          {
+            "NPMI": 0.24465412589293692,
+            "pair": [
+              "warm water",
+              "white sugar"
+            ]
+          }
+        ],
+        "mexican": [
+          {
+            "NPMI": 0.1656916362228017,
+            "pair": [
+              "cilantro leaves",
+              "purple onion"
+            ]
+          },
+          {
+            "NPMI": 0.13069200691316912,
+            "pair": [
+              "cumin",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.18301413926474872,
+            "pair": [
+              "egg",
+              "white sugar"
+            ]
+          },
+          {
+            "NPMI": 0.12945079035519538,
+            "pair": [
+              "lemon juice",
+              "purple onion"
+            ]
+          },
+          {
+            "NPMI": 0.19979998982372218,
+            "pair": [
+              "purple onion",
+              "red bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.070737739142821,
+            "pair": [
+              "purple onion",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.09971978491567154,
+            "pair": [
+              "salt",
+              "warm water"
+            ]
+          }
+        ]
+      },
+      "n_in_any_backbone": 15,
+      "n_in_backbone_per_cuisine": {
+        "indian": 12,
+        "italian": 11,
+        "mexican": 11
+      },
+      "n_ingredients": 18,
+      "n_matched_distinct_pairs": 23,
+      "n_matched_max_cuisine": 15,
+      "n_matched_per_cuisine": {
+        "indian": 6,
+        "italian": 15,
+        "mexican": 7
+      },
+      "n_matched_sum_across_cuisines": 28,
+      "n_total_recipe_pairs": 153,
+      "nb_log_probs": {
+        "indian": -0.00017157208948503921,
+        "italian": -14.04786225604046,
+        "mexican": -8.675223945822026
+      },
+      "nb_pred": "indian",
+      "norm_fallback": null,
+      "norm_pred": "italian",
+      "norm_scores": {
+        "indian": 0.20633617168874271,
+        "italian": 0.26896945912116915,
+        "mexican": 0.13987229809116136
+      },
+      "primary_fallback": null,
+      "primary_pred": "italian",
+      "primary_scores": {
+        "indian": 1.2380170301324562,
+        "italian": 4.034541886817538,
+        "mexican": 0.9791060866381296
+      },
+      "raw_ingredient_count": 18
+    },
+    {
+      "cuisine": "indian",
+      "error_category": "True Indian -> Predicted Mexican (shared chili/cilantro/cumin/lime/onion pairs; NB correct)",
+      "fold": 2,
+      "id": 21157,
+      "ingredients": [
+        "cayenne pepper",
+        "chicken drumstick",
+        "cinnamon",
+        "coriander",
+        "cumin",
+        "dried basil",
+        "garlic powder",
+        "ginger",
+        "lemon",
+        "low fat plain yoghurt",
+        "onion powder",
+        "paprika",
+        "salt",
+        "spices"
+      ],
+      "matched_pairs_per_cuisine": {
+        "indian": [
+          {
+            "NPMI": 0.17248677835992837,
+            "pair": [
+              "cayenne pepper",
+              "cumin"
+            ]
+          },
+          {
+            "NPMI": 0.23458281812079598,
+            "pair": [
+              "cayenne pepper",
+              "paprika"
+            ]
+          },
+          {
+            "NPMI": 0.18459703529486043,
+            "pair": [
+              "cinnamon",
+              "cumin"
+            ]
+          },
+          {
+            "NPMI": 0.15106676726617613,
+            "pair": [
+              "cinnamon",
+              "ginger"
+            ]
+          },
+          {
+            "NPMI": 0.3681529912183021,
+            "pair": [
+              "coriander",
+              "cumin"
+            ]
+          },
+          {
+            "NPMI": 0.1911284888424511,
+            "pair": [
+              "coriander",
+              "ginger"
+            ]
+          },
+          {
+            "NPMI": 0.18790946882056428,
+            "pair": [
+              "coriander",
+              "lemon"
+            ]
+          },
+          {
+            "NPMI": 0.13580965190704053,
+            "pair": [
+              "cumin",
+              "ginger"
+            ]
+          },
+          {
+            "NPMI": 0.2204155117438382,
+            "pair": [
+              "cumin",
+              "paprika"
+            ]
+          },
+          {
+            "NPMI": 0.19671816068609568,
+            "pair": [
+              "ginger",
+              "lemon"
+            ]
+          }
+        ],
+        "italian": [
+          {
+            "NPMI": 0.22623195629383522,
+            "pair": [
+              "dried basil",
+              "garlic powder"
+            ]
+          },
+          {
+            "NPMI": 0.19569301972023037,
+            "pair": [
+              "dried basil",
+              "onion powder"
+            ]
+          },
+          {
+            "NPMI": 0.06146832978580969,
+            "pair": [
+              "dried basil",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.5751871460517853,
+            "pair": [
+              "garlic powder",
+              "onion powder"
+            ]
+          },
+          {
+            "NPMI": 0.345801692527336,
+            "pair": [
+              "garlic powder",
+              "paprika"
+            ]
+          }
+        ],
+        "mexican": [
+          {
+            "NPMI": 0.31202289537316746,
+            "pair": [
+              "cayenne pepper",
+              "cumin"
+            ]
+          },
+          {
+            "NPMI": 0.33677781732832063,
+            "pair": [
+              "cayenne pepper",
+              "garlic powder"
+            ]
+          },
+          {
+            "NPMI": 0.36076500793977406,
+            "pair": [
+              "cayenne pepper",
+              "onion powder"
+            ]
+          },
+          {
+            "NPMI": 0.3754647595036961,
+            "pair": [
+              "cayenne pepper",
+              "paprika"
+            ]
+          },
+          {
+            "NPMI": 0.26319298832096594,
+            "pair": [
+              "coriander",
+              "cumin"
+            ]
+          },
+          {
+            "NPMI": 0.2874706870782707,
+            "pair": [
+              "cumin",
+              "garlic powder"
+            ]
+          },
+          {
+            "NPMI": 0.3048931648850744,
+            "pair": [
+              "cumin",
+              "onion powder"
+            ]
+          },
+          {
+            "NPMI": 0.22955922647367713,
+            "pair": [
+              "cumin",
+              "paprika"
+            ]
+          },
+          {
+            "NPMI": 0.13045221199600465,
+            "pair": [
+              "cumin",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.6123193491720653,
+            "pair": [
+              "garlic powder",
+              "onion powder"
+            ]
+          },
+          {
+            "NPMI": 0.3934342548650384,
+            "pair": [
+              "garlic powder",
+              "paprika"
+            ]
+          },
+          {
+            "NPMI": 0.11189758748032581,
+            "pair": [
+              "garlic powder",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.3700057892084383,
+            "pair": [
+              "onion powder",
+              "paprika"
+            ]
+          },
+          {
+            "NPMI": 0.09123633344545308,
+            "pair": [
+              "paprika",
+              "salt"
+            ]
+          }
+        ]
+      },
+      "n_in_any_backbone": 12,
+      "n_in_backbone_per_cuisine": {
+        "indian": 9,
+        "italian": 6,
+        "mexican": 9
+      },
+      "n_ingredients": 14,
+      "n_matched_distinct_pairs": 23,
+      "n_matched_max_cuisine": 14,
+      "n_matched_per_cuisine": {
+        "indian": 10,
+        "italian": 5,
+        "mexican": 14
+      },
+      "n_matched_sum_across_cuisines": 29,
+      "n_total_recipe_pairs": 91,
+      "nb_log_probs": {
+        "indian": -0.0019917566364284767,
+        "italian": -20.78470100134551,
+        "mexican": -6.219734483394745
+      },
+      "nb_pred": "indian",
+      "norm_fallback": null,
+      "norm_pred": "mexican",
+      "norm_scores": {
+        "indian": 0.20428676722600528,
+        "italian": 0.28087642887579933,
+        "mexican": 0.29853514807644804
+      },
+      "primary_fallback": null,
+      "primary_pred": "mexican",
+      "primary_scores": {
+        "indian": 2.0428676722600527,
+        "italian": 1.4043821443789966,
+        "mexican": 4.179492073070272
+      },
+      "raw_ingredient_count": 14
+    },
+    {
+      "cuisine": "indian",
+      "error_category": "True Indian -> Predicted Mexican (shared chili/cilantro/cumin/lime/onion pairs; NB correct)",
+      "fold": 4,
+      "id": 29623,
+      "ingredients": [
+        "all-purpose flour",
+        "baking powder",
+        "butter",
+        "egg",
+        "milk",
+        "oil",
+        "powdered milk",
+        "salt",
+        "sesame seed",
+        "sugar",
+        "water",
+        "yeast"
+      ],
+      "matched_pairs_per_cuisine": {
+        "indian": [
+          {
+            "NPMI": 0.427608464513265,
+            "pair": [
+              "all-purpose flour",
+              "baking powder"
+            ]
+          },
+          {
+            "NPMI": 0.2980166738351586,
+            "pair": [
+              "all-purpose flour",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.18849103619507593,
+            "pair": [
+              "all-purpose flour",
+              "sugar"
+            ]
+          },
+          {
+            "NPMI": 0.36469719223427477,
+            "pair": [
+              "baking powder",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.20703924289768577,
+            "pair": [
+              "baking powder",
+              "sugar"
+            ]
+          },
+          {
+            "NPMI": 0.28978361149409165,
+            "pair": [
+              "egg",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.2824309032453925,
+            "pair": [
+              "milk",
+              "sugar"
+            ]
+          },
+          {
+            "NPMI": 0.19507055905508708,
+            "pair": [
+              "oil",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.07202785362588437,
+            "pair": [
+              "salt",
+              "water"
+            ]
+          }
+        ],
+        "italian": [
+          {
+            "NPMI": 0.523712326092395,
+            "pair": [
+              "all-purpose flour",
+              "baking powder"
+            ]
+          },
+          {
+            "NPMI": 0.23668793808582037,
+            "pair": [
+              "all-purpose flour",
+              "butter"
+            ]
+          },
+          {
+            "NPMI": 0.23393708615236627,
+            "pair": [
+              "all-purpose flour",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.23798712514862086,
+            "pair": [
+              "all-purpose flour",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.11320888252056317,
+            "pair": [
+              "all-purpose flour",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.19981379126162863,
+            "pair": [
+              "all-purpose flour",
+              "sugar"
+            ]
+          },
+          {
+            "NPMI": 0.21850452168354,
+            "pair": [
+              "baking powder",
+              "butter"
+            ]
+          },
+          {
+            "NPMI": 0.4161533764760684,
+            "pair": [
+              "baking powder",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.30794703540519264,
+            "pair": [
+              "baking powder",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.08549858682304323,
+            "pair": [
+              "baking powder",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.32153755690064756,
+            "pair": [
+              "baking powder",
+              "sugar"
+            ]
+          },
+          {
+            "NPMI": 0.1027458381634174,
+            "pair": [
+              "butter",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.22390265194508296,
+            "pair": [
+              "butter",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.04797485332377064,
+            "pair": [
+              "butter",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.28630369766440245,
+            "pair": [
+              "egg",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.07450889188639666,
+            "pair": [
+              "egg",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.07899741927728579,
+            "pair": [
+              "salt",
+              "water"
+            ]
+          },
+          {
+            "NPMI": 0.08672335434961433,
+            "pair": [
+              "sugar",
+              "water"
+            ]
+          }
+        ],
+        "mexican": [
+          {
+            "NPMI": 0.5879856638835942,
+            "pair": [
+              "all-purpose flour",
+              "baking powder"
+            ]
+          },
+          {
+            "NPMI": 0.2794994127166998,
+            "pair": [
+              "all-purpose flour",
+              "butter"
+            ]
+          },
+          {
+            "NPMI": 0.3165339084379309,
+            "pair": [
+              "all-purpose flour",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.3431962033075704,
+            "pair": [
+              "all-purpose flour",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.16870465068637014,
+            "pair": [
+              "all-purpose flour",
+              "oil"
+            ]
+          },
+          {
+            "NPMI": 0.12046126180347816,
+            "pair": [
+              "all-purpose flour",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.22947667575787292,
+            "pair": [
+              "all-purpose flour",
+              "sugar"
+            ]
+          },
+          {
+            "NPMI": 0.20960000856173855,
+            "pair": [
+              "baking powder",
+              "butter"
+            ]
+          },
+          {
+            "NPMI": 0.33931681243974904,
+            "pair": [
+              "baking powder",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.3178724225763691,
+            "pair": [
+              "baking powder",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.1598725966004812,
+            "pair": [
+              "baking powder",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.2002193902911719,
+            "pair": [
+              "baking powder",
+              "sugar"
+            ]
+          },
+          {
+            "NPMI": 0.14962647191462225,
+            "pair": [
+              "butter",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.3256139764432308,
+            "pair": [
+              "butter",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.41685921702295564,
+            "pair": [
+              "egg",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.1231877820906959,
+            "pair": [
+              "sugar",
+              "water"
+            ]
+          }
+        ]
+      },
+      "n_in_any_backbone": 10,
+      "n_in_backbone_per_cuisine": {
+        "indian": 9,
+        "italian": 9,
+        "mexican": 10
+      },
+      "n_ingredients": 12,
+      "n_matched_distinct_pairs": 21,
+      "n_matched_max_cuisine": 18,
+      "n_matched_per_cuisine": {
+        "indian": 9,
+        "italian": 18,
+        "mexican": 16
+      },
+      "n_matched_sum_across_cuisines": 43,
+      "n_total_recipe_pairs": 66,
+      "nb_log_probs": {
+        "indian": -0.05182652261127885,
+        "italian": -3.20906425827053,
+        "mexican": -4.594028736514858
+      },
+      "nb_pred": "indian",
+      "norm_fallback": null,
+      "norm_pred": "mexican",
+      "norm_scores": {
+        "indian": 0.2583517263439907,
+        "italian": 0.21089694073110313,
+        "mexican": 0.2680016534084082
+      },
+      "primary_fallback": null,
+      "primary_pred": "mexican",
+      "primary_scores": {
+        "indian": 2.325165537095916,
+        "italian": 3.7961449331598565,
+        "mexican": 4.288026454534531
+      },
+      "raw_ingredient_count": 12
+    },
+    {
+      "cuisine": "mexican",
+      "error_category": "True Mexican -> Predicted Italian (larger Italian backbone accumulates more generic pair score; NB correct)",
+      "fold": 4,
+      "id": 39969,
+      "ingredients": [
+        "avocado",
+        "bay leaves",
+        "carrot",
+        "celery",
+        "chicken",
+        "corn tortilla",
+        "dried basil",
+        "dried oregano",
+        "epazote",
+        "garlic",
+        "green bell pepper",
+        "ground black pepper",
+        "ground cumin",
+        "olive oil",
+        "onion",
+        "potato",
+        "red bell pepper",
+        "salt",
+        "shredded monterey jack cheese",
+        "spinach",
+        "tomato paste",
+        "water",
+        "whole peeled tomato",
+        "zucchini"
+      ],
+      "matched_pairs_per_cuisine": {
+        "indian": [
+          {
+            "NPMI": 0.2509513186584163,
+            "pair": [
+              "carrot",
+              "green bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.22375725620480663,
+            "pair": [
+              "carrot",
+              "potato"
+            ]
+          },
+          {
+            "NPMI": 0.2635582896910669,
+            "pair": [
+              "carrot",
+              "red bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.27802045454368207,
+            "pair": [
+              "carrot",
+              "zucchini"
+            ]
+          },
+          {
+            "NPMI": 0.11694773384899686,
+            "pair": [
+              "garlic",
+              "ground black pepper"
+            ]
+          },
+          {
+            "NPMI": 0.10882459625423722,
+            "pair": [
+              "garlic",
+              "ground cumin"
+            ]
+          },
+          {
+            "NPMI": 0.1689975598620063,
+            "pair": [
+              "garlic",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.1898969355634411,
+            "pair": [
+              "garlic",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.5051082711659818,
+            "pair": [
+              "green bell pepper",
+              "red bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.1814042641795626,
+            "pair": [
+              "ground black pepper",
+              "ground cumin"
+            ]
+          },
+          {
+            "NPMI": 0.16269468527686742,
+            "pair": [
+              "ground black pepper",
+              "olive oil"
+            ]
+          },
+          {
+            "NPMI": 0.11583087321883362,
+            "pair": [
+              "onion",
+              "potato"
+            ]
+          },
+          {
+            "NPMI": 0.08896225007308946,
+            "pair": [
+              "onion",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.07202785362588437,
+            "pair": [
+              "salt",
+              "water"
+            ]
+          }
+        ],
+        "italian": [
+          {
+            "NPMI": 0.3596318413978543,
+            "pair": [
+              "bay leaves",
+              "carrot"
+            ]
+          },
+          {
+            "NPMI": 0.37082730854835916,
+            "pair": [
+              "bay leaves",
+              "celery"
+            ]
+          },
+          {
+            "NPMI": 0.25918531205355083,
+            "pair": [
+              "bay leaves",
+              "dried basil"
+            ]
+          },
+          {
+            "NPMI": 0.22204430734881478,
+            "pair": [
+              "bay leaves",
+              "dried oregano"
+            ]
+          },
+          {
+            "NPMI": 0.23383845069374656,
+            "pair": [
+              "bay leaves",
+              "green bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.2862999532232007,
+            "pair": [
+              "bay leaves",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.4140417732163518,
+            "pair": [
+              "bay leaves",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.5764381387177142,
+            "pair": [
+              "carrot",
+              "celery"
+            ]
+          },
+          {
+            "NPMI": 0.16535105460029537,
+            "pair": [
+              "carrot",
+              "chicken"
+            ]
+          },
+          {
+            "NPMI": 0.10320119233891038,
+            "pair": [
+              "carrot",
+              "dried basil"
+            ]
+          },
+          {
+            "NPMI": 0.1222662224604848,
+            "pair": [
+              "carrot",
+              "dried oregano"
+            ]
+          },
+          {
+            "NPMI": 0.08185016995805038,
+            "pair": [
+              "carrot",
+              "garlic"
+            ]
+          },
+          {
+            "NPMI": 0.3388232968209108,
+            "pair": [
+              "carrot",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.23890924190968496,
+            "pair": [
+              "carrot",
+              "potato"
+            ]
+          },
+          {
+            "NPMI": 0.07058982607611552,
+            "pair": [
+              "carrot",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.2956708337454409,
+            "pair": [
+              "carrot",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.15883621148293875,
+            "pair": [
+              "carrot",
+              "water"
+            ]
+          },
+          {
+            "NPMI": 0.23066072310686284,
+            "pair": [
+              "carrot",
+              "zucchini"
+            ]
+          },
+          {
+            "NPMI": 0.14267456959916855,
+            "pair": [
+              "celery",
+              "dried oregano"
+            ]
+          },
+          {
+            "NPMI": 0.2032655308521926,
+            "pair": [
+              "celery",
+              "garlic"
+            ]
+          },
+          {
+            "NPMI": 0.3120714556907242,
+            "pair": [
+              "celery",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.10064373992411331,
+            "pair": [
+              "celery",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.24580166248692858,
+            "pair": [
+              "celery",
+              "spinach"
+            ]
+          },
+          {
+            "NPMI": 0.2944638172994009,
+            "pair": [
+              "celery",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.14778054554529285,
+            "pair": [
+              "celery",
+              "water"
+            ]
+          },
+          {
+            "NPMI": 0.12618318023659633,
+            "pair": [
+              "chicken",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.5607701773559276,
+            "pair": [
+              "dried basil",
+              "dried oregano"
+            ]
+          },
+          {
+            "NPMI": 0.16919717585486313,
+            "pair": [
+              "dried basil",
+              "garlic"
+            ]
+          },
+          {
+            "NPMI": 0.22519200943927303,
+            "pair": [
+              "dried basil",
+              "green bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.05931760379695849,
+            "pair": [
+              "dried basil",
+              "olive oil"
+            ]
+          },
+          {
+            "NPMI": 0.19688842534187453,
+            "pair": [
+              "dried basil",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.07271394664209072,
+            "pair": [
+              "dried basil",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.3142993738764958,
+            "pair": [
+              "dried basil",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.2072090401862618,
+            "pair": [
+              "dried basil",
+              "whole peeled tomato"
+            ]
+          },
+          {
+            "NPMI": 0.16873046125984226,
+            "pair": [
+              "dried oregano",
+              "garlic"
+            ]
+          },
+          {
+            "NPMI": 0.22497280855200322,
+            "pair": [
+              "dried oregano",
+              "green bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.07998791710779343,
+            "pair": [
+              "dried oregano",
+              "olive oil"
+            ]
+          },
+          {
+            "NPMI": 0.16508538001202505,
+            "pair": [
+              "dried oregano",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.05480832983429201,
+            "pair": [
+              "dried oregano",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.2745033374702717,
+            "pair": [
+              "dried oregano",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.2097585324673631,
+            "pair": [
+              "dried oregano",
+              "whole peeled tomato"
+            ]
+          },
+          {
+            "NPMI": 0.11304880333463975,
+            "pair": [
+              "garlic",
+              "green bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.1075422579809762,
+            "pair": [
+              "garlic",
+              "ground black pepper"
+            ]
+          },
+          {
+            "NPMI": 0.15890712243126362,
+            "pair": [
+              "garlic",
+              "olive oil"
+            ]
+          },
+          {
+            "NPMI": 0.19039282520205048,
+            "pair": [
+              "garlic",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.09689851371929337,
+            "pair": [
+              "garlic",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.18855347989967997,
+            "pair": [
+              "garlic",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.16041166075624058,
+            "pair": [
+              "garlic",
+              "whole peeled tomato"
+            ]
+          },
+          {
+            "NPMI": 0.25421765904149135,
+            "pair": [
+              "green bell pepper",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.39772654088021314,
+            "pair": [
+              "green bell pepper",
+              "red bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.26922362297255825,
+            "pair": [
+              "green bell pepper",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.05278041819998535,
+            "pair": [
+              "ground black pepper",
+              "olive oil"
+            ]
+          },
+          {
+            "NPMI": 0.14548291104642086,
+            "pair": [
+              "ground black pepper",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.1311072030101768,
+            "pair": [
+              "olive oil",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.0882205653933242,
+            "pair": [
+              "olive oil",
+              "red bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.0997799428320162,
+            "pair": [
+              "olive oil",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.08223634709101128,
+            "pair": [
+              "olive oil",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.09333058044714262,
+            "pair": [
+              "olive oil",
+              "whole peeled tomato"
+            ]
+          },
+          {
+            "NPMI": 0.06997216189136683,
+            "pair": [
+              "olive oil",
+              "zucchini"
+            ]
+          },
+          {
+            "NPMI": 0.15500892598781082,
+            "pair": [
+              "onion",
+              "potato"
+            ]
+          },
+          {
+            "NPMI": 0.12461187317161787,
+            "pair": [
+              "onion",
+              "red bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.07458001458135732,
+            "pair": [
+              "onion",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.11086812982118052,
+            "pair": [
+              "onion",
+              "spinach"
+            ]
+          },
+          {
+            "NPMI": 0.29870560849810157,
+            "pair": [
+              "onion",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.1967116787738427,
+            "pair": [
+              "onion",
+              "whole peeled tomato"
+            ]
+          },
+          {
+            "NPMI": 0.10991701764184061,
+            "pair": [
+              "onion",
+              "zucchini"
+            ]
+          },
+          {
+            "NPMI": 0.23820582012869784,
+            "pair": [
+              "red bell pepper",
+              "zucchini"
+            ]
+          },
+          {
+            "NPMI": 0.07253313769399948,
+            "pair": [
+              "salt",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.07899741927728579,
+            "pair": [
+              "salt",
+              "water"
+            ]
+          },
+          {
+            "NPMI": 0.13943859132442132,
+            "pair": [
+              "tomato paste",
+              "water"
+            ]
+          },
+          {
+            "NPMI": 0.30857141344281147,
+            "pair": [
+              "tomato paste",
+              "whole peeled tomato"
+            ]
+          }
+        ],
+        "mexican": [
+          {
+            "NPMI": 0.12999285217367923,
+            "pair": [
+              "avocado",
+              "corn tortilla"
+            ]
+          },
+          {
+            "NPMI": 0.10394112385603071,
+            "pair": [
+              "avocado",
+              "olive oil"
+            ]
+          },
+          {
+            "NPMI": 0.07167205559359094,
+            "pair": [
+              "avocado",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.26496665190086277,
+            "pair": [
+              "bay leaves",
+              "carrot"
+            ]
+          },
+          {
+            "NPMI": 0.2919733203894115,
+            "pair": [
+              "bay leaves",
+              "dried oregano"
+            ]
+          },
+          {
+            "NPMI": 0.1327184067369277,
+            "pair": [
+              "bay leaves",
+              "ground cumin"
+            ]
+          },
+          {
+            "NPMI": 0.11157331338350042,
+            "pair": [
+              "bay leaves",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.4636097752708551,
+            "pair": [
+              "carrot",
+              "celery"
+            ]
+          },
+          {
+            "NPMI": 0.20034805240550677,
+            "pair": [
+              "carrot",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.33840587487362334,
+            "pair": [
+              "carrot",
+              "potato"
+            ]
+          },
+          {
+            "NPMI": 0.145870353266502,
+            "pair": [
+              "carrot",
+              "red bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.15739203990776976,
+            "pair": [
+              "carrot",
+              "water"
+            ]
+          },
+          {
+            "NPMI": 0.2584336754198771,
+            "pair": [
+              "carrot",
+              "zucchini"
+            ]
+          },
+          {
+            "NPMI": 0.1892355791469059,
+            "pair": [
+              "celery",
+              "garlic"
+            ]
+          },
+          {
+            "NPMI": 0.1977861657832795,
+            "pair": [
+              "celery",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.11828075907960484,
+            "pair": [
+              "chicken",
+              "corn tortilla"
+            ]
+          },
+          {
+            "NPMI": 0.16619095489903354,
+            "pair": [
+              "corn tortilla",
+              "shredded monterey jack cheese"
+            ]
+          },
+          {
+            "NPMI": 0.13312719428054698,
+            "pair": [
+              "dried oregano",
+              "garlic"
+            ]
+          },
+          {
+            "NPMI": 0.12788338982929023,
+            "pair": [
+              "dried oregano",
+              "green bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.15910442680174416,
+            "pair": [
+              "dried oregano",
+              "ground black pepper"
+            ]
+          },
+          {
+            "NPMI": 0.3027970537293926,
+            "pair": [
+              "dried oregano",
+              "ground cumin"
+            ]
+          },
+          {
+            "NPMI": 0.09122481862485014,
+            "pair": [
+              "dried oregano",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.1250736283847376,
+            "pair": [
+              "dried oregano",
+              "red bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.17447082373623826,
+            "pair": [
+              "dried oregano",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.14308923845669633,
+            "pair": [
+              "garlic",
+              "ground cumin"
+            ]
+          },
+          {
+            "NPMI": 0.1403319389495359,
+            "pair": [
+              "garlic",
+              "olive oil"
+            ]
+          },
+          {
+            "NPMI": 0.23379920438961027,
+            "pair": [
+              "garlic",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.10449162628016925,
+            "pair": [
+              "garlic",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.114236224448792,
+            "pair": [
+              "garlic",
+              "zucchini"
+            ]
+          },
+          {
+            "NPMI": 0.13478771444938606,
+            "pair": [
+              "green bell pepper",
+              "ground cumin"
+            ]
+          },
+          {
+            "NPMI": 0.1310341994473605,
+            "pair": [
+              "green bell pepper",
+              "olive oil"
+            ]
+          },
+          {
+            "NPMI": 0.18825396528406074,
+            "pair": [
+              "green bell pepper",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.4290158785926617,
+            "pair": [
+              "green bell pepper",
+              "red bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.17130101689254723,
+            "pair": [
+              "green bell pepper",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.15468721940536972,
+            "pair": [
+              "green bell pepper",
+              "zucchini"
+            ]
+          },
+          {
+            "NPMI": 0.1641370672526133,
+            "pair": [
+              "ground black pepper",
+              "ground cumin"
+            ]
+          },
+          {
+            "NPMI": 0.13245070003390946,
+            "pair": [
+              "ground black pepper",
+              "olive oil"
+            ]
+          },
+          {
+            "NPMI": 0.15645863321813644,
+            "pair": [
+              "ground black pepper",
+              "red bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.09593778822111762,
+            "pair": [
+              "ground black pepper",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.14942862126989606,
+            "pair": [
+              "ground black pepper",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.13424399768741477,
+            "pair": [
+              "ground cumin",
+              "olive oil"
+            ]
+          },
+          {
+            "NPMI": 0.1541859939378945,
+            "pair": [
+              "ground cumin",
+              "red bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.07993769672747462,
+            "pair": [
+              "ground cumin",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.16684282541289464,
+            "pair": [
+              "ground cumin",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.09185615920118301,
+            "pair": [
+              "olive oil",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.13171155205891513,
+            "pair": [
+              "olive oil",
+              "potato"
+            ]
+          },
+          {
+            "NPMI": 0.19465686075388067,
+            "pair": [
+              "olive oil",
+              "red bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.11683099956910437,
+            "pair": [
+              "olive oil",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.16586978009194614,
+            "pair": [
+              "olive oil",
+              "zucchini"
+            ]
+          },
+          {
+            "NPMI": 0.1639399822735195,
+            "pair": [
+              "onion",
+              "potato"
+            ]
+          },
+          {
+            "NPMI": 0.1144193618178312,
+            "pair": [
+              "onion",
+              "red bell pepper"
+            ]
+          },
+          {
+            "NPMI": 0.06463797829743852,
+            "pair": [
+              "onion",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.13458522311244164,
+            "pair": [
+              "onion",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.19010048173713529,
+            "pair": [
+              "potato",
+              "water"
+            ]
+          },
+          {
+            "NPMI": 0.21875046016541771,
+            "pair": [
+              "red bell pepper",
+              "zucchini"
+            ]
+          }
+        ]
+      },
+      "n_in_any_backbone": 24,
+      "n_in_backbone_per_cuisine": {
+        "indian": 16,
+        "italian": 19,
+        "mexican": 21
+      },
+      "n_ingredients": 24,
+      "n_matched_distinct_pairs": 96,
+      "n_matched_max_cuisine": 71,
+      "n_matched_per_cuisine": {
+        "indian": 14,
+        "italian": 71,
+        "mexican": 55
+      },
+      "n_matched_sum_across_cuisines": 140,
+      "n_total_recipe_pairs": 276,
+      "nb_log_probs": {
+        "indian": -24.179344424907782,
+        "italian": -11.961239050013887,
+        "mexican": -6.387095595528081e-06
+      },
+      "nb_pred": "mexican",
+      "norm_fallback": null,
+      "norm_pred": "indian",
+      "norm_scores": {
+        "indian": 0.19478445301191946,
+        "italian": 0.19285587500005433,
+        "mexican": 0.16767423052563848
+      },
+      "primary_fallback": null,
+      "primary_pred": "italian",
+      "primary_scores": {
+        "indian": 2.7269823421668726,
+        "italian": 13.692767125003858,
+        "mexican": 9.222082678910116
+      },
+      "raw_ingredient_count": 24
+    },
+    {
+      "cuisine": "mexican",
+      "error_category": "True Mexican -> Predicted Italian (larger Italian backbone accumulates more generic pair score; NB correct)",
+      "fold": 1,
+      "id": 29917,
+      "ingredients": [
+        "all-purpose flour",
+        "baking soda",
+        "brown sugar",
+        "butter",
+        "egg",
+        "ground cinnamon",
+        "mexican chocolate",
+        "rolled oats",
+        "salt",
+        "vanilla extract",
+        "white sugar"
+      ],
+      "matched_pairs_per_cuisine": {
+        "indian": [
+          {
+            "NPMI": 0.41602768221470643,
+            "pair": [
+              "all-purpose flour",
+              "baking soda"
+            ]
+          },
+          {
+            "NPMI": 0.2140285309078209,
+            "pair": [
+              "all-purpose flour",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.1925396922991841,
+            "pair": [
+              "butter",
+              "ground cinnamon"
+            ]
+          }
+        ],
+        "italian": [
+          {
+            "NPMI": 0.3842746203004651,
+            "pair": [
+              "all-purpose flour",
+              "baking soda"
+            ]
+          },
+          {
+            "NPMI": 0.22469777035744468,
+            "pair": [
+              "all-purpose flour",
+              "butter"
+            ]
+          },
+          {
+            "NPMI": 0.22329940556511474,
+            "pair": [
+              "all-purpose flour",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.2718031679926308,
+            "pair": [
+              "all-purpose flour",
+              "ground cinnamon"
+            ]
+          },
+          {
+            "NPMI": 0.12095053560258655,
+            "pair": [
+              "all-purpose flour",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.3864477537482092,
+            "pair": [
+              "all-purpose flour",
+              "vanilla extract"
+            ]
+          },
+          {
+            "NPMI": 0.33459978570274757,
+            "pair": [
+              "all-purpose flour",
+              "white sugar"
+            ]
+          },
+          {
+            "NPMI": 0.18875781440861786,
+            "pair": [
+              "baking soda",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.10459893407016793,
+            "pair": [
+              "baking soda",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.5547683465116507,
+            "pair": [
+              "baking soda",
+              "vanilla extract"
+            ]
+          },
+          {
+            "NPMI": 0.37005487421019884,
+            "pair": [
+              "baking soda",
+              "white sugar"
+            ]
+          },
+          {
+            "NPMI": 0.1619430743543372,
+            "pair": [
+              "brown sugar",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.22247669177895546,
+            "pair": [
+              "brown sugar",
+              "vanilla extract"
+            ]
+          },
+          {
+            "NPMI": 0.11278977114665437,
+            "pair": [
+              "butter",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.14726305285383798,
+            "pair": [
+              "butter",
+              "ground cinnamon"
+            ]
+          },
+          {
+            "NPMI": 0.07083736813794755,
+            "pair": [
+              "butter",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.16449520948433033,
+            "pair": [
+              "butter",
+              "vanilla extract"
+            ]
+          },
+          {
+            "NPMI": 0.17555966870970663,
+            "pair": [
+              "butter",
+              "white sugar"
+            ]
+          },
+          {
+            "NPMI": 0.29797480713628277,
+            "pair": [
+              "egg",
+              "ground cinnamon"
+            ]
+          },
+          {
+            "NPMI": 0.06764959875511449,
+            "pair": [
+              "egg",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.3458481186795228,
+            "pair": [
+              "egg",
+              "vanilla extract"
+            ]
+          },
+          {
+            "NPMI": 0.443459038807927,
+            "pair": [
+              "egg",
+              "white sugar"
+            ]
+          },
+          {
+            "NPMI": 0.5225840359328786,
+            "pair": [
+              "ground cinnamon",
+              "vanilla extract"
+            ]
+          },
+          {
+            "NPMI": 0.43841771873443314,
+            "pair": [
+              "ground cinnamon",
+              "white sugar"
+            ]
+          },
+          {
+            "NPMI": 0.543271845314609,
+            "pair": [
+              "vanilla extract",
+              "white sugar"
+            ]
+          }
+        ],
+        "mexican": [
+          {
+            "NPMI": 0.2409523996075666,
+            "pair": [
+              "all-purpose flour",
+              "butter"
+            ]
+          },
+          {
+            "NPMI": 0.3247952133926296,
+            "pair": [
+              "all-purpose flour",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.2648927894222592,
+            "pair": [
+              "all-purpose flour",
+              "ground cinnamon"
+            ]
+          },
+          {
+            "NPMI": 0.12206932724344637,
+            "pair": [
+              "all-purpose flour",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.4057700863833785,
+            "pair": [
+              "all-purpose flour",
+              "vanilla extract"
+            ]
+          },
+          {
+            "NPMI": 0.23905014746414693,
+            "pair": [
+              "all-purpose flour",
+              "white sugar"
+            ]
+          },
+          {
+            "NPMI": 0.17556500939060773,
+            "pair": [
+              "brown sugar",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.32571285609247214,
+            "pair": [
+              "butter",
+              "vanilla extract"
+            ]
+          },
+          {
+            "NPMI": 0.18155925195997838,
+            "pair": [
+              "egg",
+              "vanilla extract"
+            ]
+          },
+          {
+            "NPMI": 0.18301413926474872,
+            "pair": [
+              "egg",
+              "white sugar"
+            ]
+          },
+          {
+            "NPMI": 0.518035874385821,
+            "pair": [
+              "ground cinnamon",
+              "vanilla extract"
+            ]
+          },
+          {
+            "NPMI": 0.2827348750965607,
+            "pair": [
+              "ground cinnamon",
+              "white sugar"
+            ]
+          },
+          {
+            "NPMI": 0.3973353900365606,
+            "pair": [
+              "vanilla extract",
+              "white sugar"
+            ]
+          }
+        ]
+      },
+      "n_in_any_backbone": 10,
+      "n_in_backbone_per_cuisine": {
+        "indian": 8,
+        "italian": 9,
+        "mexican": 9
+      },
+      "n_ingredients": 11,
+      "n_matched_distinct_pairs": 25,
+      "n_matched_max_cuisine": 25,
+      "n_matched_per_cuisine": {
+        "indian": 3,
+        "italian": 25,
+        "mexican": 13
+      },
+      "n_matched_sum_across_cuisines": 41,
+      "n_total_recipe_pairs": 55,
+      "nb_log_probs": {
+        "indian": -4.578491720358571,
+        "italian": -0.7414224943795062,
+        "mexican": -0.6669066570698305
+      },
+      "nb_pred": "mexican",
+      "norm_fallback": null,
+      "norm_pred": "mexican",
+      "norm_scores": {
+        "indian": 0.27419863514057047,
+        "italian": 0.27515292033185484,
+        "mexican": 0.28165287382616744
+      },
+      "primary_fallback": null,
+      "primary_pred": "italian",
+      "primary_scores": {
+        "indian": 0.8225959054217115,
+        "italian": 6.878823008296371,
+        "mexican": 3.6614873597401765
+      },
+      "raw_ingredient_count": 11
+    },
+    {
+      "cuisine": "mexican",
+      "error_category": "True Mexican -> Predicted Italian (larger Italian backbone accumulates more generic pair score; NB correct)",
+      "fold": 0,
+      "id": 7508,
+      "ingredients": [
+        "barbecue sauce",
+        "bay leaves",
+        "beer",
+        "chili beans",
+        "chili powder",
+        "crushed tomato",
+        "dried basil",
+        "dried oregano",
+        "dried thyme",
+        "ground beef",
+        "ground cumin",
+        "jalapeno chilies",
+        "large garlic cloves",
+        "low sodium chicken broth",
+        "olive oil",
+        "sweet onion",
+        "tomato paste"
+      ],
+      "matched_pairs_per_cuisine": {
+        "indian": [
+          {
+            "NPMI": 0.2642310653783094,
+            "pair": [
+              "crushed tomato",
+              "jalapeno chilies"
+            ]
+          },
+          {
+            "NPMI": 0.2242745409298565,
+            "pair": [
+              "crushed tomato",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.17227397900087163,
+            "pair": [
+              "ground cumin",
+              "large garlic cloves"
+            ]
+          }
+        ],
+        "italian": [
+          {
+            "NPMI": 0.2574865626735361,
+            "pair": [
+              "bay leaves",
+              "crushed tomato"
+            ]
+          },
+          {
+            "NPMI": 0.2312472245012616,
+            "pair": [
+              "bay leaves",
+              "dried basil"
+            ]
+          },
+          {
+            "NPMI": 0.19657253521762558,
+            "pair": [
+              "bay leaves",
+              "dried oregano"
+            ]
+          },
+          {
+            "NPMI": 0.2875108822358975,
+            "pair": [
+              "bay leaves",
+              "dried thyme"
+            ]
+          },
+          {
+            "NPMI": 0.1562293280323607,
+            "pair": [
+              "bay leaves",
+              "ground beef"
+            ]
+          },
+          {
+            "NPMI": 0.3744969437644927,
+            "pair": [
+              "bay leaves",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.6661401177273172,
+            "pair": [
+              "chili powder",
+              "ground cumin"
+            ]
+          },
+          {
+            "NPMI": 0.22167023512464448,
+            "pair": [
+              "crushed tomato",
+              "dried basil"
+            ]
+          },
+          {
+            "NPMI": 0.2681222364218049,
+            "pair": [
+              "crushed tomato",
+              "dried oregano"
+            ]
+          },
+          {
+            "NPMI": 0.30140268943653853,
+            "pair": [
+              "crushed tomato",
+              "dried thyme"
+            ]
+          },
+          {
+            "NPMI": 0.16989710487472764,
+            "pair": [
+              "crushed tomato",
+              "ground beef"
+            ]
+          },
+          {
+            "NPMI": 0.10765875353711356,
+            "pair": [
+              "crushed tomato",
+              "olive oil"
+            ]
+          },
+          {
+            "NPMI": 0.3076489484735814,
+            "pair": [
+              "crushed tomato",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.5485822164474592,
+            "pair": [
+              "dried basil",
+              "dried oregano"
+            ]
+          },
+          {
+            "NPMI": 0.27138157606720187,
+            "pair": [
+              "dried basil",
+              "dried thyme"
+            ]
+          },
+          {
+            "NPMI": 0.19607248036292596,
+            "pair": [
+              "dried basil",
+              "ground beef"
+            ]
+          },
+          {
+            "NPMI": 0.31372159593794147,
+            "pair": [
+              "dried basil",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.2773614174003472,
+            "pair": [
+              "dried oregano",
+              "dried thyme"
+            ]
+          },
+          {
+            "NPMI": 0.18474847165824604,
+            "pair": [
+              "dried oregano",
+              "ground beef"
+            ]
+          },
+          {
+            "NPMI": 0.07376154774275742,
+            "pair": [
+              "dried oregano",
+              "olive oil"
+            ]
+          },
+          {
+            "NPMI": 0.2815049001656103,
+            "pair": [
+              "dried oregano",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.07937715418814147,
+            "pair": [
+              "dried thyme",
+              "olive oil"
+            ]
+          },
+          {
+            "NPMI": 0.16054038394827422,
+            "pair": [
+              "dried thyme",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.3365659657045891,
+            "pair": [
+              "ground beef",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.07085783494425171,
+            "pair": [
+              "large garlic cloves",
+              "olive oil"
+            ]
+          },
+          {
+            "NPMI": 0.09460808979093334,
+            "pair": [
+              "low sodium chicken broth",
+              "olive oil"
+            ]
+          },
+          {
+            "NPMI": 0.35691625699391283,
+            "pair": [
+              "low sodium chicken broth",
+              "sweet onion"
+            ]
+          },
+          {
+            "NPMI": 0.07211965177016767,
+            "pair": [
+              "olive oil",
+              "tomato paste"
+            ]
+          }
+        ],
+        "mexican": [
+          {
+            "NPMI": 0.2688510140899274,
+            "pair": [
+              "bay leaves",
+              "dried oregano"
+            ]
+          },
+          {
+            "NPMI": 0.3996205943991507,
+            "pair": [
+              "bay leaves",
+              "dried thyme"
+            ]
+          },
+          {
+            "NPMI": 0.15428366277754205,
+            "pair": [
+              "bay leaves",
+              "ground cumin"
+            ]
+          },
+          {
+            "NPMI": 0.2272310514861486,
+            "pair": [
+              "bay leaves",
+              "large garlic cloves"
+            ]
+          },
+          {
+            "NPMI": 0.1885102395182891,
+            "pair": [
+              "chili powder",
+              "dried oregano"
+            ]
+          },
+          {
+            "NPMI": 0.2843746643164361,
+            "pair": [
+              "chili powder",
+              "ground cumin"
+            ]
+          },
+          {
+            "NPMI": 0.10699774841472644,
+            "pair": [
+              "chili powder",
+              "olive oil"
+            ]
+          },
+          {
+            "NPMI": 0.22410369111841552,
+            "pair": [
+              "chili powder",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.18728077371708252,
+            "pair": [
+              "crushed tomato",
+              "dried oregano"
+            ]
+          },
+          {
+            "NPMI": 0.17050687175168272,
+            "pair": [
+              "crushed tomato",
+              "ground cumin"
+            ]
+          },
+          {
+            "NPMI": 0.31059571029281396,
+            "pair": [
+              "dried oregano",
+              "dried thyme"
+            ]
+          },
+          {
+            "NPMI": 0.3064096942917282,
+            "pair": [
+              "dried oregano",
+              "ground cumin"
+            ]
+          },
+          {
+            "NPMI": 0.1476215859157619,
+            "pair": [
+              "dried oregano",
+              "large garlic cloves"
+            ]
+          },
+          {
+            "NPMI": 0.18612141968394363,
+            "pair": [
+              "dried oregano",
+              "low sodium chicken broth"
+            ]
+          },
+          {
+            "NPMI": 0.16406804782514064,
+            "pair": [
+              "dried oregano",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.1312303913384148,
+            "pair": [
+              "ground cumin",
+              "olive oil"
+            ]
+          },
+          {
+            "NPMI": 0.16601517626313161,
+            "pair": [
+              "ground cumin",
+              "tomato paste"
+            ]
+          },
+          {
+            "NPMI": 0.2341027023566697,
+            "pair": [
+              "low sodium chicken broth",
+              "tomato paste"
+            ]
+          }
+        ]
+      },
+      "n_in_any_backbone": 15,
+      "n_in_backbone_per_cuisine": {
+        "indian": 8,
+        "italian": 13,
+        "mexican": 14
+      },
+      "n_ingredients": 17,
+      "n_matched_distinct_pairs": 42,
+      "n_matched_max_cuisine": 28,
+      "n_matched_per_cuisine": {
+        "indian": 3,
+        "italian": 28,
+        "mexican": 18
+      },
+      "n_matched_sum_across_cuisines": 49,
+      "n_total_recipe_pairs": 136,
+      "nb_log_probs": {
+        "indian": -21.075976029542943,
+        "italian": -10.189812612667808,
+        "mexican": -3.755233036883965e-05
+      },
+      "nb_pred": "mexican",
+      "norm_fallback": null,
+      "norm_pred": "italian",
+      "norm_scores": {
+        "indian": 0.22025986176967918,
+        "italian": 0.2451501108979879,
+        "mexican": 0.21432916886427808
+      },
+      "primary_fallback": null,
+      "primary_pred": "italian",
+      "primary_scores": {
+        "indian": 0.6607795853090376,
+        "italian": 6.864203105143662,
+        "mexican": 3.8579250395570055
+      },
+      "raw_ingredient_count": 17
+    },
+    {
+      "cuisine": "mexican",
+      "error_category": "True Mexican -> Predicted Indian (spice/aromatic pairs score higher NPMI in Indian; NB correct)",
+      "fold": 0,
+      "id": 49687,
+      "ingredients": [
+        "carrot",
+        "cilantro leaves",
+        "flour tortilla",
+        "garlic cloves",
+        "garlic paste",
+        "garlic sauce",
+        "lime juice",
+        "marinade",
+        "mayonaise",
+        "oil",
+        "pepper",
+        "red chili powder",
+        "salt",
+        "shredded cabbage",
+        "shrimp",
+        "taco shells"
+      ],
+      "matched_pairs_per_cuisine": {
+        "indian": [
+          {
+            "NPMI": 0.2315745084684444,
+            "pair": [
+              "cilantro leaves",
+              "garlic paste"
+            ]
+          },
+          {
+            "NPMI": 0.3116761353292275,
+            "pair": [
+              "cilantro leaves",
+              "oil"
+            ]
+          },
+          {
+            "NPMI": 0.17075039825230667,
+            "pair": [
+              "cilantro leaves",
+              "red chili powder"
+            ]
+          },
+          {
+            "NPMI": 0.3391543579900037,
+            "pair": [
+              "garlic paste",
+              "oil"
+            ]
+          },
+          {
+            "NPMI": 0.37495839029198685,
+            "pair": [
+              "garlic paste",
+              "red chili powder"
+            ]
+          },
+          {
+            "NPMI": 0.11191556385820033,
+            "pair": [
+              "garlic paste",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.3576572934454689,
+            "pair": [
+              "oil",
+              "red chili powder"
+            ]
+          },
+          {
+            "NPMI": 0.2002547939960847,
+            "pair": [
+              "oil",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.13591061032604232,
+            "pair": [
+              "pepper",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.11574275762029922,
+            "pair": [
+              "red chili powder",
+              "salt"
+            ]
+          }
+        ],
+        "italian": [
+          {
+            "NPMI": 0.09813304613438727,
+            "pair": [
+              "carrot",
+              "garlic cloves"
+            ]
+          },
+          {
+            "NPMI": 0.3037665137575965,
+            "pair": [
+              "pepper",
+              "salt"
+            ]
+          }
+        ],
+        "mexican": [
+          {
+            "NPMI": 0.08860377720275754,
+            "pair": [
+              "carrot",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.09921200221723854,
+            "pair": [
+              "garlic cloves",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.1314511295056754,
+            "pair": [
+              "lime juice",
+              "pepper"
+            ]
+          },
+          {
+            "NPMI": 0.10233252898294272,
+            "pair": [
+              "lime juice",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.3398386512024824,
+            "pair": [
+              "pepper",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.20017278817631065,
+            "pair": [
+              "pepper",
+              "shredded cabbage"
+            ]
+          },
+          {
+            "NPMI": 0.10535953373918906,
+            "pair": [
+              "salt",
+              "shrimp"
+            ]
+          }
+        ]
+      },
+      "n_in_any_backbone": 14,
+      "n_in_backbone_per_cuisine": {
+        "indian": 9,
+        "italian": 7,
+        "mexican": 12
+      },
+      "n_ingredients": 16,
+      "n_matched_distinct_pairs": 17,
+      "n_matched_max_cuisine": 10,
+      "n_matched_per_cuisine": {
+        "indian": 10,
+        "italian": 2,
+        "mexican": 7
+      },
+      "n_matched_sum_across_cuisines": 19,
+      "n_total_recipe_pairs": 120,
+      "nb_log_probs": {
+        "indian": -3.5147687598749116,
+        "italian": -19.25885159184682,
+        "mexican": -0.030206339417489403
+      },
+      "nb_pred": "mexican",
+      "norm_fallback": null,
+      "norm_pred": "indian",
+      "norm_scores": {
+        "indian": 0.23495948095780647,
+        "italian": 0.2009497799459919,
+        "mexican": 0.1524243444323709
+      },
+      "primary_fallback": null,
+      "primary_pred": "indian",
+      "primary_scores": {
+        "indian": 2.3495948095780648,
+        "italian": 0.4018995598919838,
+        "mexican": 1.0669704110265963
+      },
+      "raw_ingredient_count": 16
+    },
+    {
+      "cuisine": "mexican",
+      "error_category": "True Mexican -> Predicted Indian (spice/aromatic pairs score higher NPMI in Indian; NB correct)",
+      "fold": 1,
+      "id": 14171,
+      "ingredients": [
+        "chili",
+        "fresh coriander",
+        "fresh lime juice",
+        "garlic cloves",
+        "green onion",
+        "lime",
+        "plum tomato",
+        "vegetable oil"
+      ],
+      "matched_pairs_per_cuisine": {
+        "indian": [
+          {
+            "NPMI": 0.2000990611412855,
+            "pair": [
+              "fresh coriander",
+              "lime"
+            ]
+          },
+          {
+            "NPMI": 0.29293990873898024,
+            "pair": [
+              "fresh lime juice",
+              "green onion"
+            ]
+          },
+          {
+            "NPMI": 0.15625981996416738,
+            "pair": [
+              "fresh lime juice",
+              "vegetable oil"
+            ]
+          },
+          {
+            "NPMI": 0.20357563314671745,
+            "pair": [
+              "garlic cloves",
+              "plum tomato"
+            ]
+          },
+          {
+            "NPMI": 0.1777321202252882,
+            "pair": [
+              "garlic cloves",
+              "vegetable oil"
+            ]
+          },
+          {
+            "NPMI": 0.21670425164778176,
+            "pair": [
+              "green onion",
+              "lime"
+            ]
+          }
+        ],
+        "italian": [
+          {
+            "NPMI": 0.12271515236475404,
+            "pair": [
+              "garlic cloves",
+              "plum tomato"
+            ]
+          }
+        ],
+        "mexican": [
+          {
+            "NPMI": 0.18505294180355647,
+            "pair": [
+              "fresh lime juice",
+              "garlic cloves"
+            ]
+          },
+          {
+            "NPMI": 0.20123999229549094,
+            "pair": [
+              "fresh lime juice",
+              "plum tomato"
+            ]
+          },
+          {
+            "NPMI": 0.11272825770381907,
+            "pair": [
+              "garlic cloves",
+              "vegetable oil"
+            ]
+          }
+        ]
+      },
+      "n_in_any_backbone": 7,
+      "n_in_backbone_per_cuisine": {
+        "indian": 7,
+        "italian": 4,
+        "mexican": 7
+      },
+      "n_ingredients": 8,
+      "n_matched_distinct_pairs": 8,
+      "n_matched_max_cuisine": 6,
+      "n_matched_per_cuisine": {
+        "indian": 6,
+        "italian": 1,
+        "mexican": 3
+      },
+      "n_matched_sum_across_cuisines": 10,
+      "n_total_recipe_pairs": 28,
+      "nb_log_probs": {
+        "indian": -5.520334237549861,
+        "italian": -16.637586840098443,
+        "mexican": -0.004012608499756709
+      },
+      "nb_pred": "mexican",
+      "norm_fallback": null,
+      "norm_pred": "indian",
+      "norm_scores": {
+        "indian": 0.2078851324773701,
+        "italian": 0.12271515236475404,
+        "mexican": 0.16634039726762215
+      },
+      "primary_fallback": null,
+      "primary_pred": "indian",
+      "primary_scores": {
+        "indian": 1.2473107948642206,
+        "italian": 0.12271515236475404,
+        "mexican": 0.49902119180286647
+      },
+      "raw_ingredient_count": 8
+    },
+    {
+      "cuisine": "italian",
+      "error_category": "True Italian -> Predicted Mexican (shared baking/spice/vegetable pairs have higher NPMI in Mexican; NB correct)",
+      "fold": 1,
+      "id": 37777,
+      "ingredients": [
+        "baking powder",
+        "cinnamon",
+        "egg",
+        "flour",
+        "salt",
+        "strawberry",
+        "sugar",
+        "unsalted butter",
+        "whipped cream",
+        "whole milk"
+      ],
+      "matched_pairs_per_cuisine": {
+        "indian": [
+          {
+            "NPMI": 0.4029775631727265,
+            "pair": [
+              "baking powder",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.28510515769906825,
+            "pair": [
+              "baking powder",
+              "sugar"
+            ]
+          },
+          {
+            "NPMI": 0.22867784162463692,
+            "pair": [
+              "egg",
+              "flour"
+            ]
+          },
+          {
+            "NPMI": 0.18851088696162843,
+            "pair": [
+              "sugar",
+              "whole milk"
+            ]
+          }
+        ],
+        "italian": [
+          {
+            "NPMI": 0.40530736889823177,
+            "pair": [
+              "baking powder",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.20422506232049142,
+            "pair": [
+              "baking powder",
+              "flour"
+            ]
+          },
+          {
+            "NPMI": 0.07537818378662559,
+            "pair": [
+              "baking powder",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.33521900663302723,
+            "pair": [
+              "baking powder",
+              "sugar"
+            ]
+          },
+          {
+            "NPMI": 0.15975644341585893,
+            "pair": [
+              "baking powder",
+              "unsalted butter"
+            ]
+          },
+          {
+            "NPMI": 0.23563326817428015,
+            "pair": [
+              "egg",
+              "flour"
+            ]
+          },
+          {
+            "NPMI": 0.06764959875511449,
+            "pair": [
+              "egg",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.10123857534490069,
+            "pair": [
+              "flour",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.35204980936875446,
+            "pair": [
+              "strawberry",
+              "sugar"
+            ]
+          },
+          {
+            "NPMI": 0.14571917121440195,
+            "pair": [
+              "sugar",
+              "unsalted butter"
+            ]
+          },
+          {
+            "NPMI": 0.26001903087487527,
+            "pair": [
+              "sugar",
+              "whole milk"
+            ]
+          },
+          {
+            "NPMI": 0.27844115300755556,
+            "pair": [
+              "unsalted butter",
+              "whole milk"
+            ]
+          }
+        ],
+        "mexican": [
+          {
+            "NPMI": 0.28512875944616317,
+            "pair": [
+              "baking powder",
+              "cinnamon"
+            ]
+          },
+          {
+            "NPMI": 0.31965063313698017,
+            "pair": [
+              "baking powder",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.25067966804948844,
+            "pair": [
+              "baking powder",
+              "flour"
+            ]
+          },
+          {
+            "NPMI": 0.15110402290347102,
+            "pair": [
+              "baking powder",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.21643852882613818,
+            "pair": [
+              "baking powder",
+              "sugar"
+            ]
+          },
+          {
+            "NPMI": 0.2863595545807393,
+            "pair": [
+              "baking powder",
+              "unsalted butter"
+            ]
+          },
+          {
+            "NPMI": 0.2767080766471731,
+            "pair": [
+              "baking powder",
+              "whole milk"
+            ]
+          },
+          {
+            "NPMI": 0.24936143984315948,
+            "pair": [
+              "cinnamon",
+              "egg"
+            ]
+          },
+          {
+            "NPMI": 0.3286914774666405,
+            "pair": [
+              "cinnamon",
+              "flour"
+            ]
+          },
+          {
+            "NPMI": 0.326124051901608,
+            "pair": [
+              "cinnamon",
+              "sugar"
+            ]
+          },
+          {
+            "NPMI": 0.34588930867986634,
+            "pair": [
+              "cinnamon",
+              "unsalted butter"
+            ]
+          },
+          {
+            "NPMI": 0.1991643130424982,
+            "pair": [
+              "egg",
+              "unsalted butter"
+            ]
+          },
+          {
+            "NPMI": 0.2512332582516164,
+            "pair": [
+              "egg",
+              "whole milk"
+            ]
+          },
+          {
+            "NPMI": 0.08792735792023285,
+            "pair": [
+              "flour",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.3043718422010607,
+            "pair": [
+              "sugar",
+              "unsalted butter"
+            ]
+          },
+          {
+            "NPMI": 0.35160697585914474,
+            "pair": [
+              "sugar",
+              "whole milk"
+            ]
+          },
+          {
+            "NPMI": 0.393207583114447,
+            "pair": [
+              "unsalted butter",
+              "whole milk"
+            ]
+          }
+        ]
+      },
+      "n_in_any_backbone": 9,
+      "n_in_backbone_per_cuisine": {
+        "indian": 8,
+        "italian": 8,
+        "mexican": 8
+      },
+      "n_ingredients": 10,
+      "n_matched_distinct_pairs": 20,
+      "n_matched_max_cuisine": 17,
+      "n_matched_per_cuisine": {
+        "indian": 4,
+        "italian": 12,
+        "mexican": 17
+      },
+      "n_matched_sum_across_cuisines": 33,
+      "n_total_recipe_pairs": 45,
+      "nb_log_probs": {
+        "indian": -4.273528196142699,
+        "italian": -0.058604970353464125,
+        "mexican": -3.146829141376081
+      },
+      "nb_pred": "italian",
+      "norm_fallback": null,
+      "norm_pred": "indian",
+      "norm_scores": {
+        "indian": 0.276317862364515,
+        "italian": 0.21838638931617646,
+        "mexican": 0.27197922658061335
+      },
+      "primary_fallback": null,
+      "primary_pred": "mexican",
+      "primary_scores": {
+        "indian": 1.10527144945806,
+        "italian": 2.6206366717941174,
+        "mexican": 4.6236468518704275
+      },
+      "raw_ingredient_count": 10
+    },
+    {
+      "cuisine": "italian",
+      "error_category": "True Italian -> Predicted Mexican (shared baking/spice/vegetable pairs have higher NPMI in Mexican; NB correct)",
+      "fold": 2,
+      "id": 19217,
+      "ingredients": [
+        "angel hair",
+        "black pepper",
+        "bread crumbs",
+        "broccoli",
+        "butter",
+        "canola oil",
+        "cayenne pepper",
+        "chicken breast",
+        "diced tomato",
+        "dried oregano",
+        "egg yolks",
+        "freshly grated parmesan",
+        "garlic",
+        "garlic powder",
+        "ground black pepper",
+        "heavy cream",
+        "kosher salt",
+        "milk",
+        "paprika",
+        "sugar"
+      ],
+      "matched_pairs_per_cuisine": {
+        "indian": [
+          {
+            "NPMI": 0.22779078170456613,
+            "pair": [
+              "black pepper",
+              "diced tomato"
+            ]
+          },
+          {
+            "NPMI": 0.18841330639482362,
+            "pair": [
+              "black pepper",
+              "heavy cream"
+            ]
+          },
+          {
+            "NPMI": 0.1591053963020677,
+            "pair": [
+              "black pepper",
+              "paprika"
+            ]
+          },
+          {
+            "NPMI": 0.21133927324945453,
+            "pair": [
+              "butter",
+              "chicken breast"
+            ]
+          },
+          {
+            "NPMI": 0.13535699940768892,
+            "pair": [
+              "butter",
+              "garlic"
+            ]
+          },
+          {
+            "NPMI": 0.2762196735466472,
+            "pair": [
+              "butter",
+              "heavy cream"
+            ]
+          },
+          {
+            "NPMI": 0.1658019884866724,
+            "pair": [
+              "butter",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.25129866866486794,
+            "pair": [
+              "canola oil",
+              "kosher salt"
+            ]
+          },
+          {
+            "NPMI": 0.17561882690762726,
+            "pair": [
+              "cayenne pepper",
+              "garlic"
+            ]
+          },
+          {
+            "NPMI": 0.21044346523111437,
+            "pair": [
+              "cayenne pepper",
+              "ground black pepper"
+            ]
+          },
+          {
+            "NPMI": 0.30527773130700075,
+            "pair": [
+              "cayenne pepper",
+              "heavy cream"
+            ]
+          },
+          {
+            "NPMI": 0.23458281812079598,
+            "pair": [
+              "cayenne pepper",
+              "paprika"
+            ]
+          },
+          {
+            "NPMI": 0.2964001259020199,
+            "pair": [
+              "chicken breast",
+              "heavy cream"
+            ]
+          },
+          {
+            "NPMI": 0.18141320745579853,
+            "pair": [
+              "diced tomato",
+              "heavy cream"
+            ]
+          },
+          {
+            "NPMI": 0.12668441708820383,
+            "pair": [
+              "garlic",
+              "ground black pepper"
+            ]
+          },
+          {
+            "NPMI": 0.1614559219392843,
+            "pair": [
+              "garlic",
+              "paprika"
+            ]
+          },
+          {
+            "NPMI": 0.2009398526251327,
+            "pair": [
+              "ground black pepper",
+              "heavy cream"
+            ]
+          },
+          {
+            "NPMI": 0.2625330132731173,
+            "pair": [
+              "ground black pepper",
+              "kosher salt"
+            ]
+          },
+          {
+            "NPMI": 0.2598765321304712,
+            "pair": [
+              "heavy cream",
+              "kosher salt"
+            ]
+          },
+          {
+            "NPMI": 0.24829923823244368,
+            "pair": [
+              "heavy cream",
+              "paprika"
+            ]
+          },
+          {
+            "NPMI": 0.27854590586367817,
+            "pair": [
+              "milk",
+              "sugar"
+            ]
+          }
+        ],
+        "italian": [
+          {
+            "NPMI": 0.16205806965984523,
+            "pair": [
+              "angel hair",
+              "butter"
+            ]
+          },
+          {
+            "NPMI": 0.10397093933168362,
+            "pair": [
+              "black pepper",
+              "dried oregano"
+            ]
+          },
+          {
+            "NPMI": 0.09723858680266806,
+            "pair": [
+              "black pepper",
+              "kosher salt"
+            ]
+          },
+          {
+            "NPMI": 0.17910417299125422,
+            "pair": [
+              "bread crumbs",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.14886441057112393,
+            "pair": [
+              "butter",
+              "egg yolks"
+            ]
+          },
+          {
+            "NPMI": 0.15826992430418055,
+            "pair": [
+              "butter",
+              "heavy cream"
+            ]
+          },
+          {
+            "NPMI": 0.21421893565137365,
+            "pair": [
+              "butter",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.2604998202474923,
+            "pair": [
+              "diced tomato",
+              "dried oregano"
+            ]
+          },
+          {
+            "NPMI": 0.13690591411770162,
+            "pair": [
+              "diced tomato",
+              "garlic"
+            ]
+          },
+          {
+            "NPMI": 0.18660300761148768,
+            "pair": [
+              "dried oregano",
+              "garlic"
+            ]
+          },
+          {
+            "NPMI": 0.2586408538985074,
+            "pair": [
+              "dried oregano",
+              "garlic powder"
+            ]
+          },
+          {
+            "NPMI": 0.22602622107238102,
+            "pair": [
+              "egg yolks",
+              "heavy cream"
+            ]
+          },
+          {
+            "NPMI": 0.18011945565085988,
+            "pair": [
+              "egg yolks",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.2268500017873733,
+            "pair": [
+              "freshly grated parmesan",
+              "heavy cream"
+            ]
+          },
+          {
+            "NPMI": 0.09985050533315289,
+            "pair": [
+              "garlic",
+              "ground black pepper"
+            ]
+          },
+          {
+            "NPMI": 0.08347903578746894,
+            "pair": [
+              "garlic",
+              "kosher salt"
+            ]
+          },
+          {
+            "NPMI": 0.345801692527336,
+            "pair": [
+              "garlic powder",
+              "paprika"
+            ]
+          },
+          {
+            "NPMI": 0.24889161847604976,
+            "pair": [
+              "ground black pepper",
+              "kosher salt"
+            ]
+          }
+        ],
+        "mexican": [
+          {
+            "NPMI": 0.17538973210434508,
+            "pair": [
+              "black pepper",
+              "cayenne pepper"
+            ]
+          },
+          {
+            "NPMI": 0.17489514869791753,
+            "pair": [
+              "black pepper",
+              "dried oregano"
+            ]
+          },
+          {
+            "NPMI": 0.1330460081009665,
+            "pair": [
+              "black pepper",
+              "garlic"
+            ]
+          },
+          {
+            "NPMI": 0.12689205721150867,
+            "pair": [
+              "black pepper",
+              "garlic powder"
+            ]
+          },
+          {
+            "NPMI": 0.1660262557530855,
+            "pair": [
+              "black pepper",
+              "kosher salt"
+            ]
+          },
+          {
+            "NPMI": 0.2448616629555143,
+            "pair": [
+              "black pepper",
+              "paprika"
+            ]
+          },
+          {
+            "NPMI": 0.33137208999900386,
+            "pair": [
+              "butter",
+              "milk"
+            ]
+          },
+          {
+            "NPMI": 0.16136452751087238,
+            "pair": [
+              "butter",
+              "paprika"
+            ]
+          },
+          {
+            "NPMI": 0.1191931492824364,
+            "pair": [
+              "canola oil",
+              "ground black pepper"
+            ]
+          },
+          {
+            "NPMI": 0.17468330356187725,
+            "pair": [
+              "canola oil",
+              "kosher salt"
+            ]
+          },
+          {
+            "NPMI": 0.10625657349427452,
+            "pair": [
+              "cayenne pepper",
+              "garlic"
+            ]
+          },
+          {
+            "NPMI": 0.33677781732832063,
+            "pair": [
+              "cayenne pepper",
+              "garlic powder"
+            ]
+          },
+          {
+            "NPMI": 0.3754647595036961,
+            "pair": [
+              "cayenne pepper",
+              "paprika"
+            ]
+          },
+          {
+            "NPMI": 0.13009636158843496,
+            "pair": [
+              "diced tomato",
+              "garlic"
+            ]
+          },
+          {
+            "NPMI": 0.1448087616095642,
+            "pair": [
+              "diced tomato",
+              "paprika"
+            ]
+          },
+          {
+            "NPMI": 0.12682352317266893,
+            "pair": [
+              "dried oregano",
+              "garlic"
+            ]
+          },
+          {
+            "NPMI": 0.1524031148329583,
+            "pair": [
+              "dried oregano",
+              "ground black pepper"
+            ]
+          },
+          {
+            "NPMI": 0.1414334154802425,
+            "pair": [
+              "dried oregano",
+              "kosher salt"
+            ]
+          },
+          {
+            "NPMI": 0.20152205081815916,
+            "pair": [
+              "dried oregano",
+              "paprika"
+            ]
+          },
+          {
+            "NPMI": 0.09224389441737006,
+            "pair": [
+              "garlic",
+              "ground black pepper"
+            ]
+          },
+          {
+            "NPMI": 0.09279747169315668,
+            "pair": [
+              "garlic",
+              "kosher salt"
+            ]
+          },
+          {
+            "NPMI": 0.11571580792554506,
+            "pair": [
+              "garlic powder",
+              "ground black pepper"
+            ]
+          },
+          {
+            "NPMI": 0.3934342548650384,
+            "pair": [
+              "garlic powder",
+              "paprika"
+            ]
+          },
+          {
+            "NPMI": 0.2626828370362101,
+            "pair": [
+              "ground black pepper",
+              "kosher salt"
+            ]
+          },
+          {
+            "NPMI": 0.128337560319673,
+            "pair": [
+              "ground black pepper",
+              "paprika"
+            ]
+          },
+          {
+            "NPMI": 0.15308486117661377,
+            "pair": [
+              "milk",
+              "sugar"
+            ]
+          }
+        ]
+      },
+      "n_in_any_backbone": 20,
+      "n_in_backbone_per_cuisine": {
+        "indian": 13,
+        "italian": 18,
+        "mexican": 15
+      },
+      "n_ingredients": 20,
+      "n_matched_distinct_pairs": 47,
+      "n_matched_max_cuisine": 26,
+      "n_matched_per_cuisine": {
+        "indian": 21,
+        "italian": 18,
+        "mexican": 26
+      },
+      "n_matched_sum_across_cuisines": 65,
+      "n_total_recipe_pairs": 190,
+      "nb_log_probs": {
+        "indian": -17.432410007892756,
+        "italian": -0.00029287654467680113,
+        "mexican": -8.135997570252968
+      },
+      "nb_pred": "italian",
+      "norm_fallback": null,
+      "norm_pred": "indian",
+      "norm_scores": {
+        "indian": 0.21701891161111794,
+        "italian": 0.18429962032344113,
+        "mexican": 0.18313873078613283
+      },
+      "primary_fallback": null,
+      "primary_pred": "mexican",
+      "primary_scores": {
+        "indian": 4.557397143833477,
+        "italian": 3.31739316582194,
+        "mexican": 4.7616070004394535
+      },
+      "raw_ingredient_count": 20
+    },
+    {
+      "cuisine": "italian",
+      "error_category": "True Italian -> Predicted Indian (spice/aromatic crossover)",
+      "fold": 2,
+      "id": 47616,
+      "ingredients": [
+        "chili powder",
+        "cilantro leaves",
+        "clove",
+        "coriander powder",
+        "garam masala",
+        "ground turmeric",
+        "jeera",
+        "olive oil",
+        "onion",
+        "pasta",
+        "salt",
+        "sugar",
+        "tomato",
+        "water"
+      ],
+      "matched_pairs_per_cuisine": {
+        "indian": [
+          {
+            "NPMI": 0.2325967639812432,
+            "pair": [
+              "chili powder",
+              "cilantro leaves"
+            ]
+          },
+          {
+            "NPMI": 0.3493346301661895,
+            "pair": [
+              "chili powder",
+              "coriander powder"
+            ]
+          },
+          {
+            "NPMI": 0.22897333001925857,
+            "pair": [
+              "chili powder",
+              "garam masala"
+            ]
+          },
+          {
+            "NPMI": 0.22139007357448454,
+            "pair": [
+              "chili powder",
+              "ground turmeric"
+            ]
+          },
+          {
+            "NPMI": 0.16788538241130405,
+            "pair": [
+              "chili powder",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.1146642405773498,
+            "pair": [
+              "chili powder",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.21066005029785284,
+            "pair": [
+              "chili powder",
+              "tomato"
+            ]
+          },
+          {
+            "NPMI": 0.17612313393027748,
+            "pair": [
+              "cilantro leaves",
+              "clove"
+            ]
+          },
+          {
+            "NPMI": 0.29571279668484346,
+            "pair": [
+              "cilantro leaves",
+              "coriander powder"
+            ]
+          },
+          {
+            "NPMI": 0.14099122649681267,
+            "pair": [
+              "cilantro leaves",
+              "ground turmeric"
+            ]
+          },
+          {
+            "NPMI": 0.12347422942600286,
+            "pair": [
+              "cilantro leaves",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.2867739227194196,
+            "pair": [
+              "cilantro leaves",
+              "tomato"
+            ]
+          },
+          {
+            "NPMI": 0.1909277687353357,
+            "pair": [
+              "clove",
+              "coriander powder"
+            ]
+          },
+          {
+            "NPMI": 0.16203579733182416,
+            "pair": [
+              "clove",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.17579994889841288,
+            "pair": [
+              "clove",
+              "tomato"
+            ]
+          },
+          {
+            "NPMI": 0.3011460765010237,
+            "pair": [
+              "coriander powder",
+              "garam masala"
+            ]
+          },
+          {
+            "NPMI": 0.3118989912046191,
+            "pair": [
+              "coriander powder",
+              "ground turmeric"
+            ]
+          },
+          {
+            "NPMI": 0.20657314952331973,
+            "pair": [
+              "coriander powder",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.1301477117560664,
+            "pair": [
+              "coriander powder",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.30351441563171716,
+            "pair": [
+              "coriander powder",
+              "tomato"
+            ]
+          },
+          {
+            "NPMI": 0.1451143143546169,
+            "pair": [
+              "garam masala",
+              "ground turmeric"
+            ]
+          },
+          {
+            "NPMI": 0.18693250422909802,
+            "pair": [
+              "garam masala",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.20320200633753208,
+            "pair": [
+              "garam masala",
+              "tomato"
+            ]
+          },
+          {
+            "NPMI": 0.13975976567460185,
+            "pair": [
+              "ground turmeric",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.09456140705912294,
+            "pair": [
+              "ground turmeric",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.2209054826786575,
+            "pair": [
+              "ground turmeric",
+              "tomato"
+            ]
+          },
+          {
+            "NPMI": 0.09002810817078222,
+            "pair": [
+              "onion",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.23836031273946803,
+            "pair": [
+              "onion",
+              "tomato"
+            ]
+          },
+          {
+            "NPMI": 0.10325515918989898,
+            "pair": [
+              "salt",
+              "tomato"
+            ]
+          },
+          {
+            "NPMI": 0.08791698509165081,
+            "pair": [
+              "salt",
+              "water"
+            ]
+          }
+        ],
+        "italian": [
+          {
+            "NPMI": 0.1256542989860721,
+            "pair": [
+              "olive oil",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.09613698187535787,
+            "pair": [
+              "olive oil",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.06731801591566056,
+            "pair": [
+              "olive oil",
+              "tomato"
+            ]
+          },
+          {
+            "NPMI": 0.11987103307957044,
+            "pair": [
+              "onion",
+              "pasta"
+            ]
+          },
+          {
+            "NPMI": 0.07498270416848218,
+            "pair": [
+              "onion",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.10865017607588734,
+            "pair": [
+              "onion",
+              "tomato"
+            ]
+          },
+          {
+            "NPMI": 0.09537634035953808,
+            "pair": [
+              "salt",
+              "water"
+            ]
+          },
+          {
+            "NPMI": 0.11253144539061556,
+            "pair": [
+              "sugar",
+              "water"
+            ]
+          }
+        ],
+        "mexican": [
+          {
+            "NPMI": 0.10236610903671399,
+            "pair": [
+              "chili powder",
+              "olive oil"
+            ]
+          },
+          {
+            "NPMI": 0.08982408304932721,
+            "pair": [
+              "chili powder",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.10763628475124135,
+            "pair": [
+              "chili powder",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.11513583586905364,
+            "pair": [
+              "cilantro leaves",
+              "olive oil"
+            ]
+          },
+          {
+            "NPMI": 0.16440154373926902,
+            "pair": [
+              "clove",
+              "sugar"
+            ]
+          },
+          {
+            "NPMI": 0.09408340018876857,
+            "pair": [
+              "olive oil",
+              "onion"
+            ]
+          },
+          {
+            "NPMI": 0.13454228075667843,
+            "pair": [
+              "olive oil",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.06799974662598622,
+            "pair": [
+              "onion",
+              "salt"
+            ]
+          },
+          {
+            "NPMI": 0.11709465055871816,
+            "pair": [
+              "onion",
+              "tomato"
+            ]
+          },
+          {
+            "NPMI": 0.062126438107011094,
+            "pair": [
+              "salt",
+              "water"
+            ]
+          },
+          {
+            "NPMI": 0.1269917043469385,
+            "pair": [
+              "sugar",
+              "water"
+            ]
+          }
+        ]
+      },
+      "n_in_any_backbone": 13,
+      "n_in_backbone_per_cuisine": {
+        "indian": 12,
+        "italian": 7,
+        "mexican": 9
+      },
+      "n_ingredients": 14,
+      "n_matched_distinct_pairs": 38,
+      "n_matched_max_cuisine": 30,
+      "n_matched_per_cuisine": {
+        "indian": 30,
+        "italian": 8,
+        "mexican": 11
+      },
+      "n_matched_sum_across_cuisines": 49,
+      "n_total_recipe_pairs": 91,
+      "nb_log_probs": {
+        "indian": -1.0595044841466006e-09,
+        "italian": -29.53147803767382,
+        "mexican": -20.665601905270435
+      },
+      "nb_pred": "indian",
+      "norm_fallback": null,
+      "norm_pred": "indian",
+      "norm_scores": {
+        "indian": 0.19468865617975956,
+        "italian": 0.10006512448139801,
+        "mexican": 0.10747291609360965
+      },
+      "primary_fallback": null,
+      "primary_pred": "indian",
+      "primary_scores": {
+        "indian": 5.840659685392787,
+        "italian": 0.8005209958511841,
+        "mexican": 1.1822020770297061
+      },
+      "raw_ingredient_count": 14
+    }
+  ],
+  "prediction_counts": {
+    "Fingerprint (normalized ablation)": {
+      "indian": 5037,
+      "italian": 4658,
+      "mexican": 4128
+    },
+    "Fingerprint Scorer": {
+      "indian": 2113,
+      "italian": 6697,
+      "mexican": 5013
+    },
+    "Naive Bayes": {
+      "indian": 2414,
+      "italian": 6439,
+      "mexican": 4970
+    },
+    "true_counts": {
+      "indian": 2403,
+      "italian": 6270,
+      "mexican": 5150
+    }
+  }
+}
